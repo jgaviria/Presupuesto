@@ -7085,3 +7085,108 @@ Started GET "/assets/budgets.js?body=1" for 127.0.0.1 at 2014-07-16 16:16:02 -04
 
 
 Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-07-16 16:16:02 -0400
+
+
+Started GET "/budgets/1" for 127.0.0.1 at 2014-07-16 16:46:20 -0400
+
+ActiveRecord::AdapterNotSpecified ('development' database is not configured. Available: ["default", "test", "production"]):
+  activerecord (4.1.2.rc1) lib/active_record/connection_adapters/connection_specification.rb:257:in `resolve_symbol_connection'
+  activerecord (4.1.2.rc1) lib/active_record/connection_adapters/connection_specification.rb:224:in `resolve_connection'
+  activerecord (4.1.2.rc1) lib/active_record/connection_adapters/connection_specification.rb:152:in `resolve'
+  activerecord (4.1.2.rc1) lib/active_record/connection_adapters/connection_specification.rb:182:in `spec'
+  activerecord (4.1.2.rc1) lib/active_record/connection_handling.rb:50:in `establish_connection'
+  activerecord (4.1.2.rc1) lib/active_record/railtie.rb:129:in `block (2 levels) in <class:Railtie>'
+  activesupport (4.1.2.rc1) lib/active_support/lazy_load_hooks.rb:38:in `instance_eval'
+  activesupport (4.1.2.rc1) lib/active_support/lazy_load_hooks.rb:38:in `execute_hook'
+  activesupport (4.1.2.rc1) lib/active_support/lazy_load_hooks.rb:45:in `block in run_load_hooks'
+  activesupport (4.1.2.rc1) lib/active_support/lazy_load_hooks.rb:44:in `each'
+  activesupport (4.1.2.rc1) lib/active_support/lazy_load_hooks.rb:44:in `run_load_hooks'
+  activerecord (4.1.2.rc1) lib/active_record/base.rb:326:in `<module:ActiveRecord>'
+  activerecord (4.1.2.rc1) lib/active_record/base.rb:23:in `<top (required)>'
+  activerecord (4.1.2.rc1) lib/active_record/migration.rb:388:in `check_pending!'
+  activerecord (4.1.2.rc1) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.2.rc1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.2.rc1) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.2.rc1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.2.rc1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.2.rc1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.2.rc1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.2.rc1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.2.rc1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.2.rc1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.2.rc1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.2.rc1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.2.rc1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.2.rc1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.2.rc1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.2.rc1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.2.rc1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.2.rc1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.2.rc1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/jgaviria/.rbenv/versions/2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/jgaviria/.rbenv/versions/2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/jgaviria/.rbenv/versions/2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/jgaviria/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2.rc1/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.9ms)
+  Rendered /Users/jgaviria/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2.rc1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (18.0ms)
+  Rendered /Users/jgaviria/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2.rc1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/jgaviria/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2.rc1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (179.1ms)
+
+
+Started GET "/budgets/1" for 127.0.0.1 at 2014-07-16 16:49:47 -0400
+
+RuntimeError (YAML syntax error occurred while parsing /Users/jgaviria/Desktop/Presupuesto/config/database.yml. Please note that YAML must be consistently indented using spaces. Tabs are not allowed. Error: (<unknown>): did not find expected key while parsing a block mapping at line 7 column 1):
+  railties (4.1.2.rc1) lib/rails/application/configuration.rb:110:in `rescue in database_configuration'
+  railties (4.1.2.rc1) lib/rails/application/configuration.rb:94:in `database_configuration'
+  activerecord (4.1.2.rc1) lib/active_record/railtie.rb:128:in `block (2 levels) in <class:Railtie>'
+  activesupport (4.1.2.rc1) lib/active_support/lazy_load_hooks.rb:38:in `instance_eval'
+  activesupport (4.1.2.rc1) lib/active_support/lazy_load_hooks.rb:38:in `execute_hook'
+  activesupport (4.1.2.rc1) lib/active_support/lazy_load_hooks.rb:45:in `block in run_load_hooks'
+  activesupport (4.1.2.rc1) lib/active_support/lazy_load_hooks.rb:44:in `each'
+  activesupport (4.1.2.rc1) lib/active_support/lazy_load_hooks.rb:44:in `run_load_hooks'
+  activerecord (4.1.2.rc1) lib/active_record/base.rb:326:in `<module:ActiveRecord>'
+  activerecord (4.1.2.rc1) lib/active_record/base.rb:23:in `<top (required)>'
+  activerecord (4.1.2.rc1) lib/active_record/migration.rb:388:in `check_pending!'
+  activerecord (4.1.2.rc1) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.2.rc1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.2.rc1) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.2.rc1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.2.rc1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.2.rc1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.2.rc1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.2.rc1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.2.rc1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.2.rc1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.2.rc1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.2.rc1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.2.rc1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.2.rc1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.2.rc1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.2.rc1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.2.rc1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.2.rc1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.2.rc1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/jgaviria/.rbenv/versions/2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/jgaviria/.rbenv/versions/2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/jgaviria/.rbenv/versions/2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/jgaviria/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2.rc1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.3ms)
+  Rendered /Users/jgaviria/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2.rc1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/jgaviria/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2.rc1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/jgaviria/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2.rc1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.6ms)

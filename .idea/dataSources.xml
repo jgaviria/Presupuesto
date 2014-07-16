@@ -4,19 +4,19 @@
     <data-source source="LOCAL" name="Rails testeo_jits: development" uuid="79b933ea-e551-49ea-965a-987d3c7b932a">
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/development.sqlite3</jdbc-url>
+      <jdbc-url>jdbc:postgresql:my_database_development</jdbc-url>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails testeo_jits: test" uuid="70e3da16-0356-4663-8e7f-d7163224d891">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql:db/test.sqlite3</jdbc-url>
+      <jdbc-url>jdbc:postgresql:my_database_test</jdbc-url>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails testeo_jits: production" uuid="38e1d4be-5ad0-4e9a-a66f-89d86fee1d1d">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql:db/production.sqlite3</jdbc-url>
+      <jdbc-url>jdbc:postgresql:my_database_production</jdbc-url>
       <libraries />
     </data-source>
   </component>
