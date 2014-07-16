@@ -1,0 +1,74 @@
+<%= form_for @budget, :html => { :class => 'form-horizontal' } do |f| %>
+  <div class="control-group">
+    <%= f.label :income, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :income, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :savings, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :savings, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :housing, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :housing, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :utilities, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :utilities, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :food, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :food, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :transportation, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :transportation, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :clothing, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :clothing, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :personal, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :personal, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :recreation, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :recreation, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :debt, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :debt, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :kids, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :kids, :class => 'text_field' %>
+    </div>
+  </div>
+
+  <div class="form-actions">
+    <%= f.submit nil, :class => 'btn btn-primary' %>
+    <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                budgets_path, :class => 'btn' %>
+  </div>
+<% end %>

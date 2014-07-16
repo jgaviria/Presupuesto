@@ -1,0 +1,56 @@
+<%- model_class = Budget -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => model_class.model_name.human.pluralize.titleize %></h1>
+</div>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th><%= model_class.human_attribute_name(:id) %></th>
+      <th><%= model_class.human_attribute_name(:income) %></th>
+      <th><%= model_class.human_attribute_name(:savings) %></th>
+      <th><%= model_class.human_attribute_name(:housing) %></th>
+      <th><%= model_class.human_attribute_name(:utilities) %></th>
+      <th><%= model_class.human_attribute_name(:food) %></th>
+      <th><%= model_class.human_attribute_name(:transportation) %></th>
+      <th><%= model_class.human_attribute_name(:clothing) %></th>
+      <th><%= model_class.human_attribute_name(:personal) %></th>
+      <th><%= model_class.human_attribute_name(:recreation) %></th>
+      <th><%= model_class.human_attribute_name(:debt) %></th>
+      <th><%= model_class.human_attribute_name(:kids) %></th>
+      <th><%= model_class.human_attribute_name(:created_at) %></th>
+      <th><%=t '.actions', :default => t("helpers.actions") %></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @budgets.each do |budget| %>
+      <tr>
+        <td><%= link_to budget.id, budget_path(budget) %></td>
+        <td><%= budget.income %></td>
+        <td><%= budget.savings %></td>
+        <td><%= budget.housing %></td>
+        <td><%= budget.utilities %></td>
+        <td><%= budget.food %></td>
+        <td><%= budget.transportation %></td>
+        <td><%= budget.clothing %></td>
+        <td><%= budget.personal %></td>
+        <td><%= budget.recreation %></td>
+        <td><%= budget.debt %></td>
+        <td><%= budget.kids %></td>
+        <td><%=l budget.created_at %></td>
+        <td>
+          <%= link_to t('.edit', :default => t("helpers.links.edit")),
+                      edit_budget_path(budget), :class => 'btn btn-mini' %>
+          <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+                      budget_path(budget),
+                      :method => :delete,
+                      :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
+                      :class => 'btn btn-mini btn-danger' %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<%= link_to t('.new', :default => t("helpers.links.new")),
+            new_budget_path,
+            :class => 'btn btn-primary' %>
