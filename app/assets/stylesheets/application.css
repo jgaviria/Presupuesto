@@ -21,3 +21,23 @@
     margin: 20px 0 30px;
     color: orange !important;
 }
+
+.income-box {
+    min-height: 10px;
+    height:auto;
+    width: 110px;
+    background-color: orange;
+    padding-bottom: 5px;
+    margin: 20px 0 30px;
+
+}
+
+
+.show-totals {
+    height: 45px;
+    width: 170px;
+    background-color: orange;
+    padding-bottom: 5px;
+    margin: 20px 0 30px;
+    float:right;
+}

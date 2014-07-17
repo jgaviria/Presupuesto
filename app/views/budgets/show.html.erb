@@ -1,15 +1,18 @@
-<div class="col-md-4">
+
 <div class="page-header">
   <h1>budget</h1>
 </div>
+
+
+<div class="income-box">
+ <strong> Income: <%= @incomev.to_i %> </strong>
 </div>
+
+
 
 
 <table class="table table-striped">
   <thead>
-
-
-    <strong> Income: <%= @incomev.to_i %> </strong>
 
 <br>
   <tr>
@@ -23,14 +26,14 @@
 
       <tr>
         <td><font color="orange">Savings</font></td>
-        <td><%= @savingv.to_i %></td>
-        <td><%= @savingx.to_i %></td>
+        <td><%= @savingv.to_i %>$</td>
+        <td><%= @savingx.to_i %>$</td>
         <td>
 
           <% if @savingv > @savingx %>
-              <font color="green"> <%= @savingz.to_i %>   </font>
+              <font color="green"> <%= @savingz.to_i %>$   </font>
           <% else %>
-              <font color="red"> <%= @savingz.to_i %>   </font>
+              <font color="red"> <%= @savingz.to_i %>$   </font>
           <% end %>
 
         </td>
@@ -39,13 +42,13 @@
 
       <tr>
         <td><font color="orange">Housing</font></td>
-        <td><%= @housingv.to_i %></td>
-        <td><%= @housingx.to_i %></td>
+        <td><%= @housingv.to_i %>$</td>
+        <td><%= @housingx.to_i %>$</td>
         <td>
           <% if @housingv > @housingx %>
-              <font color="green"> <%= @housingz.to_i %>   </font>
+              <font color="green"> <%= @housingz.to_i %>$   </font>
           <% else %>
-              <font color="red"> <%= @housingz.to_i %>   </font>
+              <font color="red"> <%= @housingz.to_i %>$   </font>
           <% end %>
         </td>
       </tr>
@@ -53,13 +56,13 @@
 
       <tr>
         <td><font color="orange">Utilities</font></td>
-        <td><%= @utilitiev.to_i %></td>
-        <td><%= @utilitiex.to_i %></td>
+        <td><%= @utilitiev.to_i %>$</td>
+        <td><%= @utilitiex.to_i %>$</td>
         <td>
           <% if @utilitiev > @utilitiex %>
-              <font color="green"> <%= @utilitiez.to_i %>   </font>
+              <font color="green"> <%= @utilitiez.to_i %>$   </font>
           <% else %>
-              <font color="red"> <%= @utilitiez.to_i %>   </font>
+              <font color="red"> <%= @utilitiez.to_i %>$   </font>
           <% end %>
         </td>
       </tr>
@@ -67,91 +70,91 @@
 
       <tr>
         <td><font color="orange">Food</font></td>
-        <td> <%= @foodv.to_i %></td>
-        <td><%= @foodx.to_i %></td>
+        <td> <%= @foodv.to_i %>$</td>
+        <td><%= @foodx.to_i %>$</td>
         <td>
           <% if @foodv > @foodx %>
-              <font color="green"> <%= @foodz.to_i %>   </font>
+              <font color="green"> <%= @foodz.to_i %>$   </font>
           <% else %>
-              <font color="red">  <%= @foodz.to_i %>   </font>
+              <font color="red">  <%= @foodz.to_i %>$   </font>
           <% end %>
         </td>
       </tr>
 
       <tr>
         <td><font color="orange">Transportation</font></td>
-        <td><%= @transportationv.to_i %></td>
-        <td><%= @transportationx.to_i %></td>
+        <td><%= @transportationv.to_i %>$</td>
+        <td><%= @transportationx.to_i %>$</td>
         <td>
           <% if @transportationv > @transportationx %>
-              <font color="green"> <%= @transportationz.to_i %>   </font>
+              <font color="green"> <%= @transportationz.to_i %>$   </font>
           <% else %>
-              <font color="red">  <%= @transportationz.to_i %>   </font>
+              <font color="red">  <%= @transportationz.to_i %>$   </font>
           <% end %>
         </td>
       </tr>
 
       <tr>
         <td><font color="orange">Clothing</font></td>
-        <td> <%= @clothingv.to_i %></td>
-        <td><%= @clothingx.to_i %></td>
+        <td> <%= @clothingv.to_i %>$</td>
+        <td><%= @clothingx.to_i %>$</td>
         <td>
           <% if @clothingv > @clothingx %>
-              <font color="green"> <%= @clothingz.to_i %>   </font>
+              <font color="green"> <%= @clothingz.to_i %>$   </font>
           <% else %>
-              <font color="red">   <%= @clothingz.to_i %>   </font>
+              <font color="red">   <%= @clothingz.to_i %>$   </font>
           <% end %>
         </td>
       </tr>
 
       <tr>
         <td><font color="orange">Personal</font></td>
-        <td><%= @personalv.to_i %></td>
-        <td><%= @personalx.to_i %></td>
+        <td><%= @personalv.to_i %>$</td>
+        <td><%= @personalx.to_i %>$</td>
         <td>
           <% if @personalv > @personalx %>
-              <font color="green"> <%= @personalz.to_i %>   </font>
+              <font color="green"> <%= @personalz.to_i %>$   </font>
           <% else %>
-              <font color="red"> <%= @personalz.to_i %>   </font>
+              <font color="red"> <%= @personalz.to_i %>$   </font>
           <% end %>
         </td>
       </tr>
 
       <tr>
         <td><font color="orange">Recreation</font></td>
-        <td><%= @recreationv.to_i %></td>
-        <td><%= @recreationx.to_i %></td>
+        <td><%= @recreationv.to_i %>$</td>
+        <td><%= @recreationx.to_i %>$</td>
         <td>
           <% if @recreationv > @recreationx %>
-              <font color="green"> <%= @recreationz.to_i %>   </font>
+              <font color="green"> <%= @recreationz.to_i %>$   </font>
           <% else %>
-              <font color="red"> <%= @recreationz.to_i %>   </font>
+              <font color="red"> <%= @recreationz.to_i %>$   </font>
           <% end %>
         </td>
       </tr>
 
       <tr>
         <td><font color="orange">Debt</font></td>
-        <td>  <%= @debtv.to_i %></td>
-        <td><%= @debtx.to_i %></td>
+        <td>  <%= @debtv.to_i %>$</td>
+        <td><%= @debtx.to_i %>$</td>
         <td>
           <% if @debtv > @debtx %>
-              <font color="green"> <%= @debtz.to_i %>   </font>
+              <font color="green"> <%= @debtz.to_i %>$  </font>
           <% else %>
-              <font color="red"> <%= @debtz.to_i %>   </font>
+              <font color="red"> <%= @debtz.to_i %>$   </font>
           <% end %>
         </td>
       </tr>
 
       <tr>
         <td><font color="orange">Kids</font></td>
-        <td><%= @kidv.to_i %></td>
-        <td> <%= @kidx.to_i %></td>
+        <td><%= @kidv.to_i %>$</td>
+        <td> <%= @kidx.to_i %>$</td>
         <td>
           <% if @kidv > @kidx %>
-              <font color="green"> <%= @kidz.to_i %>   </font>
+              <font color="green"> <%= @kidz.to_i %>$   </font>
           <% else %>
-              <font color="red"> <%= @kidz.to_i %>   </font>
+              <font color="red"> <%= @kidz.to_i %>$   </font>
           <% end %>
         </td>
       </tr>
@@ -163,19 +166,18 @@
 
 
 
-<div class = "gonorrea1">
-<table>
+<div class="show-totals">
+ <table>
   <tr>
-    <td><strong>Total Actual</strong></td>
+    <td><strong>Total Actual:</strong></td>
     <td> <%= @total_actual.to_i %> </td>
-
   </tr>
   <tr>
-    <td><strong>Total suggested</strong></td>
+    <td><strong>Total suggested:</strong></td>
     <td> <%= @total_suggested.to_i %> </td>
-
   </tr>
-</table>
+ </table>
+
 </div>
 
 <br>
