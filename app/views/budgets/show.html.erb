@@ -1,14 +1,17 @@
-<%- model_class = Budget -%>
+<div class="col-md-4">
 <div class="page-header">
   <h1>budget</h1>
 </div>
+</div>
+
+
 <table class="table table-striped">
   <thead>
 
-  <td>
-    <strong> Income: <%= @incomev %></strong>
-  </td>
 
+    <strong> Income: <%= @incomev.to_i %> </strong>
+
+<br>
   <tr>
     <th>         </th>
     <th>Suggested</th>
@@ -19,7 +22,7 @@
   <tbody>
 
       <tr>
-        <td>Savings</td>
+        <td><font color="orange">Savings</font></td>
         <td><%= @savingv.to_i %></td>
         <td><%= @savingx.to_i %></td>
         <td>
@@ -35,7 +38,7 @@
 
 
       <tr>
-        <td>Housing</td>
+        <td><font color="orange">Housing</font></td>
         <td><%= @housingv.to_i %></td>
         <td><%= @housingx.to_i %></td>
         <td>
@@ -49,7 +52,7 @@
 
 
       <tr>
-        <td>Utilities</td>
+        <td><font color="orange">Utilities</font></td>
         <td><%= @utilitiev.to_i %></td>
         <td><%= @utilitiex.to_i %></td>
         <td>
@@ -63,7 +66,7 @@
 
 
       <tr>
-        <td>Food</td>
+        <td><font color="orange">Food</font></td>
         <td> <%= @foodv.to_i %></td>
         <td><%= @foodx.to_i %></td>
         <td>
@@ -76,7 +79,7 @@
       </tr>
 
       <tr>
-        <td>Transportation</td>
+        <td><font color="orange">Transportation</font></td>
         <td><%= @transportationv.to_i %></td>
         <td><%= @transportationx.to_i %></td>
         <td>
@@ -89,7 +92,7 @@
       </tr>
 
       <tr>
-        <td>Clothing</td>
+        <td><font color="orange">Clothing</font></td>
         <td> <%= @clothingv.to_i %></td>
         <td><%= @clothingx.to_i %></td>
         <td>
@@ -102,7 +105,7 @@
       </tr>
 
       <tr>
-        <td>Personal</td>
+        <td><font color="orange">Personal</font></td>
         <td><%= @personalv.to_i %></td>
         <td><%= @personalx.to_i %></td>
         <td>
@@ -115,7 +118,7 @@
       </tr>
 
       <tr>
-        <td>Recreation</td>
+        <td><font color="orange">Recreation</font></td>
         <td><%= @recreationv.to_i %></td>
         <td><%= @recreationx.to_i %></td>
         <td>
@@ -128,7 +131,7 @@
       </tr>
 
       <tr>
-        <td>Debt</td>
+        <td><font color="orange">Debt</font></td>
         <td>  <%= @debtv.to_i %></td>
         <td><%= @debtx.to_i %></td>
         <td>
@@ -141,7 +144,7 @@
       </tr>
 
       <tr>
-        <td>Kids</td>
+        <td><font color="orange">Kids</font></td>
         <td><%= @kidv.to_i %></td>
         <td> <%= @kidx.to_i %></td>
         <td>
@@ -155,12 +158,6 @@
 
   </tbody>
 </table>
-
-
-
-
-
-
 
 
 
