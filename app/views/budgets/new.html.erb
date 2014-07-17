@@ -2,4 +2,40 @@
 <div class="page-header">
   <h1><%=t '.title', :default => [:'helpers.titles.new', 'New %{model}'], :model => model_class.model_name.human.titleize %></h1>
 </div>
-<%= render :partial => 'form' %>
+
+
+<div class="container">
+<div class="row">
+  <div class="span1"><%= yield %></div>
+  <div class="span5">
+
+    <li>Input monthly spending on the left</li>
+    <li>Info on the right was pulled directly from your bank statement</li>
+    <li>Click on the bank statement fields to see the actual transactions</li>
+  </div>
+</div>
+</div>
+
+ <br>
+ <br>
+
+
+<div class="container">
+
+  <div class="row">
+
+    <div class="span5"><%= render :partial => 'form' %>  </div>
+
+    <div class="span6"><%= render :partial => 'statement' %>
+
+  </div>
+
+  </div>
+</div>
+
+
+
+
+
+
+

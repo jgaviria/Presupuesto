@@ -2,8 +2,9 @@ source 'https://rubygems.org'
 
 
 
-
-
+#added by me
+gem 'nokogiri'
+#added by me
 gem 'gchart'
 #added by me
 gem 'googlecharts', :require => 'gchart'
