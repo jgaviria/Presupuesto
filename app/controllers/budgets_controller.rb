@@ -139,7 +139,7 @@ class BudgetsController < ApplicationController
 
 #trying to retrieve some sort of layout from here
 
-    @variable4 = agent.page.search(".account-summary-num").at("span:contains('title 3')").parent.text
+    @variable4 = 1234
 
   end
 
