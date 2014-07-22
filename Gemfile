@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-
-
+#added for the bank statement scraping
+gem 'mechanize'
 #added by me
 gem 'nokogiri'
 #added by me

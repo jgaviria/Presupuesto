@@ -11,6 +11,7 @@ class BudgetsController < ApplicationController
   # GET /budgets/1.json
   def show
 
+
     @budget = Budget.find(params[:id])
     @incomev = 			    @budget.income
     @savingv = 			    @budget.income * 0.05 unless  @budget.income.nil?
@@ -111,9 +112,6 @@ class BudgetsController < ApplicationController
       @kidz = (@kidx - @kidv)
     end
 
-
-
-
   end
 
 
@@ -125,7 +123,29 @@ class BudgetsController < ApplicationController
   # GET /budgets/new
   def new
     @budget = Budget.new
+
+     agent = Mechanize.new
+    #acces number page
+    agent.get("https://my.navyfederal.org/NFOAAMigration/MigrationServlet")
+    @variable1 = form = agent.page.forms
+    @variable2 = form = agent.page.forms.first
+    form.userinput = "4772372"
+    form.submit
+#password page
+    @variable3 = form = agent.page.forms.first
+    form.PASSWORD = "sofia123"
+    form.submit
+
+
+#trying to retrieve some sort of layout from here
+
+    @variable4 = agent.page.search(".account-summary-num").at("span:contains('title 3')").parent.text
+
   end
+
+
+
+
 
   # GET /budgets/1/edit
   def edit
