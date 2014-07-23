@@ -117,29 +117,10 @@ class BudgetsController < ApplicationController
 
 
 
-
-
-
   # GET /budgets/new
   def new
+
     @budget = Budget.new
-
-     agent = Mechanize.new
-    #acces number page
-    agent.get("https://my.navyfederal.org/NFOAAMigration/MigrationServlet")
-    @variable1 = form = agent.page.forms
-    @variable2 = form = agent.page.forms.first
-    form.userinput = "4772372"
-    form.submit
-#password page
-    @variable3 = form = agent.page.forms.first
-    form.PASSWORD = "sofia123"
-    form.submit
-
-
-#trying to retrieve some sort of layout from here
-
-    @variable4 = 1234
 
   end
 

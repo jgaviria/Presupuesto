@@ -1,11 +1,33 @@
 class ProductsController < ApplicationController
-  before_action :set_product, only: [:show, :edit, :update, :destroy]
+
 
   # GET /products
   # GET /products.json
   def index
     @products = Product.all
+
+    agent = Mechanize.new
+
+    agent.get("http://money.usnews.com/funds/mutual-funds/rankings/long-term-bond")
+    @variable2 = form = agent.page.forms
+    @variable4 =  agent.page.search('.fund-description')
+
   end
+
+
+
+  def mutualfund
+
+    agent = Mechanize.new
+
+    agent.get("http://money.usnews.com/funds/mutual-funds/rankings/long-term-bond")
+    @variable2 = form = agent.page.forms
+    @variable4 =  agent.page.search('.fund-description')
+
+
+  end
+
+
 
   # GET /products/1
   # GET /products/1.json
