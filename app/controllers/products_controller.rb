@@ -1,33 +1,24 @@
 class ProductsController < ApplicationController
 
+  before_action :set_product, only: [:show, :edit, :update, :destroy]
 
   # GET /products
   # GET /products.json
   def index
+    require 'open-uri'
+    event = Struct.new :name , :link , :date
+
     @products = Product.all
 
-    agent = Mechanize.new
+    var = "http://money.usnews.com/funds/mutual-funds/rankings/long-term-bond"
 
-    agent.get("http://money.usnews.com/funds/mutual-funds/rankings/long-term-bond")
-    @variable2 = form = agent.page.forms
-    @variable4 =  agent.page.search('.fund-description')
+    page = Nokogiri::HTML(open(var))
+    @variable2 =  page.css('div.fund-description').map do |extract|
+    @variable4 =  extract.at_css("h2 a").text.strip
 
-  end
-
-
-
-  def mutualfund
-
-    agent = Mechanize.new
-
-    agent.get("http://money.usnews.com/funds/mutual-funds/rankings/long-term-bond")
-    @variable2 = form = agent.page.forms
-    @variable4 =  agent.page.search('.fund-description')
-
+        end
 
   end
-
-
 
   # GET /products/1
   # GET /products/1.json

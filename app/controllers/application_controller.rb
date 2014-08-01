@@ -1,4 +1,11 @@
 class ApplicationController < ActionController::Base
+  before_action :authorize
+
+
+  @users = User.all
+
+
+
 
   doc = Nokogiri::XML(open('/Users/jgaviria/Desktop/temp'))
   root = doc.root
@@ -186,4 +193,19 @@ class ApplicationController < ActionController::Base
 
   end
 
+
+
+
+  protected
+
+  def authorize
+
+    unless User.find_by(id: session[:user_id])
+    redirect_to login_url, notice: "Please log in" end
+
+  end
+
+
+
 end
+

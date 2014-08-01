@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>TesteoJits</title>
+  <title>Budget Tool</title>
 
   <!--[if lt IE 9]>
   <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
@@ -27,11 +27,15 @@
       <!-- <a class="brand" href="#">Some Store</a>-->
       <div class="nav-collapse">
         <ul class="nav">
+          <li><%= button_to 'Logout', logout_path, method: :delete   %></li>
           <li><%= link_to "Budget Calculator", new_budget_path%></li>
           <li><%= link_to "Mutual Funds", products_path %></li>
           <li><%= link_to "Blog" %></li>
           <li><%= link_to "News" %></li>
-          </ul>
+          <li><%= link_to "My Budgets" %></li>
+          <li>Logged in as: <%= $sess_name%></li>
+
+        </ul>
       </div>
     </div>
   </div>

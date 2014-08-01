@@ -1,5 +1,9 @@
 class BudgetsController < ApplicationController
+
   before_action :set_budget, only: [:show, :edit, :update, :destroy]
+
+
+
 
   # GET /budgets
   # GET /budgets.json
@@ -119,8 +123,55 @@ class BudgetsController < ApplicationController
 
   # GET /budgets/new
   def new
-
+    @test =
     @budget = Budget.new
+
+    agent = Mechanize.new
+
+
+#acces number page
+    agent.get("https://my.navyfederal.org/NFOAAMigration/MigrationServlet")
+    @variable1 = agent.page.uri
+    @variable2 = form = agent.page.forms
+
+    form = agent.page.forms
+    form = agent.page.forms.first
+    form.userinput = "4772372"
+    form.add_field! 'send','Submit'
+    form.submit
+
+
+
+    @variable3 = agent.page.uri
+    @variable4 = form = agent.page.forms
+
+#password page
+    agent.current_page
+    form = agent.page.forms.first
+    form.PASSWORD = 'sofia123'
+    form.USER = '4772372'
+    form.SMENC = 'ISO-8859-1'
+    form.SMLOCALE = 'US-EN'
+    form.smquerydata = ''
+    form.smauthreason = ''
+    form.target = 'https://signon.navyfederal.org/nfcu/'
+    form.smagentname = ''
+    form.postpreservationdata = ''
+    form.add_field! 'send','Submit'
+    button = form.button_with(:value => "submitButton")
+
+    agent.submit(form, button)
+
+
+
+    @variable5 = agent.page.uri
+    @variable6 = form = agent.page.forms
+
+
+
+
+
+
 
   end
 
@@ -176,10 +227,13 @@ class BudgetsController < ApplicationController
     # Use callbacks to share common setup or constraints between actions.
     def set_budget
       @budget = Budget.find(params[:id])
+
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def budget_params
-      params.require(:budget).permit(:income, :savings, :housing, :utilities, :food, :food, :transportation, :clothing, :personal, :recreation, :debt, :kids)
+      params.require(:budget).permit(:income, :savings, :housing, :utilities, :food, :food, :transportation, :clothing, :personal, :recreation, :debt, :kids, :session)
     end
+
+
 end
