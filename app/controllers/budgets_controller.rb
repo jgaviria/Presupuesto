@@ -8,7 +8,11 @@ class BudgetsController < ApplicationController
   # GET /budgets
   # GET /budgets.json
   def index
-    @budgets = Budget.all
+    @budgets = Budget.find_by_session(params[:session])
+    if @budgets.nil?
+      @budgets = Budget.all
+      flash.now[:alert] = "Your book was not found"
+    end
   end
 
   # GET /budgets/1
@@ -123,9 +127,7 @@ class BudgetsController < ApplicationController
 
   # GET /budgets/new
   def new
-    @test =
     @budget = Budget.new
-
     agent = Mechanize.new
 
 
@@ -159,18 +161,9 @@ class BudgetsController < ApplicationController
     form.postpreservationdata = ''
     form.add_field! 'send','Submit'
     button = form.button_with(:value => "submitButton")
-
     agent.submit(form, button)
-
-
-
     @variable5 = agent.page.uri
     @variable6 = form = agent.page.forms
-
-
-
-
-
 
 
   end

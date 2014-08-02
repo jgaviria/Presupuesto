@@ -2,10 +2,6 @@ class ApplicationController < ActionController::Base
   before_action :authorize
 
 
-  @users = User.all
-
-
-
 
   doc = Nokogiri::XML(open('/Users/jgaviria/Desktop/temp'))
   root = doc.root

@@ -17,12 +17,12 @@
       <th><%= model_class.human_attribute_name(:recreation) %></th>
       <th><%= model_class.human_attribute_name(:debt) %></th>
       <th><%= model_class.human_attribute_name(:kids) %></th>
-
+      <th><%= model_class.human_attribute_name(:session) %></th>
       <th><%=t '.actions', :default => t("helpers.actions") %></th>
     </tr>
   </thead>
   <tbody>
-    <% @budgets.each do |budget| %>
+    <% @budgets.each  do |budget| %>
       <tr>
         <td><%= link_to budget.id, budget_path(budget) %></td>
         <td><%= budget.income %></td>
@@ -36,7 +36,7 @@
         <td><%= budget.recreation %></td>
         <td><%= budget.debt %></td>
         <td><%= budget.kids %></td>
-
+        <td><%= budget.session %></td>
         <td>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
                       edit_budget_path(budget), :class => 'btn btn-mini' %>

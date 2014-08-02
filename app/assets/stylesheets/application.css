@@ -14,6 +14,13 @@
  *= require_self
  */
 
+.statement-pos {
+    float: right !important;
+    padding-right: 150px;
+    margin: 20px 0 30px;
+    color: orange !important;
+}
+
 
 .page-header {
     text-align: center !important;
@@ -21,6 +28,14 @@
     margin: 20px 0 30px;
     color: orange !important;
 }
+
+.loggedin-header {
+    float: right !important;
+    padding-right: 30px;
+    padding-top: 1px;
+    color: orange !important;
+}
+
 
 .income-box {
     min-height: 10px;
