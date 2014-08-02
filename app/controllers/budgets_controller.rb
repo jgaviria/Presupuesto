@@ -11,7 +11,7 @@ class BudgetsController < ApplicationController
     @budgets = Budget.find_by_session(params[:session])
     if @budgets.nil?
       @budgets = Budget.all
-      flash.now[:alert] = "Your book was not found"
+
     end
   end
 
