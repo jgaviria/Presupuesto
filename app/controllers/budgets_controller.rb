@@ -8,11 +8,8 @@ class BudgetsController < ApplicationController
   # GET /budgets
   # GET /budgets.json
   def index
-    @budgets = Budget.find_by_session(params[:session])
-    if @budgets.nil?
-      @budgets = Budget.all
+    @budgets = Budget.where(:session => $sess_name)
 
-    end
   end
 
   # GET /budgets/1

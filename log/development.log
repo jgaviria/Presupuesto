@@ -103780,3 +103780,1907 @@ Processing by BudgetsController#index as HTML
   [1m[35mBudget Load (2.4ms)[0m  SELECT "budgets".* FROM "budgets"
   Rendered budgets/index.html.erb within layouts/application (13.5ms)
 Completed 200 OK in 53ms (Views: 43.1ms | ActiveRecord: 3.9ms)
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (28.5ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."name" = 'dave' LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-03 00:52:31 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (32.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by BudgetsController#new as HTML
+  [1m[35mUser Load (36.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" IS NULL LIMIT 1
+Redirected to http://localhost:3000/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 105ms (ActiveRecord: 36.4ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2014-08-03 00:52:32 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 970ms (Views: 969.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-03 00:52:33 -0400
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-08-03 00:52:33 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-03 00:52:33 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-03 00:52:33 -0400
+
+
+Started GET "/assets/statements.css?body=1" for 127.0.0.1 at 2014-08-03 00:52:33 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-03 00:52:33 -0400
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-03 00:52:33 -0400
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2014-08-03 00:52:33 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:33 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:33 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:33 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:33 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:33 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:33 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:33 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:33 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:34 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:34 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:34 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:34 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:34 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:34 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:34 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:34 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:34 -0400
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:34 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:34 -0400
+
+
+Started GET "/assets/budgets.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:34 -0400
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:34 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:34 -0400
+
+
+Started GET "/assets/statements.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:34 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:34 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:34 -0400
+
+
+Started POST "/login" for 127.0.0.1 at 2014-08-03 00:52:39 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TIjBbrW9gDTWHHy93GXTmM50+cMuwFcSvM7VGOcDfaM=", "name"=>"juan", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."name" = 'juan' LIMIT 1[0m
+Redirected to http://localhost:3000/admin
+Completed 302 Found in 108ms (ActiveRecord: 4.5ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2014-08-03 00:52:39 -0400
+Processing by AdminController#index as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 5 LIMIT 1
+  Rendered admin/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 49ms (Views: 43.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-03 00:52:39 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-03 00:52:39 -0400
+
+
+Started GET "/assets/statements.css?body=1" for 127.0.0.1 at 2014-08-03 00:52:39 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-03 00:52:39 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-03 00:52:39 -0400
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-08-03 00:52:39 -0400
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2014-08-03 00:52:39 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-03 00:52:39 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:39 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:39 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:39 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:39 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:39 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:39 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:39 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:39 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:39 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:39 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:39 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:39 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:39 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:39 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:39 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:39 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:39 -0400
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:39 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:39 -0400
+
+
+Started GET "/assets/budgets.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:39 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:39 -0400
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:39 -0400
+
+
+Started GET "/assets/statements.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:39 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:39 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-03 00:52:40 -0400
+
+
+Started GET "/budgets" for 127.0.0.1 at 2014-08-03 00:52:41 -0400
+Processing by BudgetsController#index as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 5 LIMIT 1[0m
+  [1m[35mBudget Load (46.4ms)[0m  SELECT  "budgets".* FROM "budgets"  WHERE "budgets"."session" IS NULL LIMIT 1
+  [1m[36mBudget Load (0.4ms)[0m  [1mSELECT "budgets".* FROM "budgets"[0m
+  Rendered budgets/index.html.erb within layouts/application (94.1ms)
+Completed 200 OK in 219ms (Views: 132.7ms | ActiveRecord: 50.4ms)
+
+
+Started GET "/budgets" for 127.0.0.1 at 2014-08-03 00:56:16 -0400
+Processing by BudgetsController#index as HTML
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 5 LIMIT 1
+  [1m[36mBudget Load (0.4ms)[0m  [1mSELECT "budgets".* FROM "budgets"  WHERE "budgets"."session" = 'juan'[0m
+  Rendered budgets/index.html.erb within layouts/application (35.8ms)
+Completed 200 OK in 109ms (Views: 91.0ms | ActiveRecord: 5.4ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-08-03 00:56:16 -0400
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-03 00:56:16 -0400
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2014-08-03 00:56:16 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-03 00:56:16 -0400
+
+
+Started GET "/assets/statements.css?body=1" for 127.0.0.1 at 2014-08-03 00:56:16 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-03 00:56:16 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-03 00:56:16 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-03 00:56:16 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:16 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:17 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:17 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:17 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:17 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:17 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:17 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:17 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:17 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:17 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:17 -0400
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:17 -0400
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:17 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:17 -0400
+
+
+Started GET "/assets/budgets.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:17 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:17 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:17 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:17 -0400
+
+
+Started GET "/assets/statements.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:17 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:17 -0400
+
+
+Started GET "/budgets/users" for 127.0.0.1 at 2014-08-03 00:56:36 -0400
+Processing by BudgetsController#show as HTML
+  Parameters: {"id"=>"users"}
+  [1m[35mUser Load (2.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 5 LIMIT 1
+  [1m[36mBudget Load (0.3ms)[0m  [1mSELECT  "budgets".* FROM "budgets"  WHERE "budgets"."id" = $1 LIMIT 1[0m  [["id", 0]]
+Completed 404 Not Found in 7ms
+
+ActiveRecord::RecordNotFound (Couldn't find Budget with 'id'=users):
+  app/controllers/budgets_controller.rb:219:in `set_budget'
+
+
+  Rendered /Users/jgaviria/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.2.rc1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.7ms)
+  Rendered /Users/jgaviria/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.2.rc1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/jgaviria/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.2.rc1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/jgaviria/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.2.rc1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (65.1ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2014-08-03 00:56:49 -0400
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 5 LIMIT 1
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users"   ORDER BY "users"."name" ASC[0m
+  Rendered users/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 47ms (Views: 43.3ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-08-03 00:56:49 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-03 00:56:49 -0400
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-03 00:56:49 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-03 00:56:49 -0400
+
+
+Started GET "/assets/statements.css?body=1" for 127.0.0.1 at 2014-08-03 00:56:49 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-03 00:56:49 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-03 00:56:49 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:49 -0400
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2014-08-03 00:56:49 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:49 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:49 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:49 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:50 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:50 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:50 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:50 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:50 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:50 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:50 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:50 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:50 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:50 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:50 -0400
+
+
+Started GET "/assets/budgets.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:50 -0400
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:50 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:50 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:50 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:50 -0400
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:50 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:50 -0400
+
+
+Started GET "/assets/statements.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:50 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:50 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-03 00:56:50 -0400
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2014-08-03 00:57:05 -0400
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"TIjBbrW9gDTWHHy93GXTmM50+cMuwFcSvM7VGOcDfaM="}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2014-08-03 00:57:05 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 24ms (Views: 23.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-08-03 00:57:05 -0400
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-03 00:57:05 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-03 00:57:05 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-03 00:57:05 -0400
+
+
+Started GET "/assets/statements.css?body=1" for 127.0.0.1 at 2014-08-03 00:57:05 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-03 00:57:05 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-03 00:57:05 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:05 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:05 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:05 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:05 -0400
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2014-08-03 00:57:05 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:05 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:05 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:05 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:05 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:05 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:05 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:05 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:05 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:05 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:05 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:05 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:05 -0400
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:05 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:05 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:05 -0400
+
+
+Started GET "/assets/budgets.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:05 -0400
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:05 -0400
+
+
+Started GET "/assets/statements.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:05 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:05 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:05 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:05 -0400
+
+
+Started POST "/login" for 127.0.0.1 at 2014-08-03 00:57:15 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TIjBbrW9gDTWHHy93GXTmM50+cMuwFcSvM7VGOcDfaM=", "name"=>"liliana", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[35mUser Load (1.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."name" = 'liliana' LIMIT 1
+Redirected to http://localhost:3000/login
+Completed 302 Found in 104ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2014-08-03 00:57:15 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 33ms (Views: 32.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-03 00:57:15 -0400
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2014-08-03 00:57:15 -0400
+
+
+Started GET "/assets/statements.css?body=1" for 127.0.0.1 at 2014-08-03 00:57:15 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-03 00:57:15 -0400
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-08-03 00:57:15 -0400
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-03 00:57:15 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-03 00:57:15 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-03 00:57:15 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:15 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:15 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:15 -0400
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:15 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:15 -0400
+
+
+Started GET "/assets/budgets.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:15 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:15 -0400
+
+
+Started GET "/assets/statements.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:15 -0400
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:15 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:15 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:15 -0400
+
+
+Started POST "/login" for 127.0.0.1 at 2014-08-03 00:57:23 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TIjBbrW9gDTWHHy93GXTmM50+cMuwFcSvM7VGOcDfaM=", "name"=>"liliana", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."name" = 'liliana' LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 99ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2014-08-03 00:57:23 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 26ms (Views: 24.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-08-03 00:57:23 -0400
+
+
+Started GET "/assets/statements.css?body=1" for 127.0.0.1 at 2014-08-03 00:57:23 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-03 00:57:23 -0400
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2014-08-03 00:57:23 -0400
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-03 00:57:23 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-03 00:57:23 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-03 00:57:23 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-03 00:57:23 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:23 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:23 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:23 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:23 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:23 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:23 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:23 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:23 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:23 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:23 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:23 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:23 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:23 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:23 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:23 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:23 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:23 -0400
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:23 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:23 -0400
+
+
+Started GET "/assets/budgets.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:23 -0400
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:23 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:23 -0400
+
+
+Started GET "/assets/statements.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:23 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:23 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:23 -0400
+
+
+Started POST "/login" for 127.0.0.1 at 2014-08-03 00:57:33 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TIjBbrW9gDTWHHy93GXTmM50+cMuwFcSvM7VGOcDfaM=", "name"=>"liliana", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[35mUser Load (1.8ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."name" = 'liliana' LIMIT 1
+Redirected to http://localhost:3000/login
+Completed 302 Found in 108ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2014-08-03 00:57:33 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 27ms (Views: 25.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-08-03 00:57:33 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-03 00:57:33 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-03 00:57:33 -0400
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-03 00:57:33 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-03 00:57:33 -0400
+
+
+Started GET "/assets/statements.css?body=1" for 127.0.0.1 at 2014-08-03 00:57:33 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-03 00:57:33 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:33 -0400
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2014-08-03 00:57:33 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:33 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:33 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:33 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:33 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:33 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:33 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:33 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:34 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:34 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:34 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:34 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:34 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:34 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:34 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:34 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:34 -0400
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:34 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:34 -0400
+
+
+Started GET "/assets/budgets.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:34 -0400
+
+
+Started GET "/assets/statements.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:34 -0400
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:34 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:34 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:34 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-03 00:57:34 -0400
+
+
+Started POST "/login" for 127.0.0.1 at 2014-08-03 01:00:16 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TIjBbrW9gDTWHHy93GXTmM50+cMuwFcSvM7VGOcDfaM=", "name"=>"andres", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."name" = 'andres' LIMIT 1[0m
+Redirected to http://localhost:3000/admin
+Completed 302 Found in 111ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2014-08-03 01:00:16 -0400
+Processing by AdminController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1
+  Rendered admin/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 24ms (Views: 21.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-03 01:00:16 -0400
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-08-03 01:00:16 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-03 01:00:16 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-03 01:00:16 -0400
+
+
+Started GET "/assets/statements.css?body=1" for 127.0.0.1 at 2014-08-03 01:00:16 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-03 01:00:16 -0400
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2014-08-03 01:00:16 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-03 01:00:16 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:16 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:16 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:16 -0400
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:16 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:16 -0400
+
+
+Started GET "/assets/budgets.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:16 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:16 -0400
+
+
+Started GET "/assets/statements.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:16 -0400
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:16 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:16 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:16 -0400
+
+
+Started GET "/budgets" for 127.0.0.1 at 2014-08-03 01:00:19 -0400
+Processing by BudgetsController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1[0m
+  [1m[35mBudget Load (1.8ms)[0m  SELECT "budgets".* FROM "budgets"  WHERE "budgets"."session" = 'andres'
+  Rendered budgets/index.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 40ms (Views: 34.6ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/budgets/new" for 127.0.0.1 at 2014-08-03 01:00:24 -0400
+Processing by BudgetsController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1[0m
+  Rendered budgets/_form.html.erb (99.4ms)
+  Rendered budgets/new.html.erb within layouts/application (137.9ms)
+Completed 200 OK in 2282ms (Views: 187.0ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/budgets" for 127.0.0.1 at 2014-08-03 01:00:40 -0400
+Processing by BudgetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TIjBbrW9gDTWHHy93GXTmM50+cMuwFcSvM7VGOcDfaM=", "budget"=>{"income"=>"123", "savings"=>"123", "housing"=>"123", "utilities"=>"123", "food"=>"2", "transportation"=>"1", "clothing"=>"2", "personal"=>"3", "recreation"=>"3", "debt"=>"2", "kids"=>"2", "session"=>"andres"}, "commit"=>"Create Budget"}
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "budgets" ("clothing", "created_at", "debt", "food", "housing", "income", "kids", "personal", "recreation", "savings", "session", "transportation", "updated_at", "utilities") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14) RETURNING "id"  [["clothing", "2.0"], ["created_at", "2014-08-03 05:00:40.210986"], ["debt", "2.0"], ["food", "2.0"], ["housing", "123.0"], ["income", "123.0"], ["kids", "2.0"], ["personal", "3.0"], ["recreation", "3.0"], ["savings", "123.0"], ["session", "andres"], ["transportation", "1.0"], ["updated_at", "2014-08-03 05:00:40.210986"], ["utilities", "123.0"]]
+  [1m[36m (3.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/budgets/13
+Completed 302 Found in 58ms (ActiveRecord: 5.1ms)
+
+
+Started GET "/budgets/13" for 127.0.0.1 at 2014-08-03 01:00:40 -0400
+Processing by BudgetsController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1
+  [1m[36mBudget Load (0.7ms)[0m  [1mSELECT  "budgets".* FROM "budgets"  WHERE "budgets"."id" = $1 LIMIT 1[0m  [["id", 13]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "budgets".* FROM "budgets"  WHERE "budgets"."id" = $1 LIMIT 1  [["id", "13"]]
+  Rendered budgets/show.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 59ms (Views: 51.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-03 01:00:40 -0400
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-08-03 01:00:40 -0400
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-03 01:00:40 -0400
+
+
+Started GET "/assets/statements.css?body=1" for 127.0.0.1 at 2014-08-03 01:00:40 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-03 01:00:40 -0400
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2014-08-03 01:00:40 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-03 01:00:40 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:40 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:40 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-03 01:00:40 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:40 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:40 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:40 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:40 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:40 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:40 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:40 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:40 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:40 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:40 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:40 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:40 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:40 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:40 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:40 -0400
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:40 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:40 -0400
+
+
+Started GET "/assets/budgets.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:40 -0400
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:40 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:40 -0400
+
+
+Started GET "/assets/statements.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:40 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:40 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-03 01:00:40 -0400
+
+
+Started GET "/budgets" for 127.0.0.1 at 2014-08-03 01:00:44 -0400
+Processing by BudgetsController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1[0m
+  [1m[35mBudget Load (0.6ms)[0m  SELECT "budgets".* FROM "budgets"  WHERE "budgets"."session" = 'andres'
+  Rendered budgets/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 54ms (Views: 49.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/budgets/juan" for 127.0.0.1 at 2014-08-03 01:01:01 -0400
+Processing by BudgetsController#show as HTML
+  Parameters: {"id"=>"juan"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1[0m
+  [1m[35mBudget Load (0.3ms)[0m  SELECT  "budgets".* FROM "budgets"  WHERE "budgets"."id" = $1 LIMIT 1  [["id", 0]]
+Completed 404 Not Found in 3ms
+
+ActiveRecord::RecordNotFound (Couldn't find Budget with 'id'=juan):
+  app/controllers/budgets_controller.rb:219:in `set_budget'
+
+
+  Rendered /Users/jgaviria/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.2.rc1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.5ms)
+  Rendered /Users/jgaviria/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.2.rc1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/jgaviria/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.2.rc1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/jgaviria/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.2.rc1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (24.6ms)
+
+
+Started GET "/budgets/9" for 127.0.0.1 at 2014-08-03 01:01:06 -0400
+Processing by BudgetsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1[0m
+  [1m[35mBudget Load (0.4ms)[0m  SELECT  "budgets".* FROM "budgets"  WHERE "budgets"."id" = $1 LIMIT 1  [["id", 9]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "budgets".* FROM "budgets"  WHERE "budgets"."id" = $1 LIMIT 1[0m  [["id", "9"]]
+  Rendered budgets/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 27ms (Views: 22.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-03 01:01:06 -0400
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2014-08-03 01:01:06 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-03 01:01:06 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-03 01:01:06 -0400
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-08-03 01:01:06 -0400
+
+
+Started GET "/assets/statements.css?body=1" for 127.0.0.1 at 2014-08-03 01:01:06 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-03 01:01:06 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-03 01:01:06 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:06 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:06 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:06 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:06 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:06 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:06 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:06 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:06 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:06 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:06 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:06 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:06 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:06 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:06 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:06 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:06 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:06 -0400
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:06 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:06 -0400
+
+
+Started GET "/assets/budgets.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:06 -0400
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:06 -0400
+
+
+Started GET "/assets/statements.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:06 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:06 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:06 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:06 -0400
+
+
+Started GET "/budgets" for 127.0.0.1 at 2014-08-03 01:01:14 -0400
+Processing by BudgetsController#index as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 6 LIMIT 1
+  [1m[36mBudget Load (0.5ms)[0m  [1mSELECT "budgets".* FROM "budgets"  WHERE "budgets"."session" = 'andres'[0m
+  Rendered budgets/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 47ms (Views: 42.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2014-08-03 01:01:14 -0400
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-03 01:01:14 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-03 01:01:14 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-03 01:01:14 -0400
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-08-03 01:01:14 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-03 01:01:14 -0400
+
+
+Started GET "/assets/statements.css?body=1" for 127.0.0.1 at 2014-08-03 01:01:14 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:14 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:14 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-03 01:01:14 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:14 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:14 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:14 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:14 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:14 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:14 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:14 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:14 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:14 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:14 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:14 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:14 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:14 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:14 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:14 -0400
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:14 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:14 -0400
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:14 -0400
+
+
+Started GET "/assets/budgets.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:14 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:14 -0400
+
+
+Started GET "/assets/statements.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:14 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:14 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:14 -0400
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2014-08-03 01:01:21 -0400
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"TIjBbrW9gDTWHHy93GXTmM50+cMuwFcSvM7VGOcDfaM="}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2014-08-03 01:01:21 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 32ms (Views: 29.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-08-03 01:01:21 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-03 01:01:21 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-03 01:01:21 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-03 01:01:21 -0400
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2014-08-03 01:01:21 -0400
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-03 01:01:21 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-03 01:01:21 -0400
+
+
+Started GET "/assets/statements.css?body=1" for 127.0.0.1 at 2014-08-03 01:01:21 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:21 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:21 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:21 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:21 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:21 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:21 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:21 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:21 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:21 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:21 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:21 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:21 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:21 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:21 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:21 -0400
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:21 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:21 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:21 -0400
+
+
+Started GET "/assets/budgets.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:21 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:21 -0400
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:21 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:21 -0400
+
+
+Started GET "/assets/statements.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:21 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:21 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-03 01:01:21 -0400
+
+
+Started POST "/login" for 127.0.0.1 at 2014-08-03 01:02:00 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TIjBbrW9gDTWHHy93GXTmM50+cMuwFcSvM7VGOcDfaM=", "name"=>"juan", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."name" = 'juan' LIMIT 1
+Redirected to http://localhost:3000/admin
+Completed 302 Found in 105ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2014-08-03 01:02:00 -0400
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 5 LIMIT 1[0m
+  Rendered admin/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 26ms (Views: 24.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2014-08-03 01:02:00 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-03 01:02:00 -0400
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-03 01:02:00 -0400
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-08-03 01:02:00 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-03 01:02:00 -0400
+
+
+Started GET "/assets/statements.css?body=1" for 127.0.0.1 at 2014-08-03 01:02:00 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-03 01:02:00 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-08-03 01:02:00 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-03 01:02:00 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-03 01:02:00 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-08-03 01:02:00 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-08-03 01:02:00 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-03 01:02:00 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-08-03 01:02:00 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-08-03 01:02:00 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-08-03 01:02:00 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-08-03 01:02:00 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-08-03 01:02:00 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-08-03 01:02:00 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-08-03 01:02:00 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-08-03 01:02:00 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-03 01:02:00 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-08-03 01:02:00 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-03 01:02:00 -0400
+
+
+Started GET "/assets/budgets.js?body=1" for 127.0.0.1 at 2014-08-03 01:02:00 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-03 01:02:00 -0400
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-08-03 01:02:00 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-08-03 01:02:00 -0400
+
+
+Started GET "/assets/statements.js?body=1" for 127.0.0.1 at 2014-08-03 01:02:00 -0400
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-03 01:02:00 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-08-03 01:02:00 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-03 01:02:00 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-08-03 01:02:00 -0400
+
+
+Started GET "/budgets/new" for 127.0.0.1 at 2014-08-03 01:02:06 -0400
+Processing by BudgetsController#new as HTML
+  [1m[35mUser Load (0.8ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 5 LIMIT 1
+  Rendered budgets/_form.html.erb (7.8ms)
+  Rendered budgets/new.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 1868ms (Views: 29.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2014-08-03 01:02:40 -0400
+Processing by ProductsController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 5 LIMIT 1[0m
+  Rendered products/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 379ms (Views: 48.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/budgets/new" for 127.0.0.1 at 2014-08-03 01:02:42 -0400
+Processing by BudgetsController#new as HTML
+  [1m[35mUser Load (1.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 5 LIMIT 1
+  Rendered budgets/_form.html.erb (8.0ms)
+  Rendered budgets/new.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 1644ms (Views: 30.2ms | ActiveRecord: 1.3ms)
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2014-08-03 01:03:34 -0400
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"TIjBbrW9gDTWHHy93GXTmM50+cMuwFcSvM7VGOcDfaM="}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2014-08-03 01:03:35 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 32ms (Views: 31.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-08-03 01:03:35 -0400
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-03 01:03:35 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-03 01:03:35 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-03 01:03:35 -0400
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2014-08-03 01:03:35 -0400
+
+
+Started GET "/assets/statements.css?body=1" for 127.0.0.1 at 2014-08-03 01:03:35 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-03 01:03:35 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-03 01:03:35 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:35 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:35 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:35 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:35 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:35 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:35 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:35 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:35 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:35 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:35 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:35 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:35 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:35 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:35 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:35 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:35 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:35 -0400
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:35 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:35 -0400
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:35 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:35 -0400
+
+
+Started GET "/assets/budgets.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:35 -0400
+
+
+Started GET "/assets/statements.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:35 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:35 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:35 -0400
+
+
+Started POST "/login" for 127.0.0.1 at 2014-08-03 01:03:42 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TIjBbrW9gDTWHHy93GXTmM50+cMuwFcSvM7VGOcDfaM=", "name"=>"dave", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."name" = 'dave' LIMIT 1[0m
+Redirected to http://localhost:3000/admin
+Completed 302 Found in 148ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2014-08-03 01:03:42 -0400
+Processing by AdminController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 8 LIMIT 1
+  Rendered admin/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 91ms (Views: 88.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-03 01:03:42 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-03 01:03:42 -0400
+
+
+Started GET "/assets/statements.css?body=1" for 127.0.0.1 at 2014-08-03 01:03:42 -0400
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-03 01:03:42 -0400
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-08-03 01:03:42 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-03 01:03:42 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-03 01:03:42 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:42 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:42 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:42 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:42 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:43 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:43 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:43 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:43 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:43 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:43 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:43 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:43 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:43 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:43 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:43 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:43 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:43 -0400
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2014-08-03 01:03:43 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:43 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:43 -0400
+
+
+Started GET "/assets/budgets.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:43 -0400
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:43 -0400
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:43 -0400
+
+
+Started GET "/assets/statements.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:43 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:43 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-03 01:03:43 -0400
+
+
+Started GET "/budgets" for 127.0.0.1 at 2014-08-03 01:03:45 -0400
+Processing by BudgetsController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 8 LIMIT 1[0m
+  [1m[35mBudget Load (0.5ms)[0m  SELECT "budgets".* FROM "budgets"  WHERE "budgets"."session" = 'dave'
+  Rendered budgets/index.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 49ms (Views: 43.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/budgets/new" for 127.0.0.1 at 2014-08-03 01:03:49 -0400
+Processing by BudgetsController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 8 LIMIT 1[0m
+  Rendered budgets/_form.html.erb (8.2ms)
+  Rendered budgets/new.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 1884ms (Views: 31.7ms | ActiveRecord: 0.5ms)
