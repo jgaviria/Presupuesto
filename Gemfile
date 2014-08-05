@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '4.1.2.rc1'
 
+gem 'mongo'
 
 gem 'rails_semantic_logger'
 #added for the bank statement scraping
