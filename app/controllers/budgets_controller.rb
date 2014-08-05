@@ -22,7 +22,7 @@ class BudgetsController < ApplicationController
     @savingv = 			    @budget.income * 0.05 unless  @budget.income.nil?
     @housingv = 		    @budget.income * 0.24 unless  @budget.income.nil?
     @utilitiev = 		    @budget.income * 0.05 unless  @budget.income.nil?
-    @foodv = 			      @budget.income * 0.05 unless  @budget.income.nil?
+    @foodv = 			      @budget.income * 0.08 unless  @budget.income.nil?
     @transportationv =  @budget.income * 0.09 unless  @budget.income.nil?
     @clothingv = 		    @budget.income * 0.07 unless  @budget.income.nil?
     @personalv = 		    @budget.income * 0.09 unless  @budget.income.nil?

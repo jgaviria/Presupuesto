@@ -1,4 +1,19 @@
 Rails.application.configure do
+
+  require 'mongo'
+  config.after_initialize do
+    # Re-use the existing MongoDB connection, or create a new one here
+    db = Mongo::MongoClient.new['production_logging']
+
+    # Besides logging to the standard Rails logger, also log to MongoDB
+    config.semantic_logger.add_appender SemanticLogger::Appender::MongoDB.new(
+                                            db:              db,
+                                            collection_name: 'semantic_logger',
+                                            collection_size: 25.gigabytes
+                                        )
+  end
+
+  config.log_level = :trace
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
@@ -42,7 +57,7 @@ Rails.application.configure do
   # config.force_ssl = true
 
   # Set to :debug to see everything in the log.
-  config.log_level = :info
+
 
   # Prepend all log lines with the following tags.
   # config.log_tags = [ :subdomain, :uuid ]

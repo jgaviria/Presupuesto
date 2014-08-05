@@ -1,6 +1,13 @@
 source 'https://rubygems.org'
 
 
+require 'rubygems'
+
+require 'mongo'
+
+gem 'rails', '4.1.2.rc1'
+
+gem 'rails_semantic_logger'
 #added for the bank statement scraping
 gem 'mechanize'
 #added by me
@@ -15,7 +22,7 @@ gem 'twitter-bootstrap-rails'
 gem 'less-rails'
 gem 'font_awesome_rails'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.2.rc1'
+
 # Use sqlite3 as the database for Active Record
 gem 'pg'
 # Use SCSS for stylesheets
@@ -51,4 +58,3 @@ gem 'bcrypt', '~> 3.1.7'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem 'rails_12factor', group: :production

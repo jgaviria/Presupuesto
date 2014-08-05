@@ -1,0 +1,310 @@
+2014-08-04 15:27:20.690038 [36m[1mI[0m [40252:70329323751900] [36mActionController[0m -- Processing by BudgetsController#new as HTML
+2014-08-04 15:27:20.720265 [36m[1mI[0m [40252:70329323751900] [36mActionController[0m -- Redirected to http://localhost:3000/login
+2014-08-04 15:27:20.720449 [36m[1mI[0m [40252:70329323751900] [36mActionController[0m -- Filter chain halted as :authorize rendered or redirected
+2014-08-04 15:27:20.720603 [36m[1mI[0m [40252:70329323751900] [36mActionController[0m -- Completed 302 Found in 30ms (ActiveRecord: 11.6ms)
+2014-08-04 15:27:20.734477 [36m[1mI[0m [40252:70329323751900] [36mActionController[0m -- Processing by SessionsController#new as HTML
+2014-08-04 15:27:20.748161 [36m[1mI[0m [40252:70329323751900] [36mActionController[0m -- Completed 200 OK in 14ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+2014-08-04 15:38:49.000925 D [40933:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-04 15:38:50.175618 D [40933:70362129947640] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-04 15:38:50.175794 D [40933:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-04 15:38:50.175855 D [40933:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-04 15:38:50.175930 D [40933:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-04 15:44:47.031062 D [41002:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-04 15:44:48.085603 D [41002:70183750392800] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-04 15:44:48.085823 D [41002:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-04 15:44:48.085884 D [41002:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-04 15:44:48.085988 D [41002:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-04 15:46:28.534886 D [41335:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-04 15:46:29.603897 D [41335:70350385896440] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-04 15:46:29.604067 D [41335:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-04 15:46:29.604127 D [41335:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-04 15:46:29.604217 D [41335:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-04 15:46:56.984870 D [41340:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-04 15:54:29.234698 D [41969:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-04 15:54:29.242130 D [41972:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-04 15:56:28.079714 D [41972:70262674611180] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-04 15:56:28.079927 D [41972:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-04 15:56:28.079985 D [41972:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-04 15:56:28.080050 D [41972:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-04 15:57:37.290723 D [41969:70135360707560] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-04 15:57:37.290900 D [41969:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-04 15:57:37.290988 D [41969:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-04 15:57:37.291085 D [41969:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-04 15:59:49.140363 D [41340:70139194301420] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-04 15:59:50.915995 D [41340:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-04 15:59:51.035257 D [41340:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-04 16:18:33.638435 D [43042:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-04 16:21:28.770932 [36m[1mI[0m [43042:70194889584500] [36mActionController[0m -- Processing by SessionsController#new as HTML
+2014-08-04 16:21:28.794688 [36m[1mI[0m [43042:70194889584500] [36mActionController[0m -- Completed 200 OK in 24ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+2014-08-04 16:21:37.196047 [36m[1mI[0m [43042:70194889584500] [36mActionController[0m -- Processing by SessionsController#create as HTML
+2014-08-04 16:21:37.196447 [36m[1mI[0m [43042:70194889584500] [36mActionController[0m --   Parameters: {"utf8"=>"✓", "authenticity_token"=>"LSwLnlOU9D9dKtFAv18y64NeuliLc/ykGUXPEi2qLdE=", "name"=>"asD", "password"=>"[FILTERED]", "commit"=>"Login"}
+2014-08-04 16:21:37.466983 [32m[1mD[0m [43042:70194889584500] [32mActiveRecord[0m --   [1m[36mUser Load (2.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."name" = 'asD' LIMIT 1[0m
+2014-08-04 16:21:37.467876 [36m[1mI[0m [43042:70194889584500] [36mActionController[0m -- Redirected to http://localhost:3000/login
+2014-08-04 16:21:37.468032 [36m[1mI[0m [43042:70194889584500] [36mActionController[0m -- Completed 302 Found in 271ms (ActiveRecord: 262.9ms)
+2014-08-04 16:21:37.476272 [36m[1mI[0m [43042:70194889584500] [36mActionController[0m -- Processing by SessionsController#new as HTML
+2014-08-04 16:21:37.480141 [36m[1mI[0m [43042:70194889584500] [36mActionController[0m -- Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+2014-08-04 21:42:16.222475 D [43042:70194886269920] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-04 21:42:16.222861 D [43042:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-04 21:42:16.222939 D [43042:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-04 21:42:16.223013 D [43042:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-04 21:42:25.957048 D [43723:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-04 21:42:46.034093 [36m[1mI[0m [43723:70365743809600] [36mActionController[0m -- Processing by BudgetsController#new as HTML
+2014-08-04 21:42:46.090957 [32m[1mD[0m [43723:70365743809600] [32mActiveRecord[0m --   [1m[36mUser Load (41.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" IS NULL LIMIT 1[0m
+2014-08-04 21:42:46.092582 [36m[1mI[0m [43723:70365743809600] [36mActionController[0m -- Redirected to http://localhost:3000/login
+2014-08-04 21:42:46.092676 [36m[1mI[0m [43723:70365743809600] [36mActionController[0m -- Filter chain halted as :authorize rendered or redirected
+2014-08-04 21:42:46.092866 [36m[1mI[0m [43723:70365743809600] [36mActionController[0m -- Completed 302 Found in 59ms (ActiveRecord: 41.5ms)
+2014-08-04 21:42:46.111670 [36m[1mI[0m [43723:70365743809600] [36mActionController[0m -- Processing by SessionsController#new as HTML
+2014-08-04 21:42:46.175584 [36m[1mI[0m [43723:70365743809600] [36mActionController[0m -- Completed 200 OK in 64ms (Views: 62.9ms | ActiveRecord: 0.0ms)
+2014-08-04 21:45:25.766869 [36m[1mI[0m [43723:70365772217260] [36mActionController[0m -- Processing by SessionsController#create as HTML
+2014-08-04 21:45:25.766927 [36m[1mI[0m [43723:70365772217260] [36mActionController[0m --   Parameters: {"utf8"=>"✓", "authenticity_token"=>"LSwLnlOU9D9dKtFAv18y64NeuliLc/ykGUXPEi2qLdE=", "name"=>"", "password"=>"[FILTERED]", "commit"=>"Login"}
+2014-08-04 21:45:25.858622 [32m[1mD[0m [43723:70365772217260] [32mActiveRecord[0m --   [1m[35mUser Load (1.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."name" = '' LIMIT 1
+2014-08-04 21:45:25.859787 [36m[1mI[0m [43723:70365772217260] [36mActionController[0m -- Redirected to http://localhost:3000/login
+2014-08-04 21:45:25.860073 [36m[1mI[0m [43723:70365772217260] [36mActionController[0m -- Completed 302 Found in 93ms (ActiveRecord: 88.1ms)
+2014-08-04 21:45:25.869760 [36m[1mI[0m [43723:70365772217260] [36mActionController[0m -- Processing by SessionsController#new as HTML
+2014-08-04 21:45:25.875109 [36m[1mI[0m [43723:70365772217260] [36mActionController[0m -- Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+2014-08-04 22:12:31.782730 [36m[1mI[0m [43723:70365771486160] [36mActionController[0m -- Processing by SessionsController#create as HTML
+2014-08-04 22:12:31.782777 [36m[1mI[0m [43723:70365771486160] [36mActionController[0m --   Parameters: {"utf8"=>"✓", "authenticity_token"=>"LSwLnlOU9D9dKtFAv18y64NeuliLc/ykGUXPEi2qLdE=", "name"=>"", "password"=>"[FILTERED]", "commit"=>"Login"}
+2014-08-04 22:12:31.786590 [32m[1mD[0m [43723:70365771486160] [32mActiveRecord[0m --   [1m[36mUser Load (2.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."name" = '' LIMIT 1[0m
+2014-08-04 22:12:31.788652 [36m[1mI[0m [43723:70365771486160] [36mActionController[0m -- Redirected to http://localhost:3000/login
+2014-08-04 22:12:31.788816 [36m[1mI[0m [43723:70365771486160] [36mActionController[0m -- Completed 302 Found in 6ms (ActiveRecord: 2.0ms)
+2014-08-04 22:12:31.809714 [36m[1mI[0m [43723:70365771486160] [36mActionController[0m -- Processing by SessionsController#new as HTML
+2014-08-04 22:12:31.815855 [36m[1mI[0m [43723:70365771486160] [36mActionController[0m -- Completed 200 OK in 6ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+2014-08-04 22:12:36.942060 [36m[1mI[0m [43723:70365771486160] [36mActionController[0m -- Processing by SessionsController#create as HTML
+2014-08-04 22:12:36.942104 [36m[1mI[0m [43723:70365771486160] [36mActionController[0m --   Parameters: {"utf8"=>"✓", "authenticity_token"=>"LSwLnlOU9D9dKtFAv18y64NeuliLc/ykGUXPEi2qLdE=", "name"=>"juan", "password"=>"[FILTERED]", "commit"=>"Login"}
+2014-08-04 22:12:36.945222 [32m[1mD[0m [43723:70365771486160] [32mActiveRecord[0m --   [1m[35mUser Load (2.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."name" = 'juan' LIMIT 1
+2014-08-04 22:12:37.118779 [36m[1mI[0m [43723:70365771486160] [36mActionController[0m -- Redirected to http://localhost:3000/admin
+2014-08-04 22:12:37.119647 [36m[1mI[0m [43723:70365771486160] [36mActionController[0m -- Completed 302 Found in 177ms (ActiveRecord: 70.1ms)
+2014-08-04 22:12:37.158248 [36m[1mI[0m [43723:70365771486160] [36mActionController[0m -- Processing by AdminController#index as HTML
+2014-08-04 22:12:37.159826 [32m[1mD[0m [43723:70365771486160] [32mActiveRecord[0m --   [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2 LIMIT 1[0m
+2014-08-04 22:12:37.212210 [36m[1mI[0m [43723:70365771486160] [36mActionController[0m -- Completed 200 OK in 54ms (Views: 51.8ms | ActiveRecord: 0.5ms)
+2014-08-04 22:21:13.218445 [36m[1mI[0m [43723:70365762785080] [36mActionController[0m -- Processing by AdminController#index as HTML
+2014-08-04 22:21:13.220141 [32m[1mD[0m [43723:70365762785080] [32mActiveRecord[0m --   [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2 LIMIT 1
+2014-08-04 22:21:13.223008 [36m[1mI[0m [43723:70365762785080] [36mActionController[0m -- Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 0.6ms)
+2014-08-04 22:21:14.987262 [36m[1mI[0m [43723:70365762785080] [36mActionController[0m -- Processing by BudgetsController#index as HTML
+2014-08-04 22:21:14.990197 [32m[1mD[0m [43723:70365762785080] [32mActiveRecord[0m --   [1m[36mUser Load (1.7ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2 LIMIT 1[0m
+2014-08-04 22:21:15.709703 [32m[1mD[0m [43723:70365762785080] [32mActiveRecord[0m --   [1m[35mBudget Load (79.5ms)[0m  SELECT "budgets".* FROM "budgets"  WHERE "budgets"."session" = 'juan'
+2014-08-04 22:21:15.712902 [36m[1mI[0m [43723:70365762785080] [36mActionController[0m -- Completed 200 OK in 726ms (Views: 580.8ms | ActiveRecord: 142.3ms)
+2014-08-04 22:35:15.091731 [36m[1mI[0m [43723:70365745048400] [36mActionController[0m -- Processing by BudgetsController#index as HTML
+2014-08-04 22:35:15.094579 [32m[1mD[0m [43723:70365745048400] [32mActiveRecord[0m --   [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2 LIMIT 1[0m
+2014-08-04 22:35:15.099500 [32m[1mD[0m [43723:70365745048400] [32mActiveRecord[0m --   [1m[35mBudget Load (0.6ms)[0m  SELECT "budgets".* FROM "budgets"  WHERE "budgets"."session" = 'juan'
+2014-08-04 22:35:15.101883 [36m[1mI[0m [43723:70365745048400] [36mActionController[0m -- Completed 200 OK in 10ms (Views: 5.9ms | ActiveRecord: 1.0ms)
+2014-08-04 22:35:17.867775 [36m[1mI[0m [43723:70365745048400] [36mActionController[0m -- Processing by BudgetsController#new as HTML
+2014-08-04 22:35:17.870844 [32m[1mD[0m [43723:70365745048400] [32mActiveRecord[0m --   [1m[36mUser Load (1.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2 LIMIT 1[0m
+2014-08-04 22:35:24.129145 [36m[1mI[0m [43723:70365745048400] [36mActionController[0m -- Completed 200 OK in 6261ms (Views: 77.4ms | ActiveRecord: 4.0ms)
+2014-08-04 22:35:42.802146 [36m[1mI[0m [43723:70365745048400] [36mActionController[0m -- Processing by SessionsController#destroy as HTML
+2014-08-04 22:35:42.802201 [36m[1mI[0m [43723:70365745048400] [36mActionController[0m --   Parameters: {"authenticity_token"=>"LSwLnlOU9D9dKtFAv18y64NeuliLc/ykGUXPEi2qLdE="}
+2014-08-04 22:35:42.804537 [36m[1mI[0m [43723:70365745048400] [36mActionController[0m -- Redirected to http://localhost:3000/login
+2014-08-04 22:35:42.804829 [36m[1mI[0m [43723:70365745048400] [36mActionController[0m -- Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+2014-08-04 22:35:42.819354 [36m[1mI[0m [43723:70365745048400] [36mActionController[0m -- Processing by SessionsController#new as HTML
+2014-08-04 22:35:42.827532 [36m[1mI[0m [43723:70365745048400] [36mActionController[0m -- Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+2014-08-04 22:35:47.300019 [36m[1mI[0m [43723:70365745048400] [36mActionController[0m -- Processing by SessionsController#create as HTML
+2014-08-04 22:35:47.300110 [36m[1mI[0m [43723:70365745048400] [36mActionController[0m --   Parameters: {"utf8"=>"✓", "authenticity_token"=>"LSwLnlOU9D9dKtFAv18y64NeuliLc/ykGUXPEi2qLdE=", "name"=>"andres", "password"=>"[FILTERED]", "commit"=>"Login"}
+2014-08-04 22:35:47.307865 [32m[1mD[0m [43723:70365745048400] [32mActiveRecord[0m --   [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."name" = 'andres' LIMIT 1
+2014-08-04 22:35:47.308473 [36m[1mI[0m [43723:70365745048400] [36mActionController[0m -- Redirected to http://localhost:3000/login
+2014-08-04 22:35:47.308620 [36m[1mI[0m [43723:70365745048400] [36mActionController[0m -- Completed 302 Found in 8ms (ActiveRecord: 0.5ms)
+2014-08-04 22:35:47.323085 [36m[1mI[0m [43723:70365745048400] [36mActionController[0m -- Processing by SessionsController#new as HTML
+2014-08-04 22:35:47.328920 [36m[1mI[0m [43723:70365745048400] [36mActionController[0m -- Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+2014-08-04 22:35:52.591752 [36m[1mI[0m [43723:70365745048400] [36mActionController[0m -- Processing by SessionsController#create as HTML
+2014-08-04 22:35:52.591805 [36m[1mI[0m [43723:70365745048400] [36mActionController[0m --   Parameters: {"utf8"=>"✓", "authenticity_token"=>"LSwLnlOU9D9dKtFAv18y64NeuliLc/ykGUXPEi2qLdE=", "name"=>"andres", "password"=>"[FILTERED]", "commit"=>"Login"}
+2014-08-04 22:35:52.596404 [32m[1mD[0m [43723:70365745048400] [32mActiveRecord[0m --   [1m[36mUser Load (1.9ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."name" = 'andres' LIMIT 1[0m
+2014-08-04 22:35:52.598836 [36m[1mI[0m [43723:70365745048400] [36mActionController[0m -- Redirected to http://localhost:3000/login
+2014-08-04 22:35:52.599000 [36m[1mI[0m [43723:70365745048400] [36mActionController[0m -- Completed 302 Found in 7ms (ActiveRecord: 1.9ms)
+2014-08-04 22:35:52.612415 [36m[1mI[0m [43723:70365745048400] [36mActionController[0m -- Processing by SessionsController#new as HTML
+2014-08-04 22:35:52.619553 [36m[1mI[0m [43723:70365745048400] [36mActionController[0m -- Completed 200 OK in 7ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+2014-08-04 22:35:59.690849 [36m[1mI[0m [43723:70365745048400] [36mActionController[0m -- Processing by SessionsController#create as HTML
+2014-08-04 22:35:59.690896 [36m[1mI[0m [43723:70365745048400] [36mActionController[0m --   Parameters: {"utf8"=>"✓", "authenticity_token"=>"LSwLnlOU9D9dKtFAv18y64NeuliLc/ykGUXPEi2qLdE=", "name"=>"juan", "password"=>"[FILTERED]", "commit"=>"Login"}
+2014-08-04 22:35:59.693193 [32m[1mD[0m [43723:70365745048400] [32mActiveRecord[0m --   [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."name" = 'juan' LIMIT 1
+2014-08-04 22:35:59.800517 [36m[1mI[0m [43723:70365745048400] [36mActionController[0m -- Redirected to http://localhost:3000/admin
+2014-08-04 22:35:59.800712 [36m[1mI[0m [43723:70365745048400] [36mActionController[0m -- Completed 302 Found in 110ms (ActiveRecord: 1.0ms)
+2014-08-04 22:35:59.808765 [36m[1mI[0m [43723:70365745048400] [36mActionController[0m -- Processing by AdminController#index as HTML
+2014-08-04 22:35:59.811323 [32m[1mD[0m [43723:70365745048400] [32mActiveRecord[0m --   [1m[36mUser Load (1.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2 LIMIT 1[0m
+2014-08-04 22:35:59.815109 [36m[1mI[0m [43723:70365745048400] [36mActionController[0m -- Completed 200 OK in 6ms (Views: 3.2ms | ActiveRecord: 1.3ms)
+2014-08-04 22:36:06.723962 [36m[1mI[0m [43723:70365745048400] [36mActionController[0m -- Processing by UsersController#index as HTML
+2014-08-04 22:36:06.759166 [32m[1mD[0m [43723:70365745048400] [32mActiveRecord[0m --   [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users"   ORDER BY "users"."name" ASC
+2014-08-04 22:36:06.763419 [36m[1mI[0m [43723:70365745048400] [36mActionController[0m -- Completed 200 OK in 39ms (Views: 37.4ms | ActiveRecord: 0.7ms)
+2014-08-04 22:36:12.906028 [36m[1mI[0m [43723:70365745048400] [36mActionController[0m -- Processing by UsersController#destroy as HTML
+2014-08-04 22:36:12.906067 [36m[1mI[0m [43723:70365745048400] [36mActionController[0m --   Parameters: {"authenticity_token"=>"LSwLnlOU9D9dKtFAv18y64NeuliLc/ykGUXPEi2qLdE=", "id"=>"2"}
+2014-08-04 22:36:12.909510 [32m[1mD[0m [43723:70365745048400] [32mActiveRecord[0m --   [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+2014-08-04 22:36:12.910216 [32m[1mD[0m [43723:70365745048400] [32mActiveRecord[0m --   [1m[35m (0.2ms)[0m  BEGIN
+2014-08-04 22:36:12.974922 [32m[1mD[0m [43723:70365745048400] [32mActiveRecord[0m --   [1m[36mSQL (0.5ms)[0m  [1mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 2]]
+2014-08-04 22:36:13.027527 [32m[1mD[0m [43723:70365745048400] [32mActiveRecord[0m --   [1m[35m (52.4ms)[0m  COMMIT
+2014-08-04 22:36:13.028362 [36m[1mI[0m [43723:70365745048400] [36mActionController[0m -- Redirected to http://localhost:3000/users
+2014-08-04 22:36:13.028580 [36m[1mI[0m [43723:70365745048400] [36mActionController[0m -- Completed 302 Found in 122ms (ActiveRecord: 53.8ms)
+2014-08-04 22:36:13.039388 [36m[1mI[0m [43723:70365745048400] [36mActionController[0m -- Processing by UsersController#index as HTML
+2014-08-04 22:36:13.045758 [32m[1mD[0m [43723:70365745048400] [32mActiveRecord[0m --   [1m[36mUser Load (1.2ms)[0m  [1mSELECT "users".* FROM "users"   ORDER BY "users"."name" ASC[0m
+2014-08-04 22:36:13.048842 [36m[1mI[0m [43723:70365745048400] [36mActionController[0m -- Completed 200 OK in 7ms (Views: 4.2ms | ActiveRecord: 1.2ms)
+2014-08-04 23:26:12.000974 [36m[1mI[0m [43723:70365762149800] [36mActionController[0m -- Processing by UsersController#new as HTML
+2014-08-04 23:26:12.109271 [36m[1mI[0m [43723:70365762149800] [36mActionController[0m -- Completed 200 OK in 108ms (Views: 106.8ms | ActiveRecord: 0.0ms)
+2014-08-04 23:26:18.220851 [36m[1mI[0m [43723:70365762149800] [36mActionController[0m -- Processing by UsersController#create as HTML
+2014-08-04 23:26:18.220906 [36m[1mI[0m [43723:70365762149800] [36mActionController[0m --   Parameters: {"utf8"=>"✓", "authenticity_token"=>"LSwLnlOU9D9dKtFAv18y64NeuliLc/ykGUXPEi2qLdE=", "user"=>{"name"=>"test", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+2014-08-04 23:26:18.351259 [32m[1mD[0m [43723:70365762149800] [32mActiveRecord[0m --   [1m[35m (5.3ms)[0m  BEGIN
+2014-08-04 23:26:18.400660 [32m[1mD[0m [43723:70365762149800] [32mActiveRecord[0m --   [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."name" = 'test' LIMIT 1[0m
+2014-08-04 23:26:18.430967 [32m[1mD[0m [43723:70365762149800] [32mActiveRecord[0m --   [1m[35mSQL (0.6ms)[0m  INSERT INTO "users" ("created_at", "name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", "2014-08-05 03:26:18.401072"], ["name", "test"], ["password_digest", "$2a$10$4a2G4DWfzOvIKBtconMVPOO9qY8UrugPk2kxehuiJRgYHqkNVLm0G"], ["updated_at", "2014-08-05 03:26:18.401072"]]
+2014-08-04 23:26:18.432417 [32m[1mD[0m [43723:70365762149800] [32mActiveRecord[0m --   [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+2014-08-04 23:26:18.433072 [36m[1mI[0m [43723:70365762149800] [36mActionController[0m -- Redirected to http://localhost:3000/sessions/create
+2014-08-04 23:26:18.433589 [36m[1mI[0m [43723:70365762149800] [36mActionController[0m -- Completed 302 Found in 212ms (ActiveRecord: 7.4ms)
+2014-08-04 23:26:18.463726 [36m[1mI[0m [43723:70365762149800] [36mActionController[0m -- Processing by SessionsController#create as HTML
+2014-08-04 23:26:18.467184 [32m[1mD[0m [43723:70365762149800] [32mActiveRecord[0m --   [1m[35mUser Load (1.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."name" IS NULL LIMIT 1
+2014-08-04 23:26:18.467770 [36m[1mI[0m [43723:70365762149800] [36mActionController[0m -- Redirected to http://localhost:3000/login
+2014-08-04 23:26:18.467919 [36m[1mI[0m [43723:70365762149800] [36mActionController[0m -- Completed 302 Found in 4ms (ActiveRecord: 1.4ms)
+2014-08-04 23:26:18.479929 [36m[1mI[0m [43723:70365762149800] [36mActionController[0m -- Processing by SessionsController#new as HTML
+2014-08-04 23:26:18.485859 [36m[1mI[0m [43723:70365762149800] [36mActionController[0m -- Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+2014-08-04 23:28:31.383995 [36m[1mI[0m [43723:70365743635520] [36mActionController[0m -- Processing by SessionsController#create as HTML
+2014-08-04 23:28:31.384274 [36m[1mI[0m [43723:70365743635520] [36mActionController[0m --   Parameters: {"utf8"=>"✓", "authenticity_token"=>"LSwLnlOU9D9dKtFAv18y64NeuliLc/ykGUXPEi2qLdE=", "name"=>"asdf", "password"=>"[FILTERED]", "commit"=>"Login"}
+2014-08-04 23:28:31.386255 [32m[1mD[0m [43723:70365743635520] [32mActiveRecord[0m --   [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."name" = 'asdf' LIMIT 1[0m
+2014-08-04 23:28:31.386820 [36m[1mI[0m [43723:70365743635520] [36mActionController[0m -- Redirected to http://localhost:3000/login
+2014-08-04 23:28:31.386971 [36m[1mI[0m [43723:70365743635520] [36mActionController[0m -- Completed 302 Found in 3ms (ActiveRecord: 0.4ms)
+2014-08-04 23:28:31.406120 [36m[1mI[0m [43723:70365743635520] [36mActionController[0m -- Processing by SessionsController#new as HTML
+2014-08-04 23:28:31.410736 [36m[1mI[0m [43723:70365743635520] [36mActionController[0m -- Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+2014-08-04 23:31:25.988547 [36m[1mI[0m [43723:70365747092600] [36mActionController[0m -- Processing by SessionsController#create as HTML
+2014-08-04 23:31:25.988657 [36m[1mI[0m [43723:70365747092600] [36mActionController[0m --   Parameters: {"utf8"=>"✓", "authenticity_token"=>"LSwLnlOU9D9dKtFAv18y64NeuliLc/ykGUXPEi2qLdE=", "name"=>"juan", "password"=>"[FILTERED]", "commit"=>"Login"}
+2014-08-04 23:31:25.992821 [32m[1mD[0m [43723:70365747092600] [32mActiveRecord[0m --   [1m[35mUser Load (2.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."name" = 'juan' LIMIT 1
+2014-08-04 23:31:25.994003 [36m[1mI[0m [43723:70365747092600] [36mActionController[0m -- Redirected to http://localhost:3000/login
+2014-08-04 23:31:25.995923 [36m[1mI[0m [43723:70365747092600] [36mActionController[0m -- Completed 302 Found in 5ms (ActiveRecord: 2.1ms)
+2014-08-04 23:31:26.064961 [36m[1mI[0m [43723:70365747092600] [36mActionController[0m -- Processing by SessionsController#new as HTML
+2014-08-04 23:31:26.068699 [36m[1mI[0m [43723:70365747092600] [36mActionController[0m -- Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+2014-08-04 23:31:31.645056 [36m[1mI[0m [43723:70365772488140] [36mActionController[0m -- Processing by SessionsController#create as HTML
+2014-08-04 23:31:31.645103 [36m[1mI[0m [43723:70365772488140] [36mActionController[0m --   Parameters: {"utf8"=>"✓", "authenticity_token"=>"LSwLnlOU9D9dKtFAv18y64NeuliLc/ykGUXPEi2qLdE=", "name"=>"juan ", "password"=>"[FILTERED]", "commit"=>"Login"}
+2014-08-04 23:31:31.651187 [32m[1mD[0m [43723:70365772488140] [32mActiveRecord[0m --   [1m[36mUser Load (5.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."name" = 'juan ' LIMIT 1[0m
+2014-08-04 23:31:31.651732 [36m[1mI[0m [43723:70365772488140] [36mActionController[0m -- Redirected to http://localhost:3000/login
+2014-08-04 23:31:31.651876 [36m[1mI[0m [43723:70365772488140] [36mActionController[0m -- Completed 302 Found in 7ms (ActiveRecord: 5.0ms)
+2014-08-04 23:31:31.666412 [36m[1mI[0m [43723:70365772488140] [36mActionController[0m -- Processing by SessionsController#new as HTML
+2014-08-04 23:31:31.670727 [36m[1mI[0m [43723:70365772488140] [36mActionController[0m -- Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+2014-08-04 23:31:34.734834 [36m[1mI[0m [43723:70365772488140] [36mActionController[0m -- Processing by UsersController#new as HTML
+2014-08-04 23:31:34.745212 [36m[1mI[0m [43723:70365772488140] [36mActionController[0m -- Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+2014-08-04 23:31:36.547029 [36m[1mI[0m [43723:70365772488140] [36mActionController[0m -- Processing by UsersController#new as HTML
+2014-08-04 23:31:36.554100 [36m[1mI[0m [43723:70365772488140] [36mActionController[0m -- Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+2014-08-04 23:31:43.489390 [36m[1mI[0m [43723:70365772488140] [36mActionController[0m -- Processing by UsersController#show as HTML
+2014-08-04 23:31:43.489424 [36m[1mI[0m [43723:70365772488140] [36mActionController[0m --   Parameters: {"id"=>"users"}
+2014-08-04 23:31:43.492225 [32m[1mD[0m [43723:70365772488140] [32mActiveRecord[0m --   [1m[35mUser Load (0.9ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 0]]
+2014-08-04 23:31:43.492831 [36m[1mI[0m [43723:70365772488140] [36mActionController[0m -- Completed 404 Not Found in 3ms
+2014-08-04 23:31:49.229771 [36m[1mI[0m [43723:70365772488140] [36mActionController[0m -- Processing by UsersController#index as HTML
+2014-08-04 23:31:49.232269 [32m[1mD[0m [43723:70365772488140] [32mActiveRecord[0m --   [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users"   ORDER BY "users"."name" ASC[0m
+2014-08-04 23:31:49.236620 [36m[1mI[0m [43723:70365772488140] [36mActionController[0m -- Completed 200 OK in 7ms (Views: 5.1ms | ActiveRecord: 0.5ms)
+2014-08-04 23:31:56.283321 [36m[1mI[0m [43723:70365772488140] [36mActionController[0m -- Processing by SessionsController#destroy as HTML
+2014-08-04 23:31:56.283362 [36m[1mI[0m [43723:70365772488140] [36mActionController[0m --   Parameters: {"authenticity_token"=>"LSwLnlOU9D9dKtFAv18y64NeuliLc/ykGUXPEi2qLdE="}
+2014-08-04 23:31:56.284704 [36m[1mI[0m [43723:70365772488140] [36mActionController[0m -- Redirected to http://localhost:3000/login
+2014-08-04 23:31:56.284898 [36m[1mI[0m [43723:70365772488140] [36mActionController[0m -- Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+2014-08-04 23:31:56.296917 [36m[1mI[0m [43723:70365772488140] [36mActionController[0m -- Processing by SessionsController#new as HTML
+2014-08-04 23:31:56.302689 [36m[1mI[0m [43723:70365772488140] [36mActionController[0m -- Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+2014-08-04 23:32:01.012859 [36m[1mI[0m [43723:70365772488140] [36mActionController[0m -- Processing by SessionsController#create as HTML
+2014-08-04 23:32:01.012912 [36m[1mI[0m [43723:70365772488140] [36mActionController[0m --   Parameters: {"utf8"=>"✓", "authenticity_token"=>"LSwLnlOU9D9dKtFAv18y64NeuliLc/ykGUXPEi2qLdE=", "name"=>"test", "password"=>"[FILTERED]", "commit"=>"Login"}
+2014-08-04 23:32:01.026997 [32m[1mD[0m [43723:70365772488140] [32mActiveRecord[0m --   [1m[35mUser Load (6.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."name" = 'test' LIMIT 1
+2014-08-04 23:32:01.135664 [36m[1mI[0m [43723:70365772488140] [36mActionController[0m -- Redirected to http://localhost:3000/admin
+2014-08-04 23:32:01.135848 [36m[1mI[0m [43723:70365772488140] [36mActionController[0m -- Completed 302 Found in 123ms (ActiveRecord: 6.3ms)
+2014-08-04 23:32:01.144709 [36m[1mI[0m [43723:70365772488140] [36mActionController[0m -- Processing by AdminController#index as HTML
+2014-08-04 23:32:01.146477 [32m[1mD[0m [43723:70365772488140] [32mActiveRecord[0m --   [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 3 LIMIT 1[0m
+2014-08-04 23:32:01.149434 [36m[1mI[0m [43723:70365772488140] [36mActionController[0m -- Completed 200 OK in 5ms (Views: 2.4ms | ActiveRecord: 0.5ms)
+2014-08-04 23:39:50.697695 [36m[1mI[0m [43723:70365763221560] [36mActionController[0m -- Processing by ProductsController#index as HTML
+2014-08-04 23:39:50.700508 [32m[1mD[0m [43723:70365763221560] [32mActiveRecord[0m --   [1m[35mUser Load (1.9ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" IS NULL LIMIT 1
+2014-08-04 23:39:50.701156 [36m[1mI[0m [43723:70365763221560] [36mActionController[0m -- Redirected to http://localhost:3000/login
+2014-08-04 23:39:50.701226 [36m[1mI[0m [43723:70365763221560] [36mActionController[0m -- Filter chain halted as :authorize rendered or redirected
+2014-08-04 23:39:50.701342 [36m[1mI[0m [43723:70365763221560] [36mActionController[0m -- Completed 302 Found in 4ms (ActiveRecord: 1.9ms)
+2014-08-04 23:39:50.732088 [36m[1mI[0m [43723:70365763221560] [36mActionController[0m -- Processing by SessionsController#new as HTML
+2014-08-04 23:39:50.737634 [36m[1mI[0m [43723:70365763221560] [36mActionController[0m -- Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+2014-08-04 23:39:51.485601 [36m[1mI[0m [43723:70365762672380] [36mActionController[0m -- Processing by BudgetsController#new as HTML
+2014-08-04 23:39:51.491334 [32m[1mD[0m [43723:70365762672380] [32mActiveRecord[0m --   [1m[36mUser Load (4.9ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" IS NULL LIMIT 1[0m
+2014-08-04 23:39:51.492674 [36m[1mI[0m [43723:70365762672380] [36mActionController[0m -- Redirected to http://localhost:3000/login
+2014-08-04 23:39:51.492736 [36m[1mI[0m [43723:70365762672380] [36mActionController[0m -- Filter chain halted as :authorize rendered or redirected
+2014-08-04 23:39:51.492864 [36m[1mI[0m [43723:70365762672380] [36mActionController[0m -- Completed 302 Found in 7ms (ActiveRecord: 4.9ms)
+2014-08-04 23:39:51.505325 [36m[1mI[0m [43723:70365762672380] [36mActionController[0m -- Processing by SessionsController#new as HTML
+2014-08-04 23:39:51.509467 [36m[1mI[0m [43723:70365762672380] [36mActionController[0m -- Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+2014-08-04 23:40:05.578848 [36m[1mI[0m [43723:70365762672380] [36mActionController[0m -- Processing by BudgetsController#show as HTML
+2014-08-04 23:40:05.578888 [36m[1mI[0m [43723:70365762672380] [36mActionController[0m --   Parameters: {"id"=>"89"}
+2014-08-04 23:40:05.580622 [32m[1mD[0m [43723:70365762672380] [32mActiveRecord[0m --   [1m[35mUser Load (0.8ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" IS NULL LIMIT 1
+2014-08-04 23:40:05.581070 [36m[1mI[0m [43723:70365762672380] [36mActionController[0m -- Redirected to http://localhost:3000/login
+2014-08-04 23:40:05.581119 [36m[1mI[0m [43723:70365762672380] [36mActionController[0m -- Filter chain halted as :authorize rendered or redirected
+2014-08-04 23:40:05.581264 [36m[1mI[0m [43723:70365762672380] [36mActionController[0m -- Completed 302 Found in 2ms (ActiveRecord: 0.8ms)
+2014-08-04 23:40:05.591001 [36m[1mI[0m [43723:70365763221560] [36mActionController[0m -- Processing by SessionsController#new as HTML
+2014-08-04 23:40:05.594439 [36m[1mI[0m [43723:70365763221560] [36mActionController[0m -- Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+2014-08-04 23:51:58.497064 [36m[1mI[0m [43723:70365749033720] [36mActionController[0m -- Processing by ProductsController#index as HTML
+2014-08-04 23:51:58.499447 [32m[1mD[0m [43723:70365749033720] [32mActiveRecord[0m --   [1m[36mUser Load (1.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 3 LIMIT 1[0m
+2014-08-04 23:51:59.907326 [36m[1mI[0m [43723:70365749033720] [36mActionController[0m -- Completed 200 OK in 1410ms (Views: 6.4ms | ActiveRecord: 1.2ms)
+2014-08-04 23:52:40.915810 [36m[1mI[0m [43723:70365743565940] [36mActionController[0m -- Processing by ProductsController#index as HTML
+2014-08-04 23:52:40.927490 [32m[1mD[0m [43723:70365743565940] [32mActiveRecord[0m --   [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 3 LIMIT 1
+2014-08-04 23:52:42.108306 [36m[1mI[0m [43723:70365743565940] [36mActionController[0m -- Completed 200 OK in 1192ms (Views: 4.5ms | ActiveRecord: 0.5ms)
+2014-08-04 23:52:57.112926 [36m[1mI[0m [43723:70365743565940] [36mActionController[0m -- Processing by ProductsController#index as HTML
+2014-08-04 23:52:57.116234 [32m[1mD[0m [43723:70365743565940] [32mActiveRecord[0m --   [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 3 LIMIT 1[0m
+2014-08-04 23:52:58.019595 [36m[1mI[0m [43723:70365743565940] [36mActionController[0m -- Completed 200 OK in 907ms (Views: 11.1ms | ActiveRecord: 0.6ms)
+2014-08-04 23:53:16.619723 [36m[1mI[0m [43723:70365743565940] [36mActionController[0m -- Processing by ProductsController#index as HTML
+2014-08-04 23:53:16.622528 [32m[1mD[0m [43723:70365743565940] [32mActiveRecord[0m --   [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 3 LIMIT 1
+2014-08-04 23:53:17.493215 [36m[1mI[0m [43723:70365743565940] [36mActionController[0m -- Completed 200 OK in 872ms (Views: 10.9ms | ActiveRecord: 0.5ms)
+2014-08-04 23:53:45.126413 [36m[1mI[0m [43723:70365748433860] [36mActionController[0m -- Processing by ProductsController#index as HTML
+2014-08-04 23:53:45.128191 [32m[1mD[0m [43723:70365748433860] [32mActiveRecord[0m --   [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 3 LIMIT 1[0m
+2014-08-04 23:53:46.252686 [36m[1mI[0m [43723:70365748433860] [36mActionController[0m -- Completed 200 OK in 1126ms (Views: 2.7ms | ActiveRecord: 0.5ms)
+2014-08-04 23:54:48.016149 [36m[1mI[0m [43723:70365764295700] [36mActionController[0m -- Processing by ProductsController#index as HTML
+2014-08-04 23:54:48.017811 [32m[1mD[0m [43723:70365764295700] [32mActiveRecord[0m --   [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 3 LIMIT 1
+2014-08-04 23:54:48.894936 [36m[1mI[0m [43723:70365764295700] [36mActionController[0m -- Completed 200 OK in 879ms (Views: 2.4ms | ActiveRecord: 0.5ms)
+2014-08-05 00:02:13.921059 [36m[1mI[0m [43723:70365764033640] [36mActionController[0m -- Processing by ProductsController#index as HTML
+2014-08-05 00:02:13.922731 [32m[1mD[0m [43723:70365764033640] [32mActiveRecord[0m --   [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 3 LIMIT 1[0m
+2014-08-05 00:02:14.754228 [36m[1mI[0m [43723:70365764033640] [36mActionController[0m -- Completed 200 OK in 833ms (Views: 2.7ms | ActiveRecord: 0.5ms)
+2014-08-05 00:02:18.354541 [36m[1mI[0m [43723:70365764033640] [36mActionController[0m -- Processing by BudgetsController#new as HTML
+2014-08-05 00:02:18.357898 [32m[1mD[0m [43723:70365764033640] [32mActiveRecord[0m --   [1m[35mUser Load (1.6ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 3 LIMIT 1
+2014-08-05 00:02:20.249041 [36m[1mI[0m [43723:70365764033640] [36mActionController[0m -- Completed 200 OK in 1894ms (Views: 12.2ms | ActiveRecord: 1.6ms)
+2014-08-05 00:06:56.239668 [36m[1mI[0m [43723:70365763049300] [36mActionController[0m -- Processing by BudgetsController#new as HTML
+2014-08-05 00:06:56.241917 [32m[1mD[0m [43723:70365763049300] [32mActiveRecord[0m --   [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 3 LIMIT 1[0m
+2014-08-05 00:06:58.093314 [36m[1mI[0m [43723:70365763049300] [36mActionController[0m -- Completed 200 OK in 1854ms (Views: 56.2ms | ActiveRecord: 0.5ms)
+2014-08-05 00:07:02.124098 [36m[1mI[0m [43723:70365747757380] [36mActionController[0m -- Processing by BudgetsController#create as HTML
+2014-08-05 00:07:02.124172 [36m[1mI[0m [43723:70365747757380] [36mActionController[0m --   Parameters: {"utf8"=>"✓", "authenticity_token"=>"LSwLnlOU9D9dKtFAv18y64NeuliLc/ykGUXPEi2qLdE=", "budget"=>{"income"=>"", "savings"=>"", "housing"=>"", "utilities"=>"", "food"=>"", "transportation"=>"", "clothing"=>"", "personal"=>"", "recreation"=>"", "debt"=>"", "kids"=>"", "session"=>"test"}, "commit"=>"Create Budget"}
+2014-08-05 00:07:02.130638 [32m[1mD[0m [43723:70365747757380] [32mActiveRecord[0m --   [1m[35mUser Load (5.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 3 LIMIT 1
+2014-08-05 00:07:02.135426 [32m[1mD[0m [43723:70365747757380] [32mActiveRecord[0m --   [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+2014-08-05 00:07:02.173468 [32m[1mD[0m [43723:70365747757380] [32mActiveRecord[0m --   [1m[35mSQL (35.7ms)[0m  INSERT INTO "budgets" ("created_at", "session", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", "2014-08-05 04:07:02.135643"], ["session", "test"], ["updated_at", "2014-08-05 04:07:02.135643"]]
+2014-08-05 00:07:02.191285 [32m[1mD[0m [43723:70365747757380] [32mActiveRecord[0m --   [1m[36m (17.4ms)[0m  [1mCOMMIT[0m
+2014-08-05 00:07:02.193406 [36m[1mI[0m [43723:70365747757380] [36mActionController[0m -- Redirected to http://localhost:3000/budgets/1
+2014-08-05 00:07:02.193594 [36m[1mI[0m [43723:70365747757380] [36mActionController[0m -- Completed 302 Found in 69ms (ActiveRecord: 58.2ms)
+2014-08-05 00:07:02.203183 [36m[1mI[0m [43723:70365747757380] [36mActionController[0m -- Processing by BudgetsController#show as HTML
+2014-08-05 00:07:02.203216 [36m[1mI[0m [43723:70365747757380] [36mActionController[0m --   Parameters: {"id"=>"1"}
+2014-08-05 00:07:02.205029 [32m[1mD[0m [43723:70365747757380] [32mActiveRecord[0m --   [1m[35mUser Load (0.8ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 3 LIMIT 1
+2014-08-05 00:07:02.209793 [32m[1mD[0m [43723:70365747757380] [32mActiveRecord[0m --   [1m[36mBudget Load (3.5ms)[0m  [1mSELECT  "budgets".* FROM "budgets"  WHERE "budgets"."id" = $1 LIMIT 1[0m  [["id", 1]]
+2014-08-05 00:07:02.210693 [32m[1mD[0m [43723:70365747757380] [32mActiveRecord[0m --   [1m[35mCACHE (0.0ms)[0m  SELECT  "budgets".* FROM "budgets"  WHERE "budgets"."id" = $1 LIMIT 1  [["id", "1"]]
+2014-08-05 00:07:02.211349 [36m[1mI[0m [43723:70365747757380] [36mActionController[0m -- Completed 500 Internal Server Error in 8ms
+2014-08-05 00:07:08.763706 [36m[1mI[0m [43723:70365747757380] [36mActionController[0m -- Processing by ProductsController#index as HTML
+2014-08-05 00:07:08.765323 [32m[1mD[0m [43723:70365747757380] [32mActiveRecord[0m --   [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 3 LIMIT 1[0m
+2014-08-05 00:07:10.183678 [36m[1mI[0m [43723:70365747757380] [36mActionController[0m -- Completed 200 OK in 1420ms (Views: 3.4ms | ActiveRecord: 0.4ms)
+2014-08-05 00:10:59.943525 [36m[1mI[0m [43723:70365748634860] [36mActionController[0m -- Processing by BudgetsController#new as HTML
+2014-08-05 00:10:59.947146 [32m[1mD[0m [43723:70365748634860] [32mActiveRecord[0m --   [1m[35mUser Load (2.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 3 LIMIT 1
+2014-08-05 00:11:01.745838 [36m[1mI[0m [43723:70365748634860] [36mActionController[0m -- Completed 200 OK in 1802ms (Views: 42.7ms | ActiveRecord: 2.2ms)
+2014-08-05 00:11:12.465220 [36m[1mI[0m [43723:70365748634860] [36mActionController[0m -- Processing by BudgetsController#index as HTML
+2014-08-05 00:11:12.466833 [32m[1mD[0m [43723:70365748634860] [32mActiveRecord[0m --   [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 3 LIMIT 1[0m
+2014-08-05 00:11:12.495364 [32m[1mD[0m [43723:70365748634860] [32mActiveRecord[0m --   [1m[35mBudget Load (2.0ms)[0m  SELECT "budgets".* FROM "budgets"  WHERE "budgets"."session" = 'test'
+2014-08-05 00:11:12.499121 [36m[1mI[0m [43723:70365748634860] [36mActionController[0m -- Completed 200 OK in 34ms (Views: 29.6ms | ActiveRecord: 2.4ms)
+2014-08-05 00:11:20.996827 [36m[1mI[0m [43723:70365748634860] [36mActionController[0m -- Processing by BudgetsController#edit as HTML
+2014-08-05 00:11:20.996872 [36m[1mI[0m [43723:70365748634860] [36mActionController[0m --   Parameters: {"id"=>"1"}
+2014-08-05 00:11:21.001921 [32m[1mD[0m [43723:70365748634860] [32mActiveRecord[0m --   [1m[36mUser Load (3.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 3 LIMIT 1[0m
+2014-08-05 00:11:21.003641 [32m[1mD[0m [43723:70365748634860] [32mActiveRecord[0m --   [1m[35mBudget Load (0.5ms)[0m  SELECT  "budgets".* FROM "budgets"  WHERE "budgets"."id" = $1 LIMIT 1  [["id", 1]]
+2014-08-05 00:11:21.044195 [36m[1mI[0m [43723:70365748634860] [36mActionController[0m -- Completed 200 OK in 47ms (Views: 39.8ms | ActiveRecord: 4.0ms)
+2014-08-05 00:11:25.986078 [36m[1mI[0m [43723:70365748634860] [36mActionController[0m -- Processing by BudgetsController#update as HTML
+2014-08-05 00:11:25.986151 [36m[1mI[0m [43723:70365748634860] [36mActionController[0m --   Parameters: {"utf8"=>"✓", "authenticity_token"=>"LSwLnlOU9D9dKtFAv18y64NeuliLc/ykGUXPEi2qLdE=", "budget"=>{"income"=>"", "savings"=>"sadfasdf", "housing"=>"", "utilities"=>"", "food"=>"", "transportation"=>"", "clothing"=>"", "personal"=>"", "recreation"=>"", "debt"=>"", "kids"=>"", "session"=>"test"}, "commit"=>"Update Budget", "id"=>"1"}
+2014-08-05 00:11:25.991436 [32m[1mD[0m [43723:70365748634860] [32mActiveRecord[0m --   [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 3 LIMIT 1[0m
+2014-08-05 00:11:25.994424 [32m[1mD[0m [43723:70365748634860] [32mActiveRecord[0m --   [1m[35mBudget Load (1.1ms)[0m  SELECT  "budgets".* FROM "budgets"  WHERE "budgets"."id" = $1 LIMIT 1  [["id", 1]]
+2014-08-05 00:11:25.996171 [32m[1mD[0m [43723:70365748634860] [32mActiveRecord[0m --   [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+2014-08-05 00:11:26.000357 [32m[1mD[0m [43723:70365748634860] [32mActiveRecord[0m --   [1m[35mSQL (0.4ms)[0m  UPDATE "budgets" SET "savings" = $1, "updated_at" = $2 WHERE "budgets"."id" = 1  [["savings", "0.0"], ["updated_at", "2014-08-05 04:11:25.996865"]]
+2014-08-05 00:11:26.001020 [32m[1mD[0m [43723:70365748634860] [32mActiveRecord[0m --   [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+2014-08-05 00:11:26.001986 [36m[1mI[0m [43723:70365748634860] [36mActionController[0m -- Redirected to http://localhost:3000/budgets/1
+2014-08-05 00:11:26.002139 [36m[1mI[0m [43723:70365748634860] [36mActionController[0m -- Completed 302 Found in 16ms (ActiveRecord: 2.7ms)
+2014-08-05 00:11:26.023662 [36m[1mI[0m [43723:70365748634860] [36mActionController[0m -- Processing by BudgetsController#show as HTML
+2014-08-05 00:11:26.023697 [36m[1mI[0m [43723:70365748634860] [36mActionController[0m --   Parameters: {"id"=>"1"}
+2014-08-05 00:11:26.025695 [32m[1mD[0m [43723:70365748634860] [32mActiveRecord[0m --   [1m[35mUser Load (0.8ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 3 LIMIT 1
+2014-08-05 00:11:26.027220 [32m[1mD[0m [43723:70365748634860] [32mActiveRecord[0m --   [1m[36mBudget Load (0.8ms)[0m  [1mSELECT  "budgets".* FROM "budgets"  WHERE "budgets"."id" = $1 LIMIT 1[0m  [["id", 1]]
+2014-08-05 00:11:26.028013 [32m[1mD[0m [43723:70365748634860] [32mActiveRecord[0m --   [1m[35mCACHE (0.0ms)[0m  SELECT  "budgets".* FROM "budgets"  WHERE "budgets"."id" = $1 LIMIT 1  [["id", "1"]]
+2014-08-05 00:11:26.028525 [36m[1mI[0m [43723:70365748634860] [36mActionController[0m -- Completed 500 Internal Server Error in 5ms
+2014-08-05 00:20:11.311326 [36m[1mI[0m [43723:70365771949580] [36mActionController[0m -- Processing by BudgetsController#index as HTML
+2014-08-05 00:20:11.313787 [32m[1mD[0m [43723:70365771949580] [32mActiveRecord[0m --   [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 3 LIMIT 1[0m
+2014-08-05 00:20:11.390286 [32m[1mD[0m [43723:70365771949580] [32mActiveRecord[0m --   [1m[35mBudget Load (0.4ms)[0m  SELECT "budgets".* FROM "budgets"  WHERE "budgets"."session" = 'test'
+2014-08-05 00:20:11.395867 [36m[1mI[0m [43723:70365771949580] [36mActionController[0m -- Completed 200 OK in 84ms (Views: 80.9ms | ActiveRecord: 0.8ms)
+2014-08-05 00:20:13.169059 [36m[1mI[0m [43723:70365771949580] [36mActionController[0m -- Processing by ProductsController#index as HTML
+2014-08-05 00:20:13.173057 [32m[1mD[0m [43723:70365771949580] [32mActiveRecord[0m --   [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 3 LIMIT 1[0m
+2014-08-05 00:20:14.843082 [36m[1mI[0m [43723:70365771949580] [36mActionController[0m -- Completed 200 OK in 1674ms (Views: 9.2ms | ActiveRecord: 0.4ms)
+2014-08-05 00:20:16.396701 [36m[1mI[0m [43723:70365771949580] [36mActionController[0m -- Processing by SessionsController#destroy as HTML
+2014-08-05 00:20:16.396795 [36m[1mI[0m [43723:70365771949580] [36mActionController[0m --   Parameters: {"authenticity_token"=>"LSwLnlOU9D9dKtFAv18y64NeuliLc/ykGUXPEi2qLdE="}
+2014-08-05 00:20:16.397905 [36m[1mI[0m [43723:70365771949580] [36mActionController[0m -- Redirected to http://localhost:3000/login
+2014-08-05 00:20:16.398076 [36m[1mI[0m [43723:70365771949580] [36mActionController[0m -- Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+2014-08-05 00:20:16.414352 [36m[1mI[0m [43723:70365771949580] [36mActionController[0m -- Processing by SessionsController#new as HTML
+2014-08-05 00:20:16.420247 [36m[1mI[0m [43723:70365771949580] [36mActionController[0m -- Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+2014-08-05 00:20:19.475733 [36m[1mI[0m [43723:70365771949580] [36mActionController[0m -- Processing by SessionsController#create as HTML
+2014-08-05 00:20:19.475787 [36m[1mI[0m [43723:70365771949580] [36mActionController[0m --   Parameters: {"utf8"=>"✓", "authenticity_token"=>"LSwLnlOU9D9dKtFAv18y64NeuliLc/ykGUXPEi2qLdE=", "name"=>"afsdf", "password"=>"[FILTERED]", "commit"=>"Login"}
+2014-08-05 00:20:19.480054 [32m[1mD[0m [43723:70365771949580] [32mActiveRecord[0m --   [1m[35mUser Load (2.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."name" = 'afsdf' LIMIT 1
+2014-08-05 00:20:19.481069 [36m[1mI[0m [43723:70365771949580] [36mActionController[0m -- Redirected to http://localhost:3000/login
+2014-08-05 00:20:19.481411 [36m[1mI[0m [43723:70365771949580] [36mActionController[0m -- Completed 302 Found in 5ms (ActiveRecord: 2.0ms)
+2014-08-05 00:20:19.492292 [36m[1mI[0m [43723:70365771949580] [36mActionController[0m -- Processing by SessionsController#new as HTML
+2014-08-05 00:20:19.502367 [36m[1mI[0m [43723:70365771949580] [36mActionController[0m -- Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms)
