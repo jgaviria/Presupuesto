@@ -1,5 +1,6 @@
 Rails.application.configure do
 
+
   require 'mongo'
   config.after_initialize do
     # Re-use the existing MongoDB connection, or create a new one here

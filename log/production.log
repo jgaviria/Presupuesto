@@ -308,3 +308,17 @@
 2014-08-05 00:20:19.481411 [36m[1mI[0m [43723:70365771949580] [36mActionController[0m -- Completed 302 Found in 5ms (ActiveRecord: 2.0ms)
 2014-08-05 00:20:19.492292 [36m[1mI[0m [43723:70365771949580] [36mActionController[0m -- Processing by SessionsController#new as HTML
 2014-08-05 00:20:19.502367 [36m[1mI[0m [43723:70365771949580] [36mActionController[0m -- Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+2014-08-05 00:30:16.572883 [36m[1mI[0m [43723:70365770887460] [36mActionController[0m -- Processing by SessionsController#create as HTML
+2014-08-05 00:30:16.572986 [36m[1mI[0m [43723:70365770887460] [36mActionController[0m --   Parameters: {"utf8"=>"✓", "authenticity_token"=>"LSwLnlOU9D9dKtFAv18y64NeuliLc/ykGUXPEi2qLdE=", "name"=>"", "password"=>"[FILTERED]", "commit"=>"Login"}
+2014-08-05 00:30:16.580013 [32m[1mD[0m [43723:70365770887460] [32mActiveRecord[0m --   [1m[36mUser Load (5.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."name" = '' LIMIT 1[0m
+2014-08-05 00:30:16.594318 [36m[1mI[0m [43723:70365770887460] [36mActionController[0m -- Redirected to http://localhost:3000/login
+2014-08-05 00:30:16.594508 [36m[1mI[0m [43723:70365770887460] [36mActionController[0m -- Completed 302 Found in 21ms (ActiveRecord: 5.5ms)
+2014-08-05 00:30:16.615630 [36m[1mI[0m [43723:70365770887460] [36mActionController[0m -- Processing by SessionsController#new as HTML
+2014-08-05 00:30:16.620030 [36m[1mI[0m [43723:70365770887460] [36mActionController[0m -- Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+2014-08-05 00:30:23.675684 [36m[1mI[0m [43723:70365770887460] [36mActionController[0m -- Processing by BudgetsController#new as HTML
+2014-08-05 00:30:23.678607 [32m[1mD[0m [43723:70365770887460] [32mActiveRecord[0m --   [1m[35mUser Load (1.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" IS NULL LIMIT 1
+2014-08-05 00:30:23.679167 [36m[1mI[0m [43723:70365770887460] [36mActionController[0m -- Redirected to http://localhost:3000/login
+2014-08-05 00:30:23.679231 [36m[1mI[0m [43723:70365770887460] [36mActionController[0m -- Filter chain halted as :authorize rendered or redirected
+2014-08-05 00:30:23.679346 [36m[1mI[0m [43723:70365770887460] [36mActionController[0m -- Completed 302 Found in 4ms (ActiveRecord: 1.2ms)
+2014-08-05 00:30:23.710480 [36m[1mI[0m [43723:70365770887460] [36mActionController[0m -- Processing by SessionsController#new as HTML
+2014-08-05 00:30:23.714757 [36m[1mI[0m [43723:70365770887460] [36mActionController[0m -- Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
