@@ -322,3 +322,221 @@
 2014-08-05 00:30:23.679346 [36m[1mI[0m [43723:70365770887460] [36mActionController[0m -- Completed 302 Found in 4ms (ActiveRecord: 1.2ms)
 2014-08-05 00:30:23.710480 [36m[1mI[0m [43723:70365770887460] [36mActionController[0m -- Processing by SessionsController#new as HTML
 2014-08-05 00:30:23.714757 [36m[1mI[0m [43723:70365770887460] [36mActionController[0m -- Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+2014-08-05 13:30:42.594602 D [43723:70365741243360] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-05 13:30:42.594788 D [43723:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-05 13:30:42.594852 D [43723:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::MongoDB
+2014-08-05 13:30:42.595805 D [43723:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-05 13:30:42.595934 D [43723:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-05 20:58:11.729484 D [49927:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-05 20:58:11.806242 D [49927:70254130813920] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-05 20:58:11.806425 D [49927:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-05 20:58:11.806482 D [49927:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-05 20:58:11.806568 D [49927:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-05 20:59:38.270459 D [49938:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-05 20:59:38.345051 D [49938:70277358869480] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-05 20:59:38.345254 D [49938:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-05 20:59:38.345329 D [49938:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-05 20:59:38.345430 D [49938:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-05 21:00:46.717776 D [49947:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-05 21:00:46.774514 D [49947:70264406858720] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-05 21:00:46.774672 D [49947:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-05 21:00:46.774732 D [49947:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-05 21:00:46.774801 D [49947:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-05 21:03:03.626688 D [49960:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-05 21:04:05.439167 [36m[1mI[0m [49960:70207586237120] [36mActionController[0m -- Processing by BudgetsController#new as HTML
+2014-08-05 21:04:05.470441 [32m[1mD[0m [49960:70207586237120] [32mActiveRecord[0m --   [1m[36mUser Load (15.8ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" IS NULL LIMIT 1[0m
+2014-08-05 21:04:05.471437 [36m[1mI[0m [49960:70207586237120] [36mActionController[0m -- Redirected to http://localhost:3000/login
+2014-08-05 21:04:05.471547 [36m[1mI[0m [49960:70207586237120] [36mActionController[0m -- Filter chain halted as :authorize rendered or redirected
+2014-08-05 21:04:05.471691 [36m[1mI[0m [49960:70207586237120] [36mActionController[0m -- Completed 302 Found in 32ms (ActiveRecord: 15.8ms)
+2014-08-05 21:04:05.495502 [36m[1mI[0m [49960:70207586237120] [36mActionController[0m -- Processing by SessionsController#new as HTML
+2014-08-05 21:04:05.545835 [36m[1mI[0m [49960:70207586237120] [36mActionController[0m -- Completed 200 OK in 50ms (Views: 49.5ms | ActiveRecord: 0.0ms)
+2014-08-05 21:04:08.634877 [36m[1mI[0m [49960:70207586237120] [36mActionController[0m -- Processing by SessionsController#create as HTML
+2014-08-05 21:04:08.634948 [36m[1mI[0m [49960:70207586237120] [36mActionController[0m --   Parameters: {"utf8"=>"✓", "authenticity_token"=>"LSwLnlOU9D9dKtFAv18y64NeuliLc/ykGUXPEi2qLdE=", "name"=>"", "password"=>"[FILTERED]", "commit"=>"Login"}
+2014-08-05 21:04:08.781542 [32m[1mD[0m [49960:70207586237120] [32mActiveRecord[0m --   [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."name" = '' LIMIT 1
+2014-08-05 21:04:08.782152 [36m[1mI[0m [49960:70207586237120] [36mActionController[0m -- Redirected to http://localhost:3000/login
+2014-08-05 21:04:08.782585 [36m[1mI[0m [49960:70207586237120] [36mActionController[0m -- Completed 302 Found in 147ms (ActiveRecord: 141.7ms)
+2014-08-05 21:04:08.795264 [36m[1mI[0m [49960:70207586237120] [36mActionController[0m -- Processing by SessionsController#new as HTML
+2014-08-05 21:04:08.802021 [36m[1mI[0m [49960:70207586237120] [36mActionController[0m -- Completed 200 OK in 7ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+2014-08-05 21:06:41.937806 [36m[1mI[0m [49960:70207605291660] [36mActionController[0m -- Processing by SessionsController#create as HTML
+2014-08-05 21:06:41.937855 [36m[1mI[0m [49960:70207605291660] [36mActionController[0m --   Parameters: {"utf8"=>"✓", "authenticity_token"=>"LSwLnlOU9D9dKtFAv18y64NeuliLc/ykGUXPEi2qLdE=", "name"=>"juan ", "password"=>"[FILTERED]", "commit"=>"Login"}
+2014-08-05 21:06:41.942356 [32m[1mD[0m [49960:70207605291660] [32mActiveRecord[0m --   [1m[36mUser Load (3.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."name" = 'juan ' LIMIT 1[0m
+2014-08-05 21:06:41.942936 [36m[1mI[0m [49960:70207605291660] [36mActionController[0m -- Redirected to http://localhost:3000/login
+2014-08-05 21:06:41.943071 [36m[1mI[0m [49960:70207605291660] [36mActionController[0m -- Completed 302 Found in 5ms (ActiveRecord: 3.3ms)
+2014-08-05 21:06:41.954409 [36m[1mI[0m [49960:70207605291660] [36mActionController[0m -- Processing by SessionsController#new as HTML
+2014-08-05 21:06:41.971030 [36m[1mI[0m [49960:70207605291660] [36mActionController[0m -- Completed 200 OK in 16ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+2014-08-05 21:06:47.100692 [36m[1mI[0m [49960:70207605291660] [36mActionController[0m -- Processing by SessionsController#create as HTML
+2014-08-05 21:06:47.100737 [36m[1mI[0m [49960:70207605291660] [36mActionController[0m --   Parameters: {"utf8"=>"✓", "authenticity_token"=>"LSwLnlOU9D9dKtFAv18y64NeuliLc/ykGUXPEi2qLdE=", "name"=>"juan ", "password"=>"[FILTERED]", "commit"=>"Login"}
+2014-08-05 21:06:47.105238 [32m[1mD[0m [49960:70207605291660] [32mActiveRecord[0m --   [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."name" = 'juan ' LIMIT 1
+2014-08-05 21:06:47.105976 [36m[1mI[0m [49960:70207605291660] [36mActionController[0m -- Redirected to http://localhost:3000/login
+2014-08-05 21:06:47.106207 [36m[1mI[0m [49960:70207605291660] [36mActionController[0m -- Completed 302 Found in 5ms (ActiveRecord: 1.0ms)
+2014-08-05 21:06:47.116879 [36m[1mI[0m [49960:70207605291660] [36mActionController[0m -- Processing by SessionsController#new as HTML
+2014-08-05 21:06:47.120783 [36m[1mI[0m [49960:70207605291660] [36mActionController[0m -- Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+2014-08-05 21:06:51.520762 [36m[1mI[0m [49960:70207605291660] [36mActionController[0m -- Processing by ProductsController#index as HTML
+2014-08-05 21:06:51.522501 [32m[1mD[0m [49960:70207605291660] [32mActiveRecord[0m --   [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" IS NULL LIMIT 1[0m
+2014-08-05 21:06:51.523056 [36m[1mI[0m [49960:70207605291660] [36mActionController[0m -- Redirected to http://localhost:3000/login
+2014-08-05 21:06:51.523115 [36m[1mI[0m [49960:70207605291660] [36mActionController[0m -- Filter chain halted as :authorize rendered or redirected
+2014-08-05 21:06:51.523229 [36m[1mI[0m [49960:70207605291660] [36mActionController[0m -- Completed 302 Found in 2ms (ActiveRecord: 0.4ms)
+2014-08-05 21:06:51.538689 [36m[1mI[0m [49960:70207605291660] [36mActionController[0m -- Processing by SessionsController#new as HTML
+2014-08-05 21:06:51.549279 [36m[1mI[0m [49960:70207605291660] [36mActionController[0m -- Completed 200 OK in 9ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+2014-08-05 21:06:53.401700 [36m[1mI[0m [49960:70207605291660] [36mActionController[0m -- Processing by ProductsController#index as HTML
+2014-08-05 21:06:53.405985 [32m[1mD[0m [49960:70207605291660] [32mActiveRecord[0m --   [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" IS NULL LIMIT 1
+2014-08-05 21:06:53.406672 [36m[1mI[0m [49960:70207605291660] [36mActionController[0m -- Redirected to http://localhost:3000/login
+2014-08-05 21:06:53.406730 [36m[1mI[0m [49960:70207605291660] [36mActionController[0m -- Filter chain halted as :authorize rendered or redirected
+2014-08-05 21:06:53.407016 [36m[1mI[0m [49960:70207605291660] [36mActionController[0m -- Completed 302 Found in 5ms (ActiveRecord: 0.4ms)
+2014-08-05 21:06:53.417897 [36m[1mI[0m [49960:70207605291660] [36mActionController[0m -- Processing by SessionsController#new as HTML
+2014-08-05 21:06:53.421697 [36m[1mI[0m [49960:70207605291660] [36mActionController[0m -- Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+2014-08-05 21:06:56.077378 [36m[1mI[0m [49960:70207605291660] [36mActionController[0m -- Processing by UsersController#new as HTML
+2014-08-05 21:06:56.272142 [36m[1mI[0m [49960:70207605291660] [36mActionController[0m -- Completed 200 OK in 195ms (Views: 154.6ms | ActiveRecord: 37.9ms)
+2014-08-05 21:07:00.343111 [36m[1mI[0m [49960:70207605291660] [36mActionController[0m -- Processing by UsersController#create as HTML
+2014-08-05 21:07:00.343161 [36m[1mI[0m [49960:70207605291660] [36mActionController[0m --   Parameters: {"utf8"=>"✓", "authenticity_token"=>"LSwLnlOU9D9dKtFAv18y64NeuliLc/ykGUXPEi2qLdE=", "user"=>{"name"=>"juan ", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+2014-08-05 21:07:00.463322 [32m[1mD[0m [49960:70207605291660] [32mActiveRecord[0m --   [1m[36m (0.6ms)[0m  [1mBEGIN[0m
+2014-08-05 21:07:00.487718 [32m[1mD[0m [49960:70207605291660] [32mActiveRecord[0m --   [1m[35mUser Exists (0.4ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."name" = 'juan ' LIMIT 1
+2014-08-05 21:07:00.489712 [32m[1mD[0m [49960:70207605291660] [32mActiveRecord[0m --   [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+2014-08-05 21:07:00.504275 [36m[1mI[0m [49960:70207605291660] [36mActionController[0m -- Completed 200 OK in 161ms (Views: 13.6ms | ActiveRecord: 1.4ms)
+2014-08-05 21:07:07.380482 [36m[1mI[0m [49960:70207605291660] [36mActionController[0m -- Processing by UsersController#create as HTML
+2014-08-05 21:07:07.380548 [36m[1mI[0m [49960:70207605291660] [36mActionController[0m --   Parameters: {"utf8"=>"✓", "authenticity_token"=>"LSwLnlOU9D9dKtFAv18y64NeuliLc/ykGUXPEi2qLdE=", "user"=>{"name"=>"juan ", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+2014-08-05 21:07:07.495890 [32m[1mD[0m [49960:70207605291660] [32mActiveRecord[0m --   [1m[35m (0.6ms)[0m  BEGIN
+2014-08-05 21:07:07.497567 [32m[1mD[0m [49960:70207605291660] [32mActiveRecord[0m --   [1m[36mUser Exists (0.6ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."name" = 'juan ' LIMIT 1[0m
+2014-08-05 21:07:07.517476 [32m[1mD[0m [49960:70207605291660] [32mActiveRecord[0m --   [1m[35mSQL (0.6ms)[0m  INSERT INTO "users" ("created_at", "name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", "2014-08-06 01:07:07.497921"], ["name", "juan "], ["password_digest", "$2a$10$.NrvzTVuchI7HRZvRpBZceh4tC6v6BHtQdCmjt6QGW6/SJacCwkvm"], ["updated_at", "2014-08-06 01:07:07.497921"]]
+2014-08-05 21:07:07.581837 [32m[1mD[0m [49960:70207605291660] [32mActiveRecord[0m --   [1m[36m (63.9ms)[0m  [1mCOMMIT[0m
+2014-08-05 21:07:07.582980 [36m[1mI[0m [49960:70207605291660] [36mActionController[0m -- Redirected to http://localhost:3000/sessions/create
+2014-08-05 21:07:07.587123 [36m[1mI[0m [49960:70207605291660] [36mActionController[0m -- Completed 302 Found in 203ms (ActiveRecord: 66.4ms)
+2014-08-05 21:07:07.601170 [36m[1mI[0m [49960:70207605291660] [36mActionController[0m -- Processing by SessionsController#create as HTML
+2014-08-05 21:07:07.604168 [32m[1mD[0m [49960:70207605291660] [32mActiveRecord[0m --   [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."name" IS NULL LIMIT 1
+2014-08-05 21:07:07.604740 [36m[1mI[0m [49960:70207605291660] [36mActionController[0m -- Redirected to http://localhost:3000/login
+2014-08-05 21:07:07.604876 [36m[1mI[0m [49960:70207605291660] [36mActionController[0m -- Completed 302 Found in 4ms (ActiveRecord: 1.0ms)
+2014-08-05 21:07:07.612268 [36m[1mI[0m [49960:70207605291660] [36mActionController[0m -- Processing by SessionsController#new as HTML
+2014-08-05 21:07:07.617514 [36m[1mI[0m [49960:70207605291660] [36mActionController[0m -- Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+2014-08-05 21:07:12.521256 [36m[1mI[0m [49960:70207605291660] [36mActionController[0m -- Processing by SessionsController#create as HTML
+2014-08-05 21:07:12.521318 [36m[1mI[0m [49960:70207605291660] [36mActionController[0m --   Parameters: {"utf8"=>"✓", "authenticity_token"=>"LSwLnlOU9D9dKtFAv18y64NeuliLc/ykGUXPEi2qLdE=", "name"=>"juan ", "password"=>"[FILTERED]", "commit"=>"Login"}
+2014-08-05 21:07:12.525740 [32m[1mD[0m [49960:70207605291660] [32mActiveRecord[0m --   [1m[36mUser Load (3.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."name" = 'juan ' LIMIT 1[0m
+2014-08-05 21:07:12.629737 [36m[1mI[0m [49960:70207605291660] [36mActionController[0m -- Redirected to http://localhost:3000/admin
+2014-08-05 21:07:12.629904 [36m[1mI[0m [49960:70207605291660] [36mActionController[0m -- Completed 302 Found in 109ms (ActiveRecord: 3.0ms)
+2014-08-05 21:07:12.641804 [36m[1mI[0m [49960:70207605291660] [36mActionController[0m -- Processing by AdminController#index as HTML
+2014-08-05 21:07:12.644169 [32m[1mD[0m [49960:70207605291660] [32mActiveRecord[0m --   [1m[35mUser Load (1.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 4 LIMIT 1
+2014-08-05 21:07:12.671148 [36m[1mI[0m [49960:70207605291660] [36mActionController[0m -- Completed 200 OK in 29ms (Views: 26.5ms | ActiveRecord: 1.1ms)
+2014-08-05 21:11:16.365231 [36m[1mI[0m [49960:70207585079920] [36mActionController[0m -- Processing by ProductsController#index as HTML
+2014-08-05 21:11:16.367102 [32m[1mD[0m [49960:70207585079920] [32mActiveRecord[0m --   [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 4 LIMIT 1[0m
+2014-08-05 21:11:53.293525 [36m[1mI[0m [49960:70207585079920] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:11:53.299348 [36m[1mI[0m [49960:70207585079920] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:11:53.303811 [36m[1mI[0m [49960:70207585079920] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:11:53.308834 [36m[1mI[0m [49960:70207585079920] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:11:53.313727 [36m[1mI[0m [49960:70207585079920] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:11:53.318736 [36m[1mI[0m [49960:70207585079920] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:11:53.323575 [36m[1mI[0m [49960:70207585079920] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:11:53.328660 [36m[1mI[0m [49960:70207585079920] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:11:53.333925 [36m[1mI[0m [49960:70207585079920] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:11:53.339284 [36m[1mI[0m [49960:70207585079920] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:11:53.359019 [36m[1mI[0m [49960:70207585079920] [36mActionController[0m -- Completed 200 OK in 36994ms (Views: 19.3ms | ActiveRecord: 0.4ms)
+2014-08-05 21:11:53.364223 [36m[1mI[0m [49960:70207594898020] [36mActionController[0m -- Processing by ProductsController#index as HTML
+2014-08-05 21:11:53.368565 [32m[1mD[0m [49960:70207594898020] [32mActiveRecord[0m --   [1m[35mUser Load (3.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 4 LIMIT 1
+2014-08-05 21:11:54.361670 [36m[1mI[0m [49960:70207594898020] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:11:54.369408 [36m[1mI[0m [49960:70207594898020] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:11:54.376539 [36m[1mI[0m [49960:70207594898020] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:11:54.382821 [36m[1mI[0m [49960:70207594898020] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:11:54.389098 [36m[1mI[0m [49960:70207594898020] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:11:54.396055 [36m[1mI[0m [49960:70207594898020] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:11:54.403080 [36m[1mI[0m [49960:70207594898020] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:11:54.410368 [36m[1mI[0m [49960:70207594898020] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:11:54.417554 [36m[1mI[0m [49960:70207594898020] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:11:54.424875 [36m[1mI[0m [49960:70207594898020] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:11:54.428589 [36m[1mI[0m [49960:70207594898020] [36mActionController[0m -- Completed 200 OK in 1064ms (Views: 3.3ms | ActiveRecord: 3.0ms)
+2014-08-05 21:25:00.909390 [36m[1mI[0m [49960:70207628614760] [36mActionController[0m -- Processing by BudgetsController#new as HTML
+2014-08-05 21:25:00.921730 [32m[1mD[0m [49960:70207628614760] [32mActiveRecord[0m --   [1m[36mUser Load (11.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 4 LIMIT 1[0m
+2014-08-05 21:25:08.430091 [36m[1mI[0m [49960:70207628614760] [36mActionController[0m -- Completed 200 OK in 7521ms (Views: 73.0ms | ActiveRecord: 52.5ms)
+2014-08-05 21:25:10.516101 [36m[1mI[0m [49960:70207628614760] [36mActionController[0m -- Processing by ProductsController#index as HTML
+2014-08-05 21:25:10.523633 [32m[1mD[0m [49960:70207628614760] [32mActiveRecord[0m --   [1m[35mUser Load (6.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 4 LIMIT 1
+2014-08-05 21:25:12.661531 [36m[1mI[0m [49960:70207628614760] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:25:12.669697 [36m[1mI[0m [49960:70207628614760] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:25:12.677464 [36m[1mI[0m [49960:70207628614760] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:25:12.685237 [36m[1mI[0m [49960:70207628614760] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:25:12.692902 [36m[1mI[0m [49960:70207628614760] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:25:12.701218 [36m[1mI[0m [49960:70207628614760] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:25:12.709898 [36m[1mI[0m [49960:70207628614760] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:25:12.772861 [36m[1mI[0m [49960:70207628614760] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:25:12.781554 [36m[1mI[0m [49960:70207628614760] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:25:12.790782 [36m[1mI[0m [49960:70207628614760] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:25:12.793616 [36m[1mI[0m [49960:70207628614760] [36mActionController[0m -- Completed 200 OK in 2277ms (Views: 2.5ms | ActiveRecord: 6.3ms)
+2014-08-05 21:25:36.201589 [36m[1mI[0m [49960:70207628614760] [36mActionController[0m -- Processing by ProductsController#index as HTML
+2014-08-05 21:25:36.203737 [32m[1mD[0m [49960:70207628614760] [32mActiveRecord[0m --   [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 4 LIMIT 1[0m
+2014-08-05 21:25:42.255920 [36m[1mI[0m [49960:70207628614760] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:25:42.265536 [36m[1mI[0m [49960:70207628614760] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:25:42.275954 [36m[1mI[0m [49960:70207628614760] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:25:42.285498 [36m[1mI[0m [49960:70207628614760] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:25:42.361109 [36m[1mI[0m [49960:70207628614760] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:25:42.371071 [36m[1mI[0m [49960:70207628614760] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:25:42.380820 [36m[1mI[0m [49960:70207628614760] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:25:42.391110 [36m[1mI[0m [49960:70207628614760] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:25:42.403978 [36m[1mI[0m [49960:70207628614760] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:25:42.415140 [36m[1mI[0m [49960:70207628614760] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:25:42.419330 [36m[1mI[0m [49960:70207628614760] [36mActionController[0m -- Completed 200 OK in 6218ms (Views: 3.9ms | ActiveRecord: 1.0ms)
+2014-08-05 21:28:13.260313 [36m[1mI[0m [49960:70207596702760] [36mActionController[0m -- Processing by BudgetsController#new as HTML
+2014-08-05 21:28:13.269342 [32m[1mD[0m [49960:70207596702760] [32mActiveRecord[0m --   [1m[35mUser Load (4.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 4 LIMIT 1
+2014-08-05 21:28:15.188164 [36m[1mI[0m [49960:70207596702760] [36mActionController[0m -- Completed 200 OK in 1928ms (Views: 11.4ms | ActiveRecord: 4.0ms)
+2014-08-05 21:28:19.493904 [36m[1mI[0m [49960:70207596702760] [36mActionController[0m -- Processing by ProductsController#index as HTML
+2014-08-05 21:28:19.495694 [32m[1mD[0m [49960:70207596702760] [32mActiveRecord[0m --   [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 4 LIMIT 1[0m
+2014-08-05 21:28:20.364338 [36m[1mI[0m [49960:70207596702760] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:28:20.375713 [36m[1mI[0m [49960:70207596702760] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:28:20.387303 [36m[1mI[0m [49960:70207596702760] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:28:20.401447 [36m[1mI[0m [49960:70207596702760] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:28:20.421392 [36m[1mI[0m [49960:70207596702760] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:28:20.440694 [36m[1mI[0m [49960:70207596702760] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:28:20.459187 [36m[1mI[0m [49960:70207596702760] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:28:20.479716 [36m[1mI[0m [49960:70207596702760] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:28:20.492440 [36m[1mI[0m [49960:70207596702760] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:28:20.505409 [36m[1mI[0m [49960:70207596702760] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:28:20.508147 [36m[1mI[0m [49960:70207596702760] [36mActionController[0m -- Completed 200 OK in 1014ms (Views: 2.4ms | ActiveRecord: 0.4ms)
+2014-08-05 21:28:45.091043 [36m[1mI[0m [49960:70207596702760] [36mActionController[0m -- Processing by ProductsController#index as HTML
+2014-08-05 21:28:45.092608 [32m[1mD[0m [49960:70207596702760] [32mActiveRecord[0m --   [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 4 LIMIT 1
+2014-08-05 21:28:46.266386 [36m[1mI[0m [49960:70207596702760] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:28:46.281133 [36m[1mI[0m [49960:70207596702760] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:28:46.296254 [36m[1mI[0m [49960:70207596702760] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:28:46.312795 [36m[1mI[0m [49960:70207596702760] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:28:46.327469 [36m[1mI[0m [49960:70207596702760] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:28:46.344736 [36m[1mI[0m [49960:70207596702760] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:28:46.359565 [36m[1mI[0m [49960:70207596702760] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:28:46.376060 [36m[1mI[0m [49960:70207596702760] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:28:46.390851 [36m[1mI[0m [49960:70207596702760] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:28:46.398556 [36m[1mI[0m [49960:70207596702760] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:28:46.401101 [36m[1mI[0m [49960:70207596702760] [36mActionController[0m -- Completed 200 OK in 1310ms (Views: 2.2ms | ActiveRecord: 0.4ms)
+2014-08-05 21:34:16.820333 [36m[1mI[0m [49960:70207595682660] [36mActionController[0m -- Processing by ProductsController#index as HTML
+2014-08-05 21:34:16.826764 [32m[1mD[0m [49960:70207595682660] [32mActiveRecord[0m --   [1m[36mUser Load (3.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 4 LIMIT 1[0m
+2014-08-05 21:34:19.186457 [36m[1mI[0m [49960:70207595682660] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:34:19.198060 [36m[1mI[0m [49960:70207595682660] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:34:19.216945 [36m[1mI[0m [49960:70207595682660] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:34:19.231894 [36m[1mI[0m [49960:70207595682660] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:34:19.247933 [36m[1mI[0m [49960:70207595682660] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:34:19.264955 [36m[1mI[0m [49960:70207595682660] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:34:19.281912 [36m[1mI[0m [49960:70207595682660] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:34:19.298515 [36m[1mI[0m [49960:70207595682660] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:34:19.315421 [36m[1mI[0m [49960:70207595682660] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:34:19.361031 [36m[1mI[0m [49960:70207595682660] [36mExample[0m -- This message is written to mongo as a document
+2014-08-05 21:34:19.364001 [36m[1mI[0m [49960:70207595682660] [36mActionController[0m -- Completed 200 OK in 2544ms (Views: 2.6ms | ActiveRecord: 3.4ms)
+2014-08-05 21:34:20.242243 [36m[1mI[0m [49960:70207595682660] [36mActionController[0m -- Processing by BudgetsController#index as HTML
+2014-08-05 21:34:20.250194 [32m[1mD[0m [49960:70207595682660] [32mActiveRecord[0m --   [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 4 LIMIT 1
+2014-08-05 21:34:20.336307 [32m[1mD[0m [49960:70207595682660] [32mActiveRecord[0m --   [1m[36mBudget Load (39.9ms)[0m  [1mSELECT "budgets".* FROM "budgets"  WHERE "budgets"."session" = 'juan '[0m
+2014-08-05 21:34:20.338720 [36m[1mI[0m [49960:70207595682660] [36mActionController[0m -- Completed 200 OK in 96ms (Views: 47.9ms | ActiveRecord: 40.6ms)
+2014-08-05 21:34:22.758899 [36m[1mI[0m [49960:70207595682660] [36mActionController[0m -- Processing by BudgetsController#new as HTML
+2014-08-05 21:34:22.768559 [32m[1mD[0m [49960:70207595682660] [32mActiveRecord[0m --   [1m[35mUser Load (8.6ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 4 LIMIT 1
+2014-08-05 21:34:25.894313 [36m[1mI[0m [49960:70207595682660] [36mActionController[0m -- Completed 200 OK in 3135ms (Views: 10.2ms | ActiveRecord: 8.6ms)
+2014-08-05 21:34:31.419581 [36m[1mI[0m [49960:70207595682660] [36mActionController[0m -- Processing by SessionsController#destroy as HTML
+2014-08-05 21:34:31.419623 [36m[1mI[0m [49960:70207595682660] [36mActionController[0m --   Parameters: {"authenticity_token"=>"LSwLnlOU9D9dKtFAv18y64NeuliLc/ykGUXPEi2qLdE="}
+2014-08-05 21:34:31.463320 [36m[1mI[0m [49960:70207595682660] [36mActionController[0m -- Redirected to http://localhost:3000/login
+2014-08-05 21:34:31.463541 [36m[1mI[0m [49960:70207595682660] [36mActionController[0m -- Completed 302 Found in 44ms (ActiveRecord: 0.0ms)
+2014-08-05 21:34:31.523898 [36m[1mI[0m [49960:70207595682660] [36mActionController[0m -- Processing by SessionsController#new as HTML
+2014-08-05 21:34:31.528337 [36m[1mI[0m [49960:70207595682660] [36mActionController[0m -- Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+2014-08-05 21:34:32.933435 [36m[1mI[0m [49960:70207595682660] [36mActionController[0m -- Processing by SessionsController#create as HTML
+2014-08-05 21:34:32.933481 [36m[1mI[0m [49960:70207595682660] [36mActionController[0m --   Parameters: {"utf8"=>"✓", "authenticity_token"=>"LSwLnlOU9D9dKtFAv18y64NeuliLc/ykGUXPEi2qLdE=", "name"=>"", "password"=>"[FILTERED]", "commit"=>"Login"}
+2014-08-05 21:34:32.981303 [32m[1mD[0m [49960:70207595682660] [32mActiveRecord[0m --   [1m[36mUser Load (46.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."name" = '' LIMIT 1[0m
+2014-08-05 21:34:32.982757 [36m[1mI[0m [49960:70207595682660] [36mActionController[0m -- Redirected to http://localhost:3000/login
+2014-08-05 21:34:32.982916 [36m[1mI[0m [49960:70207595682660] [36mActionController[0m -- Completed 302 Found in 49ms (ActiveRecord: 46.2ms)
+2014-08-05 21:34:33.007958 [36m[1mI[0m [49960:70207595682660] [36mActionController[0m -- Processing by SessionsController#new as HTML
+2014-08-05 21:34:33.011422 [36m[1mI[0m [49960:70207595682660] [36mActionController[0m -- Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+2014-08-05 21:34:34.548917 [36m[1mI[0m [49960:70207595682660] [36mActionController[0m -- Processing by SessionsController#create as HTML
+2014-08-05 21:34:34.548977 [36m[1mI[0m [49960:70207595682660] [36mActionController[0m --   Parameters: {"utf8"=>"✓", "authenticity_token"=>"LSwLnlOU9D9dKtFAv18y64NeuliLc/ykGUXPEi2qLdE=", "name"=>"", "password"=>"[FILTERED]", "commit"=>"Login"}
+2014-08-05 21:34:34.568171 [32m[1mD[0m [49960:70207595682660] [32mActiveRecord[0m --   [1m[35mUser Load (14.9ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."name" = '' LIMIT 1
+2014-08-05 21:34:34.573403 [36m[1mI[0m [49960:70207595682660] [36mActionController[0m -- Redirected to http://localhost:3000/login
+2014-08-05 21:34:34.573681 [36m[1mI[0m [49960:70207595682660] [36mActionController[0m -- Completed 302 Found in 25ms (ActiveRecord: 14.9ms)
+2014-08-05 21:34:34.585427 [36m[1mI[0m [49960:70207595682660] [36mActionController[0m -- Processing by SessionsController#new as HTML
+2014-08-05 21:34:34.589388 [36m[1mI[0m [49960:70207595682660] [36mActionController[0m -- Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+db.semantic_logger.findOne()

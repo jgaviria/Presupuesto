@@ -1,6 +1,10 @@
 source 'https://rubygems.org'
 
 
+gem 'mongo_mapper'
+
+gem 'bson_ext'
+
 gem 'rails', '4.1.2.rc1'
 
 gem 'mongo'
@@ -56,4 +60,3 @@ gem 'bcrypt', '~> 3.1.7'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem 'rails_12factor', group: :production

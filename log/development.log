@@ -109504,3 +109504,13 @@ Completed 200 OK in 1307ms (Views: 30.0ms | ActiveRecord: 0.9ms)
 2014-08-04 16:18:27.766122 D [43027:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
 2014-08-04 16:18:27.766176 D [43027:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
 2014-08-04 16:18:27.766248 D [43027:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-05 20:40:11.029029 D [49806:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-05 20:40:13.455863 D [49808:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-05 20:40:13.849668 D [49808:70111339928540] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-05 20:40:13.850145 D [49808:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-05 20:40:13.850708 D [49808:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-05 21:28:10.768358 D [49806:70111339928540] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-05 21:28:10.768570 D [49806:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-05 21:28:10.768636 D [49806:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-05 21:28:10.768845 D [49806:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-05 21:28:16.471042 D [50104:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active

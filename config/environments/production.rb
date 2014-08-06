@@ -4,12 +4,12 @@ Rails.application.configure do
   require 'mongo'
   config.after_initialize do
     # Re-use the existing MongoDB connection, or create a new one here
-    db = Mongo::MongoClient.new['production_logging']
+    db = Mongo::MongoClient.new['production']
 
     # Besides logging to the standard Rails logger, also log to MongoDB
     config.semantic_logger.add_appender SemanticLogger::Appender::MongoDB.new(
                                             db:              db,
-                                            collection_name: 'semantic_logger',
+                                            collection_name: 'mynewcollection',
                                             collection_size: 25.gigabytes
                                         )
   end

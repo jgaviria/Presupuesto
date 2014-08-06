@@ -16,6 +16,29 @@ class ProductsController < ApplicationController
     @variable2 =  page.css('div.fund-description').map do |extract|
     @variable4 =  extract.at_css("h2 a").text.strip
 
+
+
+    require 'semantic_logger'
+    require 'mongo'
+
+    client   = Mongo::MongoClient.new
+    database = client['production']
+
+    mongodb_appender = SemanticLogger::Appender::MongoDB.new(
+        db:              database,
+        collection_size: 1024**3, # 1.gigabyte
+        application:     'my_application'
+    )
+    SemanticLogger.add_appender(mongodb_appender)
+
+    logger = SemanticLogger['Example']
+
+# Log some messages
+      logger.info 'This message is written to mongo as a document'
+
+
+
+
         end
 
   end
