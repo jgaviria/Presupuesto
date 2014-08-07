@@ -1,3 +1,5 @@
+
+
 default_options: &default_options
   :w:               1
   :pool_size:       5
@@ -13,11 +15,7 @@ development: &development
   options:
     <<: *default_options
 
-# Separate Working storage connection and database for testing
-#development_working_storage: &development
-#  uri: mongodb://127.0.0.1:27017/logging_development
-#  options:
-#    <<: *default_options
+
 
 test:
   uri: mongodb://jgaviria:Sofia123!@ds061189.mongolab.com:61189/mongo_logger_db
@@ -26,11 +24,10 @@ test:
 
 
 
+
 # Production Settings
 production:
   uri: mongodb://jgaviria:Sofia123!@ds061189.mongolab.com:61189/mongo_logger_db
-
- options:
-    <<: *default_options
-
+  options:
+      <<: *default_options
 

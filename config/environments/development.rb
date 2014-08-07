@@ -1,6 +1,22 @@
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
+  require 'mongo'
+  config.after_initialize do
+    Rails.logger.info 'Adding mongo appender'
+    # Re-use the existing MongoDB connection, or create a new one here
+    db = Mongo::MongoClient.new['development']
+    Rails.logger.info "db=#{db.inspect}"
+    # Besides logging to the standard Rails logger, also log to MongoDB
+    config.semantic_logger.add_appender SemanticLogger::Appender::MongoDB.new(
+                                            db:              db,
+                                            collection_name: 'mynewcollection',
+                                            collection_size: 10.megabytes
+                                        )
+    Rails.logger.info 'Added mongo appender'
+  end
+
+  config.log_level = :trace
   # In the development environment your application's code is reloaded on
   # every request. This slows down response time but is perfect for development
   # since you don't have to restart the web server when you make code changes.

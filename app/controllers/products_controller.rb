@@ -2,44 +2,33 @@ class ProductsController < ApplicationController
 
   before_action :set_product, only: [:show, :edit, :update, :destroy]
 
+
   # GET /products
   # GET /products.json
   def index
-    require 'open-uri'
-    event = Struct.new :name , :link , :date
 
     @products = Product.all
 
-    var = "http://money.usnews.com/funds/mutual-funds/rankings/long-term-bond"
-
-    page = Nokogiri::HTML(open(var))
-    @variable2 =  page.css('div.fund-description').map do |extract|
-    @variable4 =  extract.at_css("h2 a").text.strip
 
 
-
-    require 'semantic_logger'
     require 'mongo'
 
-    client   = Mongo::MongoClient.new
-    database = client['production']
 
-    mongodb_appender = SemanticLogger::Appender::MongoDB.new(
-        db:              database,
-        collection_size: 1024**3, # 1.gigabyte
-        application:     'my_application'
-    )
-    SemanticLogger.add_appender(mongodb_appender)
+    client = Mongo::MongoClient.new
+    db = client['mongo_logger_db']
+    coll = db['mynewcollection']
 
-    logger = SemanticLogger['Example']
+# create a text index
+    coll.ensure_index({:field_name => Mongo::TEXT})
 
-# Log some messages
-      logger.info 'This message is written to mongo as a document'
+# run a text query
+  @variable =  db.find({:text => 'mynewcollection', :search => 'search string'})
+    db.command({:text => 'mynewcollection', :search => 'search string', :filter => {:foo => 'bar'}})
 
 
 
 
-        end
+
 
   end
 

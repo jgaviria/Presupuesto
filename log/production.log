@@ -540,3 +540,691 @@
 2014-08-05 21:34:34.585427 [36m[1mI[0m [49960:70207595682660] [36mActionController[0m -- Processing by SessionsController#new as HTML
 2014-08-05 21:34:34.589388 [36m[1mI[0m [49960:70207595682660] [36mActionController[0m -- Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms)
 db.semantic_logger.findOne()
+2014-08-06 00:36:15.216815 D [51869:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-06 00:36:15.270485 D [51869:70245083700200] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-06 00:36:15.270635 D [51869:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-06 00:36:15.270695 D [51869:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-06 00:36:15.270789 D [51869:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-06 00:37:32.482451 D [51881:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-06 00:37:32.561727 D [51881:70263400225760] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-06 00:37:32.561923 D [51881:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-06 00:37:32.561983 D [51881:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-06 00:37:32.562071 D [51881:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-06 00:37:57.524704 D [51888:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-06 00:37:57.580953 [32m[1mD[0m [51888:70095623871480] [32mRails[0m -- MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+2014-08-06 00:37:57.582923 [32m[1mD[0m [51888:70095623871480] [32mRails[0m -- MONGODB (0.5ms) admin['$cmd'].find({:isMaster=>1}).limit(-1)
+2014-08-06 00:39:27.545550 D [51888:70095623871480] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-06 00:39:27.546015 D [51888:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-06 00:39:27.546081 D [51888:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-06 00:39:27.546147 D [51888:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-06 00:40:20.445333 D [52147:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-06 00:40:23.340948 [32m[1mD[0m [52147:70367024700380] [32mRails[0m -- MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+2014-08-06 00:40:23.342578 [32m[1mD[0m [52147:70367024700380] [32mRails[0m -- MONGODB (0.6ms) admin['$cmd'].find({:isMaster=>1}).limit(-1)
+2014-08-06 00:44:40.050147 D [52147:70367024700380] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-06 00:44:40.136181 D [52147:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-06 00:44:40.136438 D [52147:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-06 00:44:40.136571 D [52147:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-06 00:45:34.777714 D [52183:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-06 00:45:45.363603 D [52183:70111528672220] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-06 00:45:45.363887 D [52183:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-06 00:45:45.363994 D [52183:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-06 00:45:45.364067 D [52183:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-06 00:46:39.511735 D [52193:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-06 00:46:42.077482 [32m[1mD[0m [52193:70222480595960] [32mRails[0m -- MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+2014-08-06 00:46:44.475241 [32m[1mD[0m [52193:70222480595960] [32mRails[0m -- MONGODB (179.1ms) admin['$cmd'].find({:isMaster=>1}).limit(-1)
+2014-08-06 00:46:44.734960 [32m[1mD[0m [52193:70222480595960] [32mRails[0m -- MONGODB (202.5ms) mongo_logger_db['$cmd'].find({:getnonce=>1}).limit(-1)
+2014-08-06 00:46:44.820610 [32m[1mD[0m [52193:70222480595960] [32mRails[0m -- MONGODB (85.1ms) mongo_logger_db['$cmd'].find({"authenticate"=>1, "user"=>"jgaviria", "nonce"=>"27a13e83414d57e3", "key"=>"cd07ebb603e69d68353f60c5153d7b9b"}).limit(-1)
+2014-08-06 00:48:38.544883 D [52193:70222480595960] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-06 00:48:38.562703 D [52193:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-06 00:48:38.562860 D [52193:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::MongoDB
+2014-08-06 00:48:38.563925 D [52193:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-06 00:48:38.564061 D [52193:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-06 16:20:30.115627 D [55518:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-06 16:20:30.171487 [32m[1mD[0m [55518:70116285012960] [32mRails[0m -- MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+2014-08-06 16:20:30.711339 [32m[1mD[0m [55518:70116285012960] [32mRails[0m -- MONGODB (48.3ms) admin['$cmd'].find({:isMaster=>1}).limit(-1)
+2014-08-06 16:20:30.810588 [32m[1mD[0m [55518:70116285012960] [32mRails[0m -- MONGODB (49.0ms) mongo_logger_db['$cmd'].find({:getnonce=>1}).limit(-1)
+2014-08-06 16:20:30.861125 [32m[1mD[0m [55518:70116285012960] [32mRails[0m -- MONGODB (49.5ms) mongo_logger_db['$cmd'].find({"authenticate"=>1, "user"=>"jgaviria", "nonce"=>"cc6a17ad22f15a41", "key"=>"bc022f7b5cd762181191d129a345bf7e"}).limit(-1)
+2014-08-06 16:20:32.594361 [36m[1mI[0m [55518:70116285012960] [36mRails[0m -- Adding mongo appender
+2014-08-06 16:20:32.596468 [36m[1mI[0m [55518:70116285012960] [36mRails[0m -- db=#<Mongo::DB:0x007f8a74097580 @name="production", @client=#<Mongo::MongoClient:0x007f8a7409fbe0 @host="localhost", @port=27017, @id_lock=#<Mutex:0x007f8a7409fa50>, @primary=["localhost", 27017], @primary_pool=#<Mongo::Pool:0x3fc53a04bc64 @host=localhost @port=27017 @ping_time= 0/1 sockets available up=true>, @mongos=false, @tag_sets=[], @acceptable_latency=15, @max_bson_size=16777216, @max_message_size=48000000, @max_wire_version=nil, @min_wire_version=nil, @max_write_batch_size=nil, @slave_ok=nil, @ssl=nil, @unix=false, @socket_opts={}, @socket_class=Mongo::TCPSocket, @db_name=nil, @auths=#<Set: {}>, @pool_size=1, @pool_timeout=5.0, @op_timeout=nil, @connect_timeout=30, @logger=nil, @read=:primary, @write_concern={:w=>1}, @read_primary=true>, @strict=nil, @pk_factory=nil, @write_concern={:w=>1}, @read=:primary, @tag_sets=[], @acceptable_latency=15, @cache_time=300>
+2014-08-06 16:20:32.601987 [36m[1mI[0m [55518:70116285012960] [36mRails[0m -- Added mongo appender
+2014-08-06 16:29:32.014634 D [55518:70116285012960] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-06 16:29:32.048159 D [55518:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-06 16:29:32.048295 D [55518:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::MongoDB
+2014-08-06 16:29:32.049297 D [55518:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-06 16:29:32.049398 D [55518:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-06 16:29:37.357855 D [55580:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-06 16:29:37.460497 [32m[1mD[0m [55580:70256555121640] [32mRails[0m -- MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+2014-08-06 16:29:38.008088 [32m[1mD[0m [55580:70256555121640] [32mRails[0m -- MONGODB (50.3ms) admin['$cmd'].find({:isMaster=>1}).limit(-1)
+2014-08-06 16:29:38.104949 [32m[1mD[0m [55580:70256555121640] [32mRails[0m -- MONGODB (47.8ms) mongo_logger_db['$cmd'].find({:getnonce=>1}).limit(-1)
+2014-08-06 16:29:38.152659 [32m[1mD[0m [55580:70256555121640] [32mRails[0m -- MONGODB (47.4ms) mongo_logger_db['$cmd'].find({"authenticate"=>1, "user"=>"jgaviria", "nonce"=>"3335d21d332e1b8d", "key"=>"68719468f9322d39840d65c38803c8a7"}).limit(-1)
+2014-08-06 16:29:39.225867 [36m[1mI[0m [55580:70256555121640] [36mRails[0m -- Adding mongo appender
+2014-08-06 16:29:39.228210 [36m[1mI[0m [55580:70256555121640] [36mRails[0m -- db=#<Mongo::DB:0x007fcbc4af7b88 @name="production", @client=#<Mongo::MongoClient:0x007fcbc4b04130 @host="localhost", @port=27017, @id_lock=#<Mutex:0x007fcbc4b04d38>, @primary=["localhost", 27017], @primary_pool=#<Mongo::Pool:0x3fe5e257bec8 @host=localhost @port=27017 @ping_time= 0/1 sockets available up=true>, @mongos=false, @tag_sets=[], @acceptable_latency=15, @max_bson_size=16777216, @max_message_size=48000000, @max_wire_version=nil, @min_wire_version=nil, @max_write_batch_size=nil, @slave_ok=nil, @ssl=nil, @unix=false, @socket_opts={}, @socket_class=Mongo::TCPSocket, @db_name=nil, @auths=#<Set: {}>, @pool_size=1, @pool_timeout=5.0, @op_timeout=nil, @connect_timeout=30, @logger=nil, @read=:primary, @write_concern={:w=>1}, @read_primary=true>, @strict=nil, @pk_factory=nil, @write_concern={:w=>1}, @read=:primary, @tag_sets=[], @acceptable_latency=15, @cache_time=300>
+2014-08-06 16:29:39.234497 [36m[1mI[0m [55580:70256555121640] [36mRails[0m -- Added mongo appender
+2014-08-06 20:23:28.898939 D [55580:70256555121640] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-06 20:23:28.899118 D [55580:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-06 20:23:28.899180 D [55580:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::MongoDB
+2014-08-06 20:23:28.900172 D [55580:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-06 20:23:28.900280 D [55580:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-06 20:23:44.909775 D [55759:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-06 20:23:45.195589 [32m[1mD[0m [55759:70194479422440] [32mRails[0m -- MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+2014-08-06 20:23:48.156521 [32m[1mD[0m [55759:70194479422440] [32mRails[0m -- MONGODB (614.4ms) admin['$cmd'].find({:isMaster=>1}).limit(-1)
+2014-08-06 20:23:49.490867 [32m[1mD[0m [55759:70194479422440] [32mRails[0m -- MONGODB (748.3ms) mongo_logger_db['$cmd'].find({:getnonce=>1}).limit(-1)
+2014-08-06 20:23:50.207614 [32m[1mD[0m [55759:70194479422440] [32mRails[0m -- MONGODB (716.2ms) mongo_logger_db['$cmd'].find({"authenticate"=>1, "user"=>"jgaviria", "nonce"=>"c7bc97765f9ce643", "key"=>"609c9ee28841ebd4f8073655748a4362"}).limit(-1)
+2014-08-06 20:23:54.464621 [36m[1mI[0m [55759:70194479422440] [36mRails[0m -- Adding mongo appender
+2014-08-06 20:23:54.467517 [36m[1mI[0m [55759:70194479422440] [36mRails[0m -- db=#<Mongo::DB:0x007faedd147e48 @name="productin", @client=#<Mongo::MongoClient:0x007faedd8a04b0 @host="localhost", @port=27017, @id_lock=#<Mutex:0x007faedd8a0280>, @primary=["localhost", 27017], @primary_pool=#<Mongo::Pool:0x3fd76e8a6008 @host=localhost @port=27017 @ping_time= 0/1 sockets available up=true>, @mongos=false, @tag_sets=[], @acceptable_latency=15, @max_bson_size=16777216, @max_message_size=48000000, @max_wire_version=nil, @min_wire_version=nil, @max_write_batch_size=nil, @slave_ok=nil, @ssl=nil, @unix=false, @socket_opts={}, @socket_class=Mongo::TCPSocket, @db_name=nil, @auths=#<Set: {}>, @pool_size=1, @pool_timeout=5.0, @op_timeout=nil, @connect_timeout=30, @logger=nil, @read=:primary, @write_concern={:w=>1}, @read_primary=true>, @strict=nil, @pk_factory=nil, @write_concern={:w=>1}, @read=:primary, @tag_sets=[], @acceptable_latency=15, @cache_time=300>
+2014-08-06 20:23:55.862305 [36m[1mI[0m [55759:70194479422440] [36mRails[0m -- Added mongo appender
+2014-08-06 20:51:01.784786 D [55759:70194479422440] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-06 20:51:01.785242 D [55759:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-06 20:51:01.785307 D [55759:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::MongoDB
+2014-08-06 20:51:01.786179 D [55759:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-06 20:51:01.786502 D [55759:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-06 20:51:20.673894 D [55927:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-06 20:51:21.004215 [32m[1mD[0m [55927:70248502057960] [32mRails[0m -- MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+2014-08-06 20:51:24.273326 [32m[1mD[0m [55927:70248502057960] [32mRails[0m -- MONGODB (614.0ms) admin['$cmd'].find({:isMaster=>1}).limit(-1)
+2014-08-06 20:51:25.645091 [32m[1mD[0m [55927:70248502057960] [32mRails[0m -- MONGODB (655.0ms) mongo_logger_db['$cmd'].find({:getnonce=>1}).limit(-1)
+2014-08-06 20:51:26.426691 [32m[1mD[0m [55927:70248502057960] [32mRails[0m -- MONGODB (781.2ms) mongo_logger_db['$cmd'].find({"authenticate"=>1, "user"=>"jgaviria", "nonce"=>"ed38d359720b6d10", "key"=>"43bc47bb194b95bb13cb2e20bee25892"}).limit(-1)
+2014-08-06 20:51:29.539851 [36m[1mI[0m [55927:70248502057960] [36mRails[0m -- Adding mongo appender
+2014-08-06 20:51:30.110605 D [55927:70248502057960] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-06 20:51:30.110757 D [55927:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-06 20:51:30.110954 D [55927:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-06 21:05:50.859371 D [56021:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-06 21:05:50.932111 [32m[1mD[0m [56021:70124816227320] [32mRails[0m -- MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+2014-08-06 21:05:53.728673 [32m[1mD[0m [56021:70124816227320] [32mRails[0m -- MONGODB (699.6ms) admin['$cmd'].find({:isMaster=>1}).limit(-1)
+2014-08-06 21:05:54.672035 [32m[1mD[0m [56021:70124816227320] [32mRails[0m -- MONGODB (510.6ms) mongo_logger_db['$cmd'].find({:getnonce=>1}).limit(-1)
+2014-08-06 21:05:55.287957 [32m[1mD[0m [56021:70124816227320] [32mRails[0m -- MONGODB (615.5ms) mongo_logger_db['$cmd'].find({"authenticate"=>1, "user"=>"jgaviria", "nonce"=>"7d2624d27184dadd", "key"=>"cb53477ab77062d960fecdd804488702"}).limit(-1)
+2014-08-06 21:05:56.214541 [36m[1mI[0m [56021:70124816227320] [36mRails[0m -- Adding mongo appender
+2014-08-06 21:05:57.540567 [36m[1mI[0m [56021:70124816227320] [36mRails[0m -- db=#<Mongo::MongoClient:0x007f8e6c9c7078 @host="ds061189.mongolab.com", @port=61189, @id_lock=#<Mutex:0x007f8e6c9bf698>, @primary=["ds061189.mongolab.com", 61189], @primary_pool=#<Mongo::Pool:0x3fc736821cb0 @host=ds061189.mongolab.com @port=61189 @ping_time= 0/1 sockets available up=true>, @mongos=false, @tag_sets=[], @acceptable_latency=15, @max_bson_size=16777216, @max_message_size=48000000, @max_wire_version=nil, @min_wire_version=nil, @max_write_batch_size=nil, @slave_ok=nil, @ssl=nil, @unix=false, @socket_opts={}, @socket_class=Mongo::TCPSocket, @db_name=nil, @auths=#<Set: {}>, @pool_size=1, @pool_timeout=5.0, @op_timeout=nil, @connect_timeout=30, @logger=nil, @read=:primary, @write_concern={:w=>1}, @read_primary=true>
+2014-08-06 21:05:57.567604 D [56021:70124816227320] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-06 21:05:57.567805 D [56021:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-06 21:05:57.567880 D [56021:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-06 21:05:57.567992 D [56021:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-06 21:15:09.662996 D [56082:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-06 21:15:09.890593 [32m[1mD[0m [56082:70359168769000] [32mRails[0m -- MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+2014-08-06 21:15:13.060578 [32m[1mD[0m [56082:70359168769000] [32mRails[0m -- MONGODB (819.9ms) admin['$cmd'].find({:isMaster=>1}).limit(-1)
+2014-08-06 21:15:14.288642 [32m[1mD[0m [56082:70359168769000] [32mRails[0m -- MONGODB (512.1ms) mongo_logger_db['$cmd'].find({:getnonce=>1}).limit(-1)
+2014-08-06 21:15:14.801043 [32m[1mD[0m [56082:70359168769000] [32mRails[0m -- MONGODB (511.8ms) mongo_logger_db['$cmd'].find({"authenticate"=>1, "user"=>"jgaviria", "nonce"=>"a919b50f080ace43", "key"=>"7ff4cac2434ffff13c9f3c67de22feba"}).limit(-1)
+2014-08-06 21:15:16.061216 [36m[1mI[0m [56082:70359168769000] [36mRails[0m -- Adding mongo appender
+2014-08-06 21:15:16.083809 D [56082:70359168769000] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-06 21:15:16.083993 D [56082:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-06 21:15:16.084082 D [56082:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-06 21:15:16.084206 D [56082:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-06 21:15:38.184883 D [56087:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-06 21:15:38.253711 [32m[1mD[0m [56087:70134677036000] [32mRails[0m -- MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+2014-08-06 21:15:39.352930 [32m[1mD[0m [56087:70134677036000] [32mRails[0m -- MONGODB (577.6ms) admin['$cmd'].find({:isMaster=>1}).limit(-1)
+2014-08-06 21:15:40.709982 [32m[1mD[0m [56087:70134677036000] [32mRails[0m -- MONGODB (717.1ms) mongo_logger_db['$cmd'].find({:getnonce=>1}).limit(-1)
+2014-08-06 21:15:47.466049 [32m[1mD[0m [56087:70134677036000] [32mRails[0m -- MONGODB (6755.6ms) mongo_logger_db['$cmd'].find({"authenticate"=>1, "user"=>"jgaviria", "nonce"=>"512d5ba4cd888f92", "key"=>"54d63179a540ee7e02f147edc67a55cb"}).limit(-1)
+2014-08-06 21:15:48.379849 [36m[1mI[0m [56087:70134677036000] [36mRails[0m -- Adding mongo appender
+2014-08-06 21:15:51.137770 D [56087:70134677036000] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-06 21:15:51.137941 D [56087:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-06 21:15:51.138022 D [56087:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-06 21:15:51.138108 D [56087:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-06 22:04:10.368908 D [56128:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-06 22:04:10.532243 [32m[1mD[0m [56128:70329103997920] [32mRails[0m -- MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+2014-08-06 22:04:13.531899 [32m[1mD[0m [56128:70329103997920] [32mRails[0m -- MONGODB (614.6ms) admin['$cmd'].find({:isMaster=>1}).limit(-1)
+2014-08-06 22:04:14.658592 [32m[1mD[0m [56128:70329103997920] [32mRails[0m -- MONGODB (594.1ms) mongo_logger_db['$cmd'].find({:getnonce=>1}).limit(-1)
+2014-08-06 22:04:15.375486 [32m[1mD[0m [56128:70329103997920] [32mRails[0m -- MONGODB (716.0ms) mongo_logger_db['$cmd'].find({"authenticate"=>1, "user"=>"jgaviria", "nonce"=>"d30a4f55cd0f4d12", "key"=>"2481f6a8fdc788434c1e7c9a3ffcf9c2"}).limit(-1)
+2014-08-06 22:04:16.464812 [36m[1mI[0m [56128:70329103997920] [36mRails[0m -- Adding mongo appender
+2014-08-06 22:04:17.218906 D [56128:70329103997920] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-06 22:04:17.219112 D [56128:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-06 22:04:17.219331 D [56128:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-06 22:04:35.891963 D [56134:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-06 22:04:35.969456 [32m[1mD[0m [56134:70177769315320] [32mRails[0m -- MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+2014-08-06 22:04:37.083903 [32m[1mD[0m [56134:70177769315320] [32mRails[0m -- MONGODB (614.5ms) admin['$cmd'].find({:isMaster=>1}).limit(-1)
+2014-08-06 22:04:38.415846 [32m[1mD[0m [56134:70177769315320] [32mRails[0m -- MONGODB (726.3ms) mongo_logger_db['$cmd'].find({:getnonce=>1}).limit(-1)
+2014-08-06 22:04:38.941860 [32m[1mD[0m [56134:70177769315320] [32mRails[0m -- MONGODB (525.7ms) mongo_logger_db['$cmd'].find({"authenticate"=>1, "user"=>"jgaviria", "nonce"=>"de2cda478215f70a", "key"=>"88aca1d27cb288df22995e6cf966385f"}).limit(-1)
+2014-08-06 22:04:39.865690 [36m[1mI[0m [56134:70177769315320] [36mRails[0m -- Adding mongo appender
+2014-08-06 22:04:41.282985 [36m[1mI[0m [56134:70177769315320] [36mRails[0m -- db=#<Mongo::MongoClient:0x007fa7158c8868 @host="ds061189.mongolab.com", @port=61189, @id_lock=#<Mutex:0x007fa7158c8750>, @primary=["ds061189.mongolab.com", 61189], @primary_pool=#<Mongo::Pool:0x3fd38ac600c8 @host=ds061189.mongolab.com @port=61189 @ping_time= 0/1 sockets available up=true>, @mongos=false, @tag_sets=[], @acceptable_latency=15, @max_bson_size=16777216, @max_message_size=48000000, @max_wire_version=nil, @min_wire_version=nil, @max_write_batch_size=nil, @slave_ok=nil, @ssl=nil, @unix=false, @socket_opts={}, @socket_class=Mongo::TCPSocket, @db_name=nil, @auths=#<Set: {}>, @pool_size=1, @pool_timeout=5.0, @op_timeout=nil, @connect_timeout=30, @logger=nil, @read=:primary, @write_concern={:w=>1}, @read_primary=true>
+2014-08-06 22:04:41.346328 D [56134:70177769315320] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-06 22:04:41.346520 D [56134:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-06 22:04:41.346598 D [56134:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-06 22:04:41.346689 D [56134:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-06 22:11:15.355895 D [56169:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-06 22:11:15.409280 [32m[1mD[0m [56169:70226213526520] [32mRails[0m -- MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+2014-08-06 22:11:18.416211 [32m[1mD[0m [56169:70226213526520] [32mRails[0m -- MONGODB (512.1ms) admin['$cmd'].find({:isMaster=>1}).limit(-1)
+2014-08-06 22:11:19.650893 [32m[1mD[0m [56169:70226213526520] [32mRails[0m -- MONGODB (720.3ms) mongo_logger_db['$cmd'].find({:getnonce=>1}).limit(-1)
+2014-08-06 22:11:20.361817 [32m[1mD[0m [56169:70226213526520] [32mRails[0m -- MONGODB (710.4ms) mongo_logger_db['$cmd'].find({"authenticate"=>1, "user"=>"jgaviria", "nonce"=>"5f6a51e24d23b030", "key"=>"023b5dde8f5a5a2f4578be2ae65364d2"}).limit(-1)
+2014-08-06 22:11:21.247988 [36m[1mI[0m [56169:70226213526520] [36mRails[0m -- Adding mongo appender
+2014-08-06 22:11:21.267424 [36m[1mI[0m [56169:70226213526520] [36mRails[0m -- db=#<Mongo::DB:0x007fbda39d7980 @name="production_logging", @client=#<Mongo::MongoClient:0x007fbda39dfea0 @host="localhost", @port=27017, @id_lock=#<Mutex:0x007fbda39dfdd8>, @primary=["localhost", 27017], @primary_pool=#<Mongo::Pool:0x3fded1cebdd8 @host=localhost @port=27017 @ping_time= 0/1 sockets available up=true>, @mongos=false, @tag_sets=[], @acceptable_latency=15, @max_bson_size=16777216, @max_message_size=48000000, @max_wire_version=nil, @min_wire_version=nil, @max_write_batch_size=nil, @slave_ok=nil, @ssl=nil, @unix=false, @socket_opts={}, @socket_class=Mongo::TCPSocket, @db_name=nil, @auths=#<Set: {}>, @pool_size=1, @pool_timeout=5.0, @op_timeout=nil, @connect_timeout=30, @logger=nil, @read=:primary, @write_concern={:w=>1}, @read_primary=true>, @strict=nil, @pk_factory=nil, @write_concern={:w=>1}, @read=:primary, @tag_sets=[], @acceptable_latency=15, @cache_time=300>
+2014-08-06 22:11:21.515128 [36m[1mI[0m [56169:70226213526520] [36mRails[0m -- Added mongo appender
+2014-08-06 22:13:18.400664 D [56169:70226213526520] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-06 22:13:18.400802 D [56169:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-06 22:13:18.400860 D [56169:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::MongoDB
+2014-08-06 22:13:18.401732 D [56169:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-06 22:13:18.402072 D [56169:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-06 22:13:22.791899 D [56181:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-06 22:13:22.866815 D [56181:70346560691180] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-06 22:13:22.866949 D [56181:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-06 22:13:22.867007 D [56181:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-06 22:13:22.867097 D [56181:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-06 22:13:47.197339 D [56187:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-06 22:13:47.251989 D [56187:70332778208220] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-06 22:13:47.252143 D [56187:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-06 22:13:47.252203 D [56187:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-06 22:13:47.252292 D [56187:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-06 22:14:25.115253 D [56193:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-06 22:14:25.170614 D [56193:70353066056680] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-06 22:14:25.170763 D [56193:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-06 22:14:25.170822 D [56193:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-06 22:14:25.170919 D [56193:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-06 22:14:46.713203 D [56198:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-06 22:14:46.769381 D [56198:70115949468640] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-06 22:14:46.769532 D [56198:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-06 22:14:46.769592 D [56198:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-06 22:14:46.769683 D [56198:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-06 22:15:35.987011 D [56205:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-06 22:15:36.040488 [32m[1mD[0m [56205:70105216244700] [32mRails[0m -- MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+2014-08-06 22:15:38.921687 [32m[1mD[0m [56205:70105216244700] [32mRails[0m -- MONGODB (716.4ms) admin['$cmd'].find({:isMaster=>1}).limit(-1)
+2014-08-06 22:15:40.457743 [32m[1mD[0m [56205:70105216244700] [32mRails[0m -- MONGODB (716.8ms) mongo_logger_db['$cmd'].find({:getnonce=>1}).limit(-1)
+2014-08-06 22:15:40.970563 [32m[1mD[0m [56205:70105216244700] [32mRails[0m -- MONGODB (512.3ms) mongo_logger_db['$cmd'].find({"authenticate"=>1, "user"=>"jgaviria", "nonce"=>"76f9e382b23cc2ac", "key"=>"7a06fe1dc7f8a96e9476641eeb8698c4"}).limit(-1)
+2014-08-06 22:15:41.900087 [36m[1mI[0m [56205:70105216244700] [36mRails[0m -- Adding mongo appender
+2014-08-06 22:15:41.902355 [36m[1mI[0m [56205:70105216244700] [36mRails[0m -- db=#<Mongo::DB:0x007f854c967688 @name="production_logging", @client=#<Mongo::MongoClient:0x007f854c96fe28 @host="localhost", @port=27017, @id_lock=#<Mutex:0x007f854c96fd60>, @primary=["localhost", 27017], @primary_pool=#<Mongo::Pool:0x3fc2a64b3d38 @host=localhost @port=27017 @ping_time= 0/1 sockets available up=true>, @mongos=false, @tag_sets=[], @acceptable_latency=15, @max_bson_size=16777216, @max_message_size=48000000, @max_wire_version=nil, @min_wire_version=nil, @max_write_batch_size=nil, @slave_ok=nil, @ssl=nil, @unix=false, @socket_opts={}, @socket_class=Mongo::TCPSocket, @db_name=nil, @auths=#<Set: {}>, @pool_size=1, @pool_timeout=5.0, @op_timeout=nil, @connect_timeout=30, @logger=nil, @read=:primary, @write_concern={:w=>1}, @read_primary=true>, @strict=nil, @pk_factory=nil, @write_concern={:w=>1}, @read=:primary, @tag_sets=[], @acceptable_latency=15, @cache_time=300>
+2014-08-06 22:15:41.908061 [36m[1mI[0m [56205:70105216244700] [36mRails[0m -- Added mongo appender
+2014-08-06 22:24:08.751682 D [56205:70105216244700] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-06 22:24:08.751826 D [56205:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-06 22:24:08.751884 D [56205:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::MongoDB
+2014-08-06 22:24:08.752807 D [56205:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-06 22:24:08.752909 D [56205:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-06 22:24:15.300554 D [56257:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-06 22:24:15.379769 [32m[1mD[0m [56257:70289711094760] [32mRails[0m -- MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+2014-08-06 22:24:18.397473 [32m[1mD[0m [56257:70289711094760] [32mRails[0m -- MONGODB (715.5ms) admin['$cmd'].find({:isMaster=>1}).limit(-1)
+2014-08-06 22:24:19.727958 [32m[1mD[0m [56257:70289711094760] [32mRails[0m -- MONGODB (715.5ms) mongo_logger_db['$cmd'].find({:getnonce=>1}).limit(-1)
+2014-08-06 22:24:20.444915 [32m[1mD[0m [56257:70289711094760] [32mRails[0m -- MONGODB (716.5ms) mongo_logger_db['$cmd'].find({"authenticate"=>1, "user"=>"jgaviria", "nonce"=>"f0cd02cbb9dee348", "key"=>"5b44eddc553df745d9069e0120a42f7f"}).limit(-1)
+2014-08-06 22:24:21.343757 [36m[1mI[0m [56257:70289711094760] [36mRails[0m -- Adding mongo appender
+2014-08-06 22:24:21.344241 D [56257:70289711094760] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-06 22:24:21.344342 D [56257:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-06 22:24:21.344399 D [56257:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-06 22:24:21.344499 D [56257:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-06 22:24:48.843991 D [56263:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-06 22:24:48.901855 [32m[1mD[0m [56263:70243263372280] [32mRails[0m -- MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+2014-08-06 22:24:50.141549 [32m[1mD[0m [56263:70243263372280] [32mRails[0m -- MONGODB (674.7ms) admin['$cmd'].find({:isMaster=>1}).limit(-1)
+2014-08-06 22:24:51.344137 [32m[1mD[0m [56263:70243263372280] [32mRails[0m -- MONGODB (575.3ms) mongo_logger_db['$cmd'].find({:getnonce=>1}).limit(-1)
+2014-08-06 22:24:52.090682 [32m[1mD[0m [56263:70243263372280] [32mRails[0m -- MONGODB (746.2ms) mongo_logger_db['$cmd'].find({"authenticate"=>1, "user"=>"jgaviria", "nonce"=>"acee0487989d4674", "key"=>"2e61668470aac2d16b68448b0a351408"}).limit(-1)
+2014-08-06 22:24:52.983666 [36m[1mI[0m [56263:70243263372280] [36mRails[0m -- Adding mongo appender
+2014-08-06 22:24:52.984090 D [56263:70243263372280] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-06 22:24:52.984183 D [56263:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-06 22:24:52.984236 D [56263:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-06 22:24:52.984327 D [56263:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-06 22:25:15.307282 D [56269:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-06 22:25:15.364178 [32m[1mD[0m [56269:70290579315680] [32mRails[0m -- MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+2014-08-06 22:25:16.663916 [32m[1mD[0m [56269:70290579315680] [32mRails[0m -- MONGODB (615.1ms) admin['$cmd'].find({:isMaster=>1}).limit(-1)
+2014-08-06 22:25:17.892228 [32m[1mD[0m [56269:70290579315680] [32mRails[0m -- MONGODB (614.7ms) mongo_logger_db['$cmd'].find({:getnonce=>1}).limit(-1)
+2014-08-06 22:25:18.472649 [32m[1mD[0m [56269:70290579315680] [32mRails[0m -- MONGODB (579.7ms) mongo_logger_db['$cmd'].find({"authenticate"=>1, "user"=>"jgaviria", "nonce"=>"8c0a76c6a047bbc3", "key"=>"d24ba42177b906e8e93d5b42fc1dab5c"}).limit(-1)
+2014-08-06 22:25:19.361433 [36m[1mI[0m [56269:70290579315680] [36mRails[0m -- Adding mongo appender
+2014-08-06 22:25:19.361910 D [56269:70290579315680] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-06 22:25:19.362002 D [56269:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-06 22:25:19.362056 D [56269:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-06 22:25:19.362141 D [56269:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-06 22:29:31.999405 D [56300:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-06 22:29:32.056340 [32m[1mD[0m [56300:70321529084920] [32mRails[0m -- MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+2014-08-06 22:29:34.815253 [32m[1mD[0m [56300:70321529084920] [32mRails[0m -- MONGODB (513.8ms) admin['$cmd'].find({:isMaster=>1}).limit(-1)
+2014-08-06 22:29:35.945061 [32m[1mD[0m [56300:70321529084920] [32mRails[0m -- MONGODB (618.4ms) mongo_logger_db['$cmd'].find({:getnonce=>1}).limit(-1)
+2014-08-06 22:29:36.451971 [32m[1mD[0m [56300:70321529084920] [32mRails[0m -- MONGODB (506.4ms) mongo_logger_db['$cmd'].find({"authenticate"=>1, "user"=>"jgaviria", "nonce"=>"9ec27838dcb7f0ea", "key"=>"f03a5beb5e6e12fb9c2cbba347e781c0"}).limit(-1)
+2014-08-06 22:29:37.440639 [36m[1mI[0m [56300:70321529084920] [36mRails[0m -- Adding mongo appender
+2014-08-06 22:29:37.441768 D [56300:70321529084920] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-06 22:29:37.441906 D [56300:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-06 22:29:37.441959 D [56300:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-06 22:29:37.442039 D [56300:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-06 22:29:54.308298 D [56304:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-06 22:29:54.363368 [32m[1mD[0m [56304:70358300548060] [32mRails[0m -- MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+2014-08-06 22:29:55.600331 [32m[1mD[0m [56304:70358300548060] [32mRails[0m -- MONGODB (654.2ms) admin['$cmd'].find({:isMaster=>1}).limit(-1)
+2014-08-06 22:29:56.932426 [32m[1mD[0m [56304:70358300548060] [32mRails[0m -- MONGODB (614.3ms) mongo_logger_db['$cmd'].find({:getnonce=>1}).limit(-1)
+2014-08-06 22:29:57.444591 [32m[1mD[0m [56304:70358300548060] [32mRails[0m -- MONGODB (511.6ms) mongo_logger_db['$cmd'].find({"authenticate"=>1, "user"=>"jgaviria", "nonce"=>"c4b12d075018537f", "key"=>"c0a15039c2cc4aa7468a9c81d71f3127"}).limit(-1)
+2014-08-06 22:29:58.332648 [36m[1mI[0m [56304:70358300548060] [36mRails[0m -- Adding mongo appender
+2014-08-06 22:29:58.337404 D [56304:70358300548060] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-06 22:29:58.337588 D [56304:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-06 22:29:58.337649 D [56304:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-06 22:29:58.337736 D [56304:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-06 22:30:26.257283 D [56311:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-06 22:30:26.312058 [32m[1mD[0m [56311:70287483919340] [32mRails[0m -- MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+2014-08-06 22:30:27.549277 [32m[1mD[0m [56311:70287483919340] [32mRails[0m -- MONGODB (568.7ms) admin['$cmd'].find({:isMaster=>1}).limit(-1)
+2014-08-06 22:30:28.779194 [32m[1mD[0m [56311:70287483919340] [32mRails[0m -- MONGODB (614.2ms) mongo_logger_db['$cmd'].find({:getnonce=>1}).limit(-1)
+2014-08-06 22:30:29.494768 [32m[1mD[0m [56311:70287483919340] [32mRails[0m -- MONGODB (715.2ms) mongo_logger_db['$cmd'].find({"authenticate"=>1, "user"=>"jgaviria", "nonce"=>"71291ca4eb2f1a52", "key"=>"7e6f6b59f2434915bfe0f616d5b0808b"}).limit(-1)
+2014-08-06 22:30:30.394289 [36m[1mI[0m [56311:70287483919340] [36mRails[0m -- Adding mongo appender
+2014-08-06 22:30:30.396501 [36m[1mI[0m [56311:70287483919340] [36mRails[0m -- db=#<Mongo::DB:0x007fda2c03ba20 @name="mongo_logger_db", @client=#<Mongo::MongoClient:0x007fda2c043ef0 @host="localhost", @port=27017, @id_lock=#<Mutex:0x007fda2c043e28>, @primary=["localhost", 27017], @primary_pool=#<Mongo::Pool:0x3fed1601de3c @host=localhost @port=27017 @ping_time= 0/1 sockets available up=true>, @mongos=false, @tag_sets=[], @acceptable_latency=15, @max_bson_size=16777216, @max_message_size=48000000, @max_wire_version=nil, @min_wire_version=nil, @max_write_batch_size=nil, @slave_ok=nil, @ssl=nil, @unix=false, @socket_opts={}, @socket_class=Mongo::TCPSocket, @db_name=nil, @auths=#<Set: {}>, @pool_size=1, @pool_timeout=5.0, @op_timeout=nil, @connect_timeout=30, @logger=nil, @read=:primary, @write_concern={:w=>1}, @read_primary=true>, @strict=nil, @pk_factory=nil, @write_concern={:w=>1}, @read=:primary, @tag_sets=[], @acceptable_latency=15, @cache_time=300>
+2014-08-06 22:30:31.666604 [36m[1mI[0m [56311:70287483919340] [36mRails[0m -- Added mongo appender
+2014-08-06 22:31:22.501285 D [56311:70287483919340] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-06 22:31:22.501427 D [56311:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-06 22:31:22.501560 D [56311:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::MongoDB
+2014-08-06 22:31:22.502454 D [56311:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-06 22:31:22.502558 D [56311:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-06 22:31:27.949950 D [56320:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-06 22:31:28.005876 [32m[1mD[0m [56320:70254470552540] [32mRails[0m -- MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+2014-08-06 22:31:30.730869 [32m[1mD[0m [56320:70254470552540] [32mRails[0m -- MONGODB (614.7ms) admin['$cmd'].find({:isMaster=>1}).limit(-1)
+2014-08-06 22:31:31.959299 [32m[1mD[0m [56320:70254470552540] [32mRails[0m -- MONGODB (614.8ms) mongo_logger_db['$cmd'].find({:getnonce=>1}).limit(-1)
+2014-08-06 22:31:32.677222 [32m[1mD[0m [56320:70254470552540] [32mRails[0m -- MONGODB (717.4ms) mongo_logger_db['$cmd'].find({"authenticate"=>1, "user"=>"jgaviria", "nonce"=>"caac7dd2169741fd", "key"=>"21d11d93dfc2509d96ea66d55a9656e3"}).limit(-1)
+2014-08-06 22:31:33.559039 [36m[1mI[0m [56320:70254470552540] [36mRails[0m -- Adding mongo appender
+2014-08-06 22:31:33.561271 [36m[1mI[0m [56320:70254470552540] [36mRails[0m -- db=#<Mongo::MongoClient:0x007fcaca660278 @host="localhost", @port=27017, @id_lock=#<Mutex:0x007fcaca660188>, @primary=["localhost", 27017], @primary_pool=#<Mongo::Pool:0x3fe565329fbc @host=localhost @port=27017 @ping_time= 0/1 sockets available up=true>, @mongos=false, @tag_sets=[], @acceptable_latency=15, @max_bson_size=16777216, @max_message_size=48000000, @max_wire_version=nil, @min_wire_version=nil, @max_write_batch_size=nil, @slave_ok=nil, @ssl=nil, @unix=false, @socket_opts={}, @socket_class=Mongo::TCPSocket, @db_name=nil, @auths=#<Set: {}>, @pool_size=1, @pool_timeout=5.0, @op_timeout=nil, @connect_timeout=30, @logger=nil, @read=:primary, @write_concern={:w=>1}, @read_primary=true>
+2014-08-06 22:31:33.566934 [36m[1mI[0m [56320:70254470552540] [36mRails[0m -- Added mongo appender
+2014-08-06 22:34:44.527512 D [56320:70254470552540] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-06 22:34:44.527901 D [56320:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-06 22:34:44.529100 D [56320:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::MongoDB
+2014-08-06 22:34:44.530072 D [56320:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-06 22:34:44.530200 D [56320:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-06 22:34:48.801651 D [56345:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-06 22:34:48.882166 [32m[1mD[0m [56345:70257414953960] [32mRails[0m -- MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+2014-08-06 22:34:52.962192 [32m[1mD[0m [56345:70257414953960] [32mRails[0m -- MONGODB (733.6ms) admin['$cmd'].find({:isMaster=>1}).limit(-1)
+2014-08-06 22:34:54.270005 [32m[1mD[0m [56345:70257414953960] [32mRails[0m -- MONGODB (673.0ms) mongo_logger_db['$cmd'].find({:getnonce=>1}).limit(-1)
+2014-08-06 22:34:54.873923 [32m[1mD[0m [56345:70257414953960] [32mRails[0m -- MONGODB (603.5ms) mongo_logger_db['$cmd'].find({"authenticate"=>1, "user"=>"jgaviria", "nonce"=>"54ca522f7dd9bfe9", "key"=>"545490b7cf2af5414d64318ef5a1aa1d"}).limit(-1)
+2014-08-06 22:34:55.805905 [36m[1mI[0m [56345:70257414953960] [36mRails[0m -- Adding mongo appender
+2014-08-06 22:34:55.810673 D [56345:70257414953960] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-06 22:34:55.810865 D [56345:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-06 22:34:55.810926 D [56345:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-06 22:34:55.811015 D [56345:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-06 22:37:00.120133 D [56360:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-06 22:37:00.174359 [32m[1mD[0m [56360:70251924610040] [32mRails[0m -- MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+2014-08-06 22:37:03.222424 [32m[1mD[0m [56360:70251924610040] [32mRails[0m -- MONGODB (614.1ms) admin['$cmd'].find({:isMaster=>1}).limit(-1)
+2014-08-06 22:37:04.474407 [32m[1mD[0m [56360:70251924610040] [32mRails[0m -- MONGODB (637.9ms) mongo_logger_db['$cmd'].find({:getnonce=>1}).limit(-1)
+2014-08-06 22:37:05.167941 [32m[1mD[0m [56360:70251924610040] [32mRails[0m -- MONGODB (693.1ms) mongo_logger_db['$cmd'].find({"authenticate"=>1, "user"=>"jgaviria", "nonce"=>"89c45b1ebf1fc4ef", "key"=>"32ffae427977f3fcb7a1a0dfa6397938"}).limit(-1)
+2014-08-06 22:37:06.061327 [36m[1mI[0m [56360:70251924610040] [36mRails[0m -- Adding mongo appender
+2014-08-06 22:37:06.062217 D [56360:70251924610040] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-06 22:37:06.062323 D [56360:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-06 22:37:06.062381 D [56360:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-06 22:37:06.062464 D [56360:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-06 22:37:25.214797 D [56365:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-06 22:37:25.269110 [32m[1mD[0m [56365:70283545467880] [32mRails[0m -- MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+2014-08-06 22:37:26.774783 [32m[1mD[0m [56365:70283545467880] [32mRails[0m -- MONGODB (717.2ms) admin['$cmd'].find({:isMaster=>1}).limit(-1)
+2014-08-06 22:37:28.208645 [32m[1mD[0m [56365:70283545467880] [32mRails[0m -- MONGODB (716.8ms) mongo_logger_db['$cmd'].find({:getnonce=>1}).limit(-1)
+2014-08-06 22:37:28.924771 [32m[1mD[0m [56365:70283545467880] [32mRails[0m -- MONGODB (715.2ms) mongo_logger_db['$cmd'].find({"authenticate"=>1, "user"=>"jgaviria", "nonce"=>"a9bfeaebd1dc5f36", "key"=>"b45e2b90423e6deedb137b9f5dd3fccb"}).limit(-1)
+2014-08-06 22:37:29.827200 [36m[1mI[0m [56365:70283545467880] [36mRails[0m -- Adding mongo appender
+2014-08-06 22:37:31.076744 [36m[1mI[0m [56365:70283545467880] [36mRails[0m -- db=#<Mongo::MongoClient:0x007fd85617dca8 @host="ds061189.mongolab.com", @port=61189, @id_lock=#<Mutex:0x007fd85617db40>, @primary=["ds061189.mongolab.com", 61189], @primary_pool=#<Mongo::Pool:0x3fec2b0bb3e4 @host=ds061189.mongolab.com @port=61189 @ping_time= 0/1 sockets available up=true>, @mongos=false, @tag_sets=[], @acceptable_latency=15, @max_bson_size=16777216, @max_message_size=48000000, @max_wire_version=nil, @min_wire_version=nil, @max_write_batch_size=nil, @slave_ok=nil, @ssl=nil, @unix=false, @socket_opts={}, @socket_class=Mongo::TCPSocket, @db_name="mongo_logger_db", @auths=#<Set: {{:db_name=>"mongo_logger_db", :username=>"jgaviria", :password=>"Sofia123!", :source=>"mongo_logger_db", :mechanism=>"MONGODB-CR", :extra=>{}}}>, @pool_size=1, @pool_timeout=5.0, @op_timeout=nil, @connect_timeout=30, @logger=nil, @read=:primary, @write_concern={:w=>1}, @read_primary=true>
+2014-08-06 22:37:31.080118 D [56365:70283545467880] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-06 22:37:31.080247 D [56365:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-06 22:37:31.080304 D [56365:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-06 22:37:31.080400 D [56365:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-06 22:37:57.585819 D [56371:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-06 22:37:57.640178 [32m[1mD[0m [56371:70256953580520] [32mRails[0m -- MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+2014-08-06 22:37:59.030500 [32m[1mD[0m [56371:70256953580520] [32mRails[0m -- MONGODB (716.6ms) admin['$cmd'].find({:isMaster=>1}).limit(-1)
+2014-08-06 22:38:00.262255 [32m[1mD[0m [56371:70256953580520] [32mRails[0m -- MONGODB (617.2ms) mongo_logger_db['$cmd'].find({:getnonce=>1}).limit(-1)
+2014-08-06 22:38:01.079326 [32m[1mD[0m [56371:70256953580520] [32mRails[0m -- MONGODB (816.5ms) mongo_logger_db['$cmd'].find({"authenticate"=>1, "user"=>"jgaviria", "nonce"=>"b4a02cf054f25f4e", "key"=>"e93a502afcab9d9579736f2e78dd8328"}).limit(-1)
+2014-08-06 22:38:01.973270 [36m[1mI[0m [56371:70256953580520] [36mRails[0m -- Adding mongo appender
+2014-08-06 22:38:03.266949 [36m[1mI[0m [56371:70256953580520] [36mRails[0m -- db=#<Mongo::MongoClient:0x007fcbf4394a78 @host="ds061189.mongolab.com", @port=61189, @id_lock=#<Mutex:0x007fcbf4394988>, @primary=["ds061189.mongolab.com", 61189], @primary_pool=#<Mongo::Pool:0x3fe5fa1c657c @host=ds061189.mongolab.com @port=61189 @ping_time= 0/1 sockets available up=true>, @mongos=false, @tag_sets=[], @acceptable_latency=15, @max_bson_size=16777216, @max_message_size=48000000, @max_wire_version=nil, @min_wire_version=nil, @max_write_batch_size=nil, @slave_ok=nil, @ssl=nil, @unix=false, @socket_opts={}, @socket_class=Mongo::TCPSocket, @db_name="mongo_logger_db", @auths=#<Set: {{:db_name=>"mongo_logger_db", :username=>"jgaviria", :password=>"Sofia123!", :source=>"mongo_logger_db", :mechanism=>"MONGODB-CR", :extra=>{}}}>, @pool_size=1, @pool_timeout=5.0, @op_timeout=nil, @connect_timeout=30, @logger=nil, @read=:primary, @write_concern={:w=>1}, @read_primary=true>
+2014-08-06 22:38:03.270153 D [56371:70256953580520] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-06 22:38:03.270288 D [56371:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-06 22:38:03.270359 D [56371:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-06 22:38:03.270457 D [56371:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-06 22:44:25.578653 D [56409:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-06 22:44:25.632511 [32m[1mD[0m [56409:70310581951480] [32mRails[0m -- MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+2014-08-06 22:44:28.219705 [32m[1mD[0m [56409:70310581951480] [32mRails[0m -- MONGODB (581.1ms) admin['$cmd'].find({:isMaster=>1}).limit(-1)
+2014-08-06 22:44:29.508732 [32m[1mD[0m [56409:70310581951480] [32mRails[0m -- MONGODB (641.4ms) mongo_logger_db['$cmd'].find({:getnonce=>1}).limit(-1)
+2014-08-06 22:44:30.197553 [32m[1mD[0m [56409:70310581951480] [32mRails[0m -- MONGODB (688.3ms) mongo_logger_db['$cmd'].find({"authenticate"=>1, "user"=>"jgaviria", "nonce"=>"e2e2925f91aba178", "key"=>"cbb093c21c263f78b0d68c74c579b3b1"}).limit(-1)
+2014-08-06 22:44:31.130522 [36m[1mI[0m [56409:70310581951480] [36mRails[0m -- Adding mongo appender
+2014-08-06 22:44:31.162648 D [56409:70310581951480] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-06 22:44:31.162802 D [56409:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-06 22:44:31.162864 D [56409:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-06 22:44:31.162937 D [56409:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-06 22:46:40.119891 D [56426:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-06 22:46:40.174209 [32m[1mD[0m [56426:70351732268000] [32mRails[0m -- MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+2014-08-06 22:46:43.522584 [32m[1mD[0m [56426:70351732268000] [32mRails[0m -- MONGODB (511.8ms) admin['$cmd'].find({:isMaster=>1}).limit(-1)
+2014-08-06 22:46:44.751396 [32m[1mD[0m [56426:70351732268000] [32mRails[0m -- MONGODB (614.0ms) mongo_logger_db['$cmd'].find({:getnonce=>1}).limit(-1)
+2014-08-06 22:46:45.468830 [32m[1mD[0m [56426:70351732268000] [32mRails[0m -- MONGODB (716.9ms) mongo_logger_db['$cmd'].find({"authenticate"=>1, "user"=>"jgaviria", "nonce"=>"374a2b94f317f037", "key"=>"4b9f10d4b1e675fc9c85ac2c895fa84e"}).limit(-1)
+2014-08-06 22:46:46.350611 [36m[1mI[0m [56426:70351732268000] [36mRails[0m -- Adding mongo appender
+2014-08-06 22:46:46.353046 [36m[1mI[0m [56426:70351732268000] [36mRails[0m -- db=#<Mongo::DB:0x007ff814fbc110 @name="mongo_logger_db", @client=#<Mongo::MongoClient:0x007ff814fc48d8 @host="localhost", @port=27017, @id_lock=#<Mutex:0x007ff814fc47e8>, @primary=["localhost", 27017], @primary_pool=#<Mongo::Pool:0x3ffc0a7de1b4 @host=localhost @port=27017 @ping_time= 0/1 sockets available up=true>, @mongos=false, @tag_sets=[], @acceptable_latency=15, @max_bson_size=16777216, @max_message_size=48000000, @max_wire_version=nil, @min_wire_version=nil, @max_write_batch_size=nil, @slave_ok=nil, @ssl=nil, @unix=false, @socket_opts={}, @socket_class=Mongo::TCPSocket, @db_name=nil, @auths=#<Set: {}>, @pool_size=1, @pool_timeout=5.0, @op_timeout=nil, @connect_timeout=30, @logger=nil, @read=:primary, @write_concern={:w=>1}, @read_primary=true>, @strict=nil, @pk_factory=nil, @write_concern={:w=>1}, @read=:primary, @tag_sets=[], @acceptable_latency=15, @cache_time=300>
+2014-08-06 22:46:46.358616 [36m[1mI[0m [56426:70351732268000] [36mRails[0m -- Added mongo appender
+2014-08-06 22:47:41.215128 D [56426:70351732268000] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-06 22:47:41.215332 D [56426:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-06 22:47:41.215394 D [56426:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::MongoDB
+2014-08-06 22:47:41.216201 D [56426:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-06 22:47:41.217396 D [56426:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-06 22:47:45.090664 D [56435:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-06 22:47:45.144627 [32m[1mD[0m [56435:70284933782520] [32mRails[0m -- MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+2014-08-06 22:47:46.498601 [32m[1mD[0m [56435:70284933782520] [32mRails[0m -- MONGODB (711.8ms) admin['$cmd'].find({:isMaster=>1}).limit(-1)
+2014-08-06 22:47:47.931588 [32m[1mD[0m [56435:70284933782520] [32mRails[0m -- MONGODB (715.4ms) mongo_logger_db['$cmd'].find({:getnonce=>1}).limit(-1)
+2014-08-06 22:47:48.375355 [32m[1mD[0m [56435:70284933782520] [32mRails[0m -- MONGODB (443.4ms) mongo_logger_db['$cmd'].find({"authenticate"=>1, "user"=>"jgaviria", "nonce"=>"567ad748f07f09c0", "key"=>"870e519d87f6f127ba0a32088bf04fd2"}).limit(-1)
+2014-08-06 22:47:49.269923 [36m[1mI[0m [56435:70284933782520] [36mRails[0m -- Adding mongo appender
+2014-08-06 22:47:49.272137 D [56435:70284933782520] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-06 22:47:49.272262 D [56435:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-06 22:47:49.272320 D [56435:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-06 22:47:49.272407 D [56435:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-06 22:48:48.730928 D [56443:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-06 22:48:48.784085 [32m[1mD[0m [56443:70194492005340] [32mRails[0m -- MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+2014-08-06 22:48:51.452083 [32m[1mD[0m [56443:70194492005340] [32mRails[0m -- MONGODB (635.7ms) admin['$cmd'].find({:isMaster=>1}).limit(-1)
+2014-08-06 22:48:52.751197 [32m[1mD[0m [56443:70194492005340] [32mRails[0m -- MONGODB (613.8ms) mongo_logger_db['$cmd'].find({:getnonce=>1}).limit(-1)
+2014-08-06 22:48:53.368285 [32m[1mD[0m [56443:70194492005340] [32mRails[0m -- MONGODB (616.7ms) mongo_logger_db['$cmd'].find({"authenticate"=>1, "user"=>"jgaviria", "nonce"=>"c47a3481d6aa5f70", "key"=>"b56176c6c5a5f3a2a79d00212ee6f761"}).limit(-1)
+2014-08-06 22:48:54.256413 [36m[1mI[0m [56443:70194492005340] [36mRails[0m -- Adding mongo appender
+2014-08-06 22:48:54.258779 [36m[1mI[0m [56443:70194492005340] [36mRails[0m -- db=#<Mongo::DB:0x007faede463f18 @name="mongo_logger_db", @client=#<Mongo::MongoClient:0x007faede4707b8 @host="localhost", @port=27017, @id_lock=#<Mutex:0x007faede4704e8>, @primary=["localhost", 27017], @primary_pool=#<Mongo::Pool:0x3fd76f2340c0 @host=localhost @port=27017 @ping_time= 0/1 sockets available up=true>, @mongos=false, @tag_sets=[], @acceptable_latency=15, @max_bson_size=16777216, @max_message_size=48000000, @max_wire_version=nil, @min_wire_version=nil, @max_write_batch_size=nil, @slave_ok=nil, @ssl=nil, @unix=false, @socket_opts={}, @socket_class=Mongo::TCPSocket, @db_name=nil, @auths=#<Set: {}>, @pool_size=1, @pool_timeout=5.0, @op_timeout=nil, @connect_timeout=30, @logger=nil, @read=:primary, @write_concern={:w=>1}, @read_primary=true>, @strict=nil, @pk_factory=nil, @write_concern={:w=>1}, @read=:primary, @tag_sets=[], @acceptable_latency=15, @cache_time=300>
+2014-08-06 22:48:54.261882 D [56443:70194492005340] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-06 22:48:54.262031 D [56443:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-06 22:48:54.262089 D [56443:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-06 22:48:54.262156 D [56443:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-06 23:13:24.663865 D [56569:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-06 23:13:24.717375 [32m[1mD[0m [56569:70180868905960] [32mRails[0m -- MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+2014-08-06 23:13:27.791049 [32m[1mD[0m [56569:70180868905960] [32mRails[0m -- MONGODB (684.6ms) admin['$cmd'].find({:isMaster=>1}).limit(-1)
+2014-08-06 23:13:28.949145 [32m[1mD[0m [56569:70180868905960] [32mRails[0m -- MONGODB (614.1ms) mongo_logger_db['$cmd'].find({:getnonce=>1}).limit(-1)
+2014-08-06 23:13:29.642251 [32m[1mD[0m [56569:70180868905960] [32mRails[0m -- MONGODB (692.8ms) mongo_logger_db['$cmd'].find({"authenticate"=>1, "user"=>"jgaviria", "nonce"=>"1dce9820497d2e9f", "key"=>"942e0592b42da96f26ffb05ae1899f4f"}).limit(-1)
+2014-08-06 23:13:30.615121 [36m[1mI[0m [56569:70180868905960] [36mRails[0m -- Adding mongo appender
+2014-08-06 23:13:30.617374 [36m[1mI[0m [56569:70180868905960] [36mRails[0m -- db=#<Mongo::DB:0x007fa8871b3ac8 @name="mongo_logger_db", @client=#<Mongo::MongoClient:0x007fa8871c0c28 @host="localhost", @port=27017, @id_lock=#<Mutex:0x007fa8871bbf70>, @primary=["localhost", 27017], @primary_pool=#<Mongo::Pool:0x3fd4438d9e68 @host=localhost @port=27017 @ping_time= 0/1 sockets available up=true>, @mongos=false, @tag_sets=[], @acceptable_latency=15, @max_bson_size=16777216, @max_message_size=48000000, @max_wire_version=nil, @min_wire_version=nil, @max_write_batch_size=nil, @slave_ok=nil, @ssl=nil, @unix=false, @socket_opts={}, @socket_class=Mongo::TCPSocket, @db_name=nil, @auths=#<Set: {}>, @pool_size=1, @pool_timeout=5.0, @op_timeout=nil, @connect_timeout=30, @logger=nil, @read=:primary, @write_concern={:w=>1}, @read_primary=true>, @strict=nil, @pk_factory=nil, @write_concern={:w=>1}, @read=:primary, @tag_sets=[], @acceptable_latency=15, @cache_time=300>
+2014-08-06 23:13:30.622951 [36m[1mI[0m [56569:70180868905960] [36mRails[0m -- Added mongo appender
+2014-08-06 23:18:17.338944 D [56569:70180868905960] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-06 23:18:17.339079 D [56569:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-06 23:18:17.339137 D [56569:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::MongoDB
+2014-08-06 23:18:17.339946 D [56569:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-06 23:18:17.340044 D [56569:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-06 23:18:21.721762 D [56689:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-06 23:18:21.775105 [32m[1mD[0m [56689:70272652860380] [32mRails[0m -- MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+2014-08-06 23:18:24.864806 [32m[1mD[0m [56689:70272652860380] [32mRails[0m -- MONGODB (594.0ms) admin['$cmd'].find({:isMaster=>1}).limit(-1)
+2014-08-06 23:18:26.055427 [32m[1mD[0m [56689:70272652860380] [32mRails[0m -- MONGODB (555.9ms) mongo_logger_db['$cmd'].find({:getnonce=>1}).limit(-1)
+2014-08-06 23:18:26.625593 [32m[1mD[0m [56689:70272652860380] [32mRails[0m -- MONGODB (569.8ms) mongo_logger_db['$cmd'].find({"authenticate"=>1, "user"=>"jgaviria", "nonce"=>"e318396797bbda08", "key"=>"e2ea49e487e1a37327fee6a63321f6a6"}).limit(-1)
+2014-08-06 23:18:27.500445 [36m[1mI[0m [56689:70272652860380] [36mRails[0m -- Adding mongo appender
+2014-08-06 23:18:27.502705 [36m[1mI[0m [56689:70272652860380] [36mRails[0m -- db=#<Mongo::DB:0x007fd343af8a20 @name="mongo_logger_db", @client=#<Mongo::MongoClient:0x007fd343b092d0 @host="localhost", @port=27017, @id_lock=#<Mutex:0x007fd343b09168>, @primary=["localhost", 27017], @primary_pool=#<Mongo::Pool:0x3fe9a1d7c7cc @host=localhost @port=27017 @ping_time= 0/1 sockets available up=true>, @mongos=false, @tag_sets=[], @acceptable_latency=15, @max_bson_size=16777216, @max_message_size=48000000, @max_wire_version=nil, @min_wire_version=nil, @max_write_batch_size=nil, @slave_ok=nil, @ssl=nil, @unix=false, @socket_opts={}, @socket_class=Mongo::TCPSocket, @db_name=nil, @auths=#<Set: {}>, @pool_size=1, @pool_timeout=5.0, @op_timeout=nil, @connect_timeout=30, @logger=nil, @read=:primary, @write_concern={:w=>1}, @read_primary=true>, @strict=nil, @pk_factory=nil, @write_concern={:w=>1}, @read=:primary, @tag_sets=[], @acceptable_latency=15, @cache_time=300>
+2014-08-06 23:18:27.508544 [36m[1mI[0m [56689:70272652860380] [36mRails[0m -- Added mongo appender
+2014-08-06 23:18:40.893771 [36m[1mI[0m [56689:70272674371960] [36mRails[0m -- Started GET "/budgets/new" for 127.0.0.1 at 2014-08-06 23:18:40 -0400
+2014-08-06 23:18:41.202507 [36m[1mI[0m [56689:70272674371960] [36mActionController[0m -- Processing by BudgetsController#new as HTML
+2014-08-06 23:18:41.243169 [32m[1mD[0m [56689:70272674371960] [32mActiveRecord[0m --   [1m[36mUser Load (23.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" IS NULL LIMIT 1[0m
+2014-08-06 23:18:41.244214 [36m[1mI[0m [56689:70272674371960] [36mActionController[0m -- Redirected to http://localhost:3000/login
+2014-08-06 23:18:41.244294 [36m[1mI[0m [56689:70272674371960] [36mActionController[0m -- Filter chain halted as :authorize rendered or redirected
+2014-08-06 23:18:41.244456 [36m[1mI[0m [56689:70272674371960] [36mActionController[0m -- Completed 302 Found in 42ms (ActiveRecord: 23.3ms)
+2014-08-06 23:18:41.251671 [36m[1mI[0m [56689:70272674371960] [36mRails[0m -- Started GET "/login" for 127.0.0.1 at 2014-08-06 23:18:41 -0400
+2014-08-06 23:18:41.254734 [36m[1mI[0m [56689:70272674371960] [36mActionController[0m -- Processing by SessionsController#new as HTML
+2014-08-06 23:18:41.358463 [36m[1mI[0m [56689:70272674371960] [36mRails[0m --   Rendered sessions/new.html.erb within layouts/application (2.9ms)
+2014-08-06 23:18:41.361456 [36m[1mI[0m [56689:70272674371960] [36mActionController[0m -- Completed 200 OK in 107ms (Views: 105.8ms | ActiveRecord: 0.0ms)
+2014-08-06 23:18:41.386004 [36m[1mI[0m [56689:70272674371960] [36mRails[0m -- Started GET "/budgets/new" for 127.0.0.1 at 2014-08-06 23:18:41 -0400
+2014-08-06 23:18:41.388753 [36m[1mI[0m [56689:70272674371960] [36mActionController[0m -- Processing by BudgetsController#new as HTML
+2014-08-06 23:18:41.390341 [32m[1mD[0m [56689:70272674371960] [32mActiveRecord[0m --   [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" IS NULL LIMIT 1
+2014-08-06 23:18:41.390975 [36m[1mI[0m [56689:70272674371960] [36mActionController[0m -- Redirected to http://localhost:3000/login
+2014-08-06 23:18:41.391046 [36m[1mI[0m [56689:70272674371960] [36mActionController[0m -- Filter chain halted as :authorize rendered or redirected
+2014-08-06 23:18:41.391169 [36m[1mI[0m [56689:70272674371960] [36mActionController[0m -- Completed 302 Found in 2ms (ActiveRecord: 0.5ms)
+2014-08-06 23:18:41.398280 [36m[1mI[0m [56689:70272674371960] [36mRails[0m -- Started GET "/login" for 127.0.0.1 at 2014-08-06 23:18:41 -0400
+2014-08-06 23:18:41.399996 [36m[1mI[0m [56689:70272674371960] [36mActionController[0m -- Processing by SessionsController#new as HTML
+2014-08-06 23:18:41.404639 [36m[1mI[0m [56689:70272674371960] [36mRails[0m --   Rendered sessions/new.html.erb within layouts/application (2.0ms)
+2014-08-06 23:18:41.407410 [36m[1mI[0m [56689:70272674371960] [36mActionController[0m -- Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+2014-08-06 23:18:43.118718 [36m[1mI[0m [56689:70272674371960] [36mRails[0m -- Started GET "/products" for 127.0.0.1 at 2014-08-06 23:18:43 -0400
+2014-08-06 23:18:43.125547 [36m[1mI[0m [56689:70272674371960] [36mActionController[0m -- Processing by ProductsController#index as HTML
+2014-08-06 23:18:43.127457 [32m[1mD[0m [56689:70272674371960] [32mActiveRecord[0m --   [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" IS NULL LIMIT 1[0m
+2014-08-06 23:18:43.129892 [36m[1mI[0m [56689:70272674371960] [36mActionController[0m -- Redirected to http://localhost:3000/login
+2014-08-06 23:18:43.129999 [36m[1mI[0m [56689:70272674371960] [36mActionController[0m -- Filter chain halted as :authorize rendered or redirected
+2014-08-06 23:18:43.130285 [36m[1mI[0m [56689:70272674371960] [36mActionController[0m -- Completed 302 Found in 4ms (ActiveRecord: 0.5ms)
+2014-08-06 23:18:43.140153 [36m[1mI[0m [56689:70272674371960] [36mRails[0m -- Started GET "/login" for 127.0.0.1 at 2014-08-06 23:18:43 -0400
+2014-08-06 23:18:43.142076 [36m[1mI[0m [56689:70272674371960] [36mActionController[0m -- Processing by SessionsController#new as HTML
+2014-08-06 23:18:43.144208 [36m[1mI[0m [56689:70272674371960] [36mRails[0m --   Rendered sessions/new.html.erb within layouts/application (1.0ms)
+2014-08-06 23:18:43.145901 [36m[1mI[0m [56689:70272674371960] [36mActionController[0m -- Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+2014-08-06 23:18:48.748167 [36m[1mI[0m [56689:70272674371960] [36mRails[0m -- Started POST "/login" for 127.0.0.1 at 2014-08-06 23:18:48 -0400
+2014-08-06 23:18:48.750386 [36m[1mI[0m [56689:70272674371960] [36mActionController[0m -- Processing by SessionsController#create as HTML
+2014-08-06 23:18:48.750427 [36m[1mI[0m [56689:70272674371960] [36mActionController[0m --   Parameters: {"utf8"=>"✓", "authenticity_token"=>"B38AHYBLY8vNM4ENDKeq4lg6nVJ+yAuYtXKnsiFtoYE=", "name"=>"juan ", "password"=>"[FILTERED]", "commit"=>"Login"}
+2014-08-06 23:18:48.923257 [32m[1mD[0m [56689:70272674371960] [32mActiveRecord[0m --   [1m[35mUser Load (0.8ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."name" = 'juan ' LIMIT 1
+2014-08-06 23:18:49.088404 [36m[1mI[0m [56689:70272674371960] [36mActionController[0m -- Redirected to http://localhost:3000/admin
+2014-08-06 23:18:49.090401 [36m[1mI[0m [56689:70272674371960] [36mActionController[0m -- Completed 302 Found in 340ms (ActiveRecord: 189.8ms)
+2014-08-06 23:18:49.098698 [36m[1mI[0m [56689:70272674371960] [36mRails[0m -- Started GET "/admin" for 127.0.0.1 at 2014-08-06 23:18:49 -0400
+2014-08-06 23:18:49.102051 [36m[1mI[0m [56689:70272674371960] [36mActionController[0m -- Processing by AdminController#index as HTML
+2014-08-06 23:18:49.105512 [32m[1mD[0m [56689:70272674371960] [32mActiveRecord[0m --   [1m[36mUser Load (2.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 4 LIMIT 1[0m
+2014-08-06 23:18:49.124529 [36m[1mI[0m [56689:70272674371960] [36mRails[0m --   Rendered admin/index.html.erb within layouts/application (0.9ms)
+2014-08-06 23:18:49.130196 [36m[1mI[0m [56689:70272674371960] [36mActionController[0m -- Completed 200 OK in 28ms (Views: 23.1ms | ActiveRecord: 2.2ms)
+2014-08-06 23:18:50.415244 [36m[1mI[0m [56689:70272674371960] [36mRails[0m -- Started GET "/products" for 127.0.0.1 at 2014-08-06 23:18:50 -0400
+2014-08-06 23:18:50.417086 [36m[1mI[0m [56689:70272674371960] [36mActionController[0m -- Processing by ProductsController#index as HTML
+2014-08-06 23:18:50.419019 [32m[1mD[0m [56689:70272674371960] [32mActiveRecord[0m --   [1m[35mUser Load (0.8ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 4 LIMIT 1
+2014-08-06 23:18:56.903222 [36m[1mI[0m [56689:70272674371960] [36mRails[0m --   Rendered products/index.html.erb within layouts/application (1.6ms)
+2014-08-06 23:18:56.906985 [36m[1mI[0m [56689:70272674371960] [36mActionController[0m -- Completed 200 OK in 6490ms (Views: 39.3ms | ActiveRecord: 0.8ms)
+2014-08-06 23:18:57.107747 [36m[1mI[0m [56689:70272674371960] [36mRails[0m -- Started GET "/products" for 127.0.0.1 at 2014-08-06 23:18:57 -0400
+2014-08-06 23:18:57.109652 [36m[1mI[0m [56689:70272674371960] [36mActionController[0m -- Processing by ProductsController#index as HTML
+2014-08-06 23:18:57.111655 [32m[1mD[0m [56689:70272674371960] [32mActiveRecord[0m --   [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 4 LIMIT 1[0m
+2014-08-06 23:18:59.541622 [36m[1mI[0m [56689:70272674371960] [36mRails[0m --   Rendered products/index.html.erb within layouts/application (0.2ms)
+2014-08-06 23:18:59.543562 [36m[1mI[0m [56689:70272674371960] [36mActionController[0m -- Completed 200 OK in 2434ms (Views: 2.6ms | ActiveRecord: 0.6ms)
+2014-08-06 23:21:44.161399 [36m[1mI[0m [56689:70272675075100] [36mRails[0m -- Started GET "/products" for 127.0.0.1 at 2014-08-06 23:21:44 -0400
+2014-08-06 23:21:44.163264 [36m[1mI[0m [56689:70272675075100] [36mActionController[0m -- Processing by ProductsController#index as HTML
+2014-08-06 23:21:44.165714 [32m[1mD[0m [56689:70272675075100] [32mActiveRecord[0m --   [1m[35mUser Load (1.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 4 LIMIT 1
+2014-08-06 23:21:48.280630 [36m[1mI[0m [56689:70272675075100] [36mRails[0m --   Rendered products/index.html.erb within layouts/application (1.0ms)
+2014-08-06 23:21:48.281208 [36m[1mI[0m [56689:70272675075100] [36mActionController[0m -- Completed 500 Internal Server Error in 4118ms
+2014-08-06 23:21:48.283923 [31m[1mF[0m [56689:70272675075100] [31mRails[0m -- 
+SyntaxError (/Users/jgaviria/Desktop/Presupuesto/app/views/products/index.html.erb:26: syntax error, unexpected keyword_end
+'.freeze;@output_buffer.append=( end );@output_buffer.to_s
+                                    ^
+/Users/jgaviria/Desktop/Presupuesto/app/views/products/index.html.erb:27: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/jgaviria/Desktop/Presupuesto/app/views/products/index.html.erb:29: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/products/index.html.erb:26: syntax error, unexpected keyword_end
+  app/views/products/index.html.erb:27: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/products/index.html.erb:29: syntax error, unexpected keyword_end, expecting ')'
+
+
+2014-08-06 23:24:08.398201 [36m[1mI[0m [56689:70272674482760] [36mRails[0m -- Started GET "/products" for 127.0.0.1 at 2014-08-06 23:24:08 -0400
+2014-08-06 23:24:08.399979 [36m[1mI[0m [56689:70272674482760] [36mActionController[0m -- Processing by ProductsController#index as HTML
+2014-08-06 23:24:08.402455 [32m[1mD[0m [56689:70272674482760] [32mActiveRecord[0m --   [1m[36mUser Load (1.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 4 LIMIT 1[0m
+2014-08-06 23:24:12.329895 [36m[1mI[0m [56689:70272674482760] [36mRails[0m --   Rendered products/index.html.erb within layouts/application (0.7ms)
+2014-08-06 23:24:12.330083 [36m[1mI[0m [56689:70272674482760] [36mActionController[0m -- Completed 500 Internal Server Error in 3930ms
+2014-08-06 23:24:12.332790 [31m[1mF[0m [56689:70272674482760] [31mRails[0m -- 
+SyntaxError (/Users/jgaviria/Desktop/Presupuesto/app/views/products/index.html.erb:26: syntax error, unexpected keyword_end
+'.freeze;@output_buffer.append=( end );@output_buffer.to_s
+                                    ^
+/Users/jgaviria/Desktop/Presupuesto/app/views/products/index.html.erb:27: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/jgaviria/Desktop/Presupuesto/app/views/products/index.html.erb:29: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/products/index.html.erb:26: syntax error, unexpected keyword_end
+  app/views/products/index.html.erb:27: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/products/index.html.erb:29: syntax error, unexpected keyword_end, expecting ')'
+
+
+2014-08-06 23:25:29.318256 [36m[1mI[0m [56689:70272656528980] [36mRails[0m -- Started GET "/login" for 127.0.0.1 at 2014-08-06 23:25:29 -0400
+2014-08-06 23:25:29.320763 [36m[1mI[0m [56689:70272656528980] [36mActionController[0m -- Processing by SessionsController#new as HTML
+2014-08-06 23:25:29.323475 [36m[1mI[0m [56689:70272656528980] [36mRails[0m --   Rendered sessions/new.html.erb within layouts/application (1.6ms)
+2014-08-06 23:25:29.326108 [36m[1mI[0m [56689:70272656528980] [36mActionController[0m -- Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+2014-08-06 23:25:32.391068 [36m[1mI[0m [56689:70272656528980] [36mRails[0m -- Started GET "/products" for 127.0.0.1 at 2014-08-06 23:25:32 -0400
+2014-08-06 23:25:32.394911 [36m[1mI[0m [56689:70272656528980] [36mActionController[0m -- Processing by ProductsController#index as HTML
+2014-08-06 23:25:32.397490 [32m[1mD[0m [56689:70272656528980] [32mActiveRecord[0m --   [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 4 LIMIT 1
+2014-08-06 23:25:37.977188 [36m[1mI[0m [56689:70272656528980] [36mRails[0m --   Rendered products/index.html.erb within layouts/application (0.2ms)
+2014-08-06 23:25:37.979156 [36m[1mI[0m [56689:70272656528980] [36mActionController[0m -- Completed 200 OK in 5584ms (Views: 2.6ms | ActiveRecord: 0.7ms)
+2014-08-06 23:27:51.538733 [36m[1mI[0m [56689:70272659570760] [36mRails[0m -- Started GET "/products" for 127.0.0.1 at 2014-08-06 23:27:51 -0400
+2014-08-06 23:27:51.543782 [36m[1mI[0m [56689:70272659570760] [36mActionController[0m -- Processing by ProductsController#index as HTML
+2014-08-06 23:27:51.550232 [32m[1mD[0m [56689:70272659570760] [32mActiveRecord[0m --   [1m[36mUser Load (1.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 4 LIMIT 1[0m
+2014-08-06 23:27:58.403395 [36m[1mI[0m [56689:70272659570760] [36mRails[0m --   Rendered products/index.html.erb within layouts/application (0.7ms)
+2014-08-06 23:27:58.403528 [36m[1mI[0m [56689:70272659570760] [36mActionController[0m -- Completed 500 Internal Server Error in 6860ms
+2014-08-06 23:27:58.405996 [31m[1mF[0m [56689:70272659570760] [31mRails[0m -- 
+SyntaxError (/Users/jgaviria/Desktop/Presupuesto/app/views/products/index.html.erb:26: syntax error, unexpected keyword_end
+'.freeze;@output_buffer.append=( end );@output_buffer.to_s
+                                    ^
+/Users/jgaviria/Desktop/Presupuesto/app/views/products/index.html.erb:27: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/jgaviria/Desktop/Presupuesto/app/views/products/index.html.erb:29: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/products/index.html.erb:26: syntax error, unexpected keyword_end
+  app/views/products/index.html.erb:27: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/products/index.html.erb:29: syntax error, unexpected keyword_end, expecting ')'
+
+
+2014-08-06 23:28:58.375462 [36m[1mI[0m [56689:70272659646440] [36mRails[0m -- Started GET "/products" for 127.0.0.1 at 2014-08-06 23:28:58 -0400
+2014-08-06 23:28:58.376882 [36m[1mI[0m [56689:70272659646440] [36mActionController[0m -- Processing by ProductsController#index as HTML
+2014-08-06 23:28:58.378843 [32m[1mD[0m [56689:70272659646440] [32mActiveRecord[0m --   [1m[35mUser Load (0.8ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 4 LIMIT 1
+2014-08-06 23:29:03.867259 [36m[1mI[0m [56689:70272659646440] [36mRails[0m --   Rendered products/index.html.erb within layouts/application (0.7ms)
+2014-08-06 23:29:03.867387 [36m[1mI[0m [56689:70272659646440] [36mActionController[0m -- Completed 500 Internal Server Error in 5490ms
+2014-08-06 23:29:03.870315 [31m[1mF[0m [56689:70272659646440] [31mRails[0m -- 
+SyntaxError (/Users/jgaviria/Desktop/Presupuesto/app/views/products/index.html.erb:26: syntax error, unexpected keyword_end
+'.freeze;@output_buffer.append=( end );@output_buffer.to_s
+                                    ^
+/Users/jgaviria/Desktop/Presupuesto/app/views/products/index.html.erb:27: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/jgaviria/Desktop/Presupuesto/app/views/products/index.html.erb:29: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/products/index.html.erb:26: syntax error, unexpected keyword_end
+  app/views/products/index.html.erb:27: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/products/index.html.erb:29: syntax error, unexpected keyword_end, expecting ')'
+
+
+2014-08-06 23:30:33.998099 [36m[1mI[0m [56689:70272655847260] [36mRails[0m -- Started GET "/products" for 127.0.0.1 at 2014-08-06 23:30:33 -0400
+2014-08-06 23:30:34.000641 [36m[1mI[0m [56689:70272655847260] [36mActionController[0m -- Processing by ProductsController#index as HTML
+2014-08-06 23:30:34.005431 [32m[1mD[0m [56689:70272655847260] [32mActiveRecord[0m --   [1m[36mUser Load (2.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 4 LIMIT 1[0m
+2014-08-06 23:30:41.096327 [36m[1mI[0m [56689:70272655847260] [36mRails[0m --   Rendered products/index.html.erb within layouts/application (0.9ms)
+2014-08-06 23:30:41.096523 [36m[1mI[0m [56689:70272655847260] [36mActionController[0m -- Completed 500 Internal Server Error in 7096ms
+2014-08-06 23:30:41.099102 [31m[1mF[0m [56689:70272655847260] [31mRails[0m -- 
+SyntaxError (/Users/jgaviria/Desktop/Presupuesto/app/views/products/index.html.erb:26: syntax error, unexpected keyword_end
+'.freeze;@output_buffer.append=( end );@output_buffer.to_s
+                                    ^
+/Users/jgaviria/Desktop/Presupuesto/app/views/products/index.html.erb:27: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/jgaviria/Desktop/Presupuesto/app/views/products/index.html.erb:29: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/products/index.html.erb:26: syntax error, unexpected keyword_end
+  app/views/products/index.html.erb:27: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/products/index.html.erb:29: syntax error, unexpected keyword_end, expecting ')'
+
+
+2014-08-06 23:33:31.613161 D [56689:70272652860380] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-06 23:33:31.613364 D [56689:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-06 23:33:31.613429 D [56689:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::MongoDB
+2014-08-06 23:33:31.614139 D [56689:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-06 23:33:31.614231 D [56689:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-06 23:33:36.850847 D [56776:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-06 23:33:36.937535 [32m[1mD[0m [56776:70259637935080] [32mRails[0m -- MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+2014-08-06 23:33:39.830741 [32m[1mD[0m [56776:70259637935080] [32mRails[0m -- MONGODB (615.1ms) admin['$cmd'].find({:isMaster=>1}).limit(-1)
+2014-08-06 23:33:40.852070 [32m[1mD[0m [56776:70259637935080] [32mRails[0m -- MONGODB (409.6ms) mongo_logger_db['$cmd'].find({:getnonce=>1}).limit(-1)
+2014-08-06 23:33:41.365953 [32m[1mD[0m [56776:70259637935080] [32mRails[0m -- MONGODB (513.4ms) mongo_logger_db['$cmd'].find({"authenticate"=>1, "user"=>"jgaviria", "nonce"=>"641f06b899b24d09", "key"=>"98a393e947e440da9f127b71cc94151e"}).limit(-1)
+2014-08-06 23:33:42.269602 [36m[1mI[0m [56776:70259637935080] [36mRails[0m -- Adding mongo appender
+2014-08-06 23:33:42.271893 [36m[1mI[0m [56776:70259637935080] [36mRails[0m -- db=#<Mongo::DB:0x007fcd3494c830 @name="mongo_logger_db", @client=#<Mongo::MongoClient:0x007fcd34954eb8 @host="localhost", @port=27017, @id_lock=#<Mutex:0x007fcd34954d78>, @primary=["localhost", 27017], @primary_pool=#<Mongo::Pool:0x3fe69a4a651c @host=localhost @port=27017 @ping_time= 0/1 sockets available up=true>, @mongos=false, @tag_sets=[], @acceptable_latency=15, @max_bson_size=16777216, @max_message_size=48000000, @max_wire_version=nil, @min_wire_version=nil, @max_write_batch_size=nil, @slave_ok=nil, @ssl=nil, @unix=false, @socket_opts={}, @socket_class=Mongo::TCPSocket, @db_name=nil, @auths=#<Set: {}>, @pool_size=1, @pool_timeout=5.0, @op_timeout=nil, @connect_timeout=30, @logger=nil, @read=:primary, @write_concern={:w=>1}, @read_primary=true>, @strict=nil, @pk_factory=nil, @write_concern={:w=>1}, @read=:primary, @tag_sets=[], @acceptable_latency=15, @cache_time=300>
+2014-08-06 23:33:42.278100 [36m[1mI[0m [56776:70259637935080] [36mRails[0m -- Added mongo appender
+2014-08-06 23:34:12.910544 [36m[1mI[0m [56776:70259645802640] [36mRails[0m -- Started GET "/products" for 127.0.0.1 at 2014-08-06 23:34:12 -0400
+2014-08-06 23:34:12.948404 [36m[1mI[0m [56776:70259645802640] [36mActionController[0m -- Processing by ProductsController#index as HTML
+2014-08-06 23:34:12.965931 [32m[1mD[0m [56776:70259645802640] [32mActiveRecord[0m --   [1m[36mUser Load (2.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 4 LIMIT 1[0m
+2014-08-06 23:34:12.989109 [36m[1mI[0m [56776:70259645802640] [36mRails[0m --   Rendered products/index.html.erb within layouts/application (1.0ms)
+2014-08-06 23:34:12.992818 [36m[1mI[0m [56776:70259645802640] [36mActionController[0m -- Completed 200 OK in 44ms (Views: 9.5ms | ActiveRecord: 10.3ms)
+2014-08-06 23:35:11.415158 [36m[1mI[0m [56776:70259638926980] [36mRails[0m -- Started GET "/products" for 127.0.0.1 at 2014-08-06 23:35:11 -0400
+2014-08-06 23:35:11.416900 [36m[1mI[0m [56776:70259638926980] [36mActionController[0m -- Processing by ProductsController#index as HTML
+2014-08-06 23:35:11.419475 [32m[1mD[0m [56776:70259638926980] [32mActiveRecord[0m --   [1m[35mUser Load (1.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 4 LIMIT 1
+2014-08-06 23:35:11.424232 [36m[1mI[0m [56776:70259638926980] [36mRails[0m --   Rendered products/index.html.erb within layouts/application (0.2ms)
+2014-08-06 23:35:11.426259 [36m[1mI[0m [56776:70259638926980] [36mActionController[0m -- Completed 200 OK in 9ms (Views: 3.3ms | ActiveRecord: 1.4ms)
+2014-08-06 23:35:11.486460 [36m[1mI[0m [56776:70259638926980] [36mRails[0m -- Started GET "/assets/application-cd6b5f3743cbef7848008d88800f82f3.css" for 127.0.0.1 at 2014-08-06 23:35:11 -0400
+2014-08-06 23:35:15.408020 [36m[1mI[0m [56776:70259639217840] [36mRails[0m -- Started GET "/assets/application-8d77584239e96b9ab59f4b78e9232f77.js" for 127.0.0.1 at 2014-08-06 23:35:15 -0400
+2014-08-06 23:36:05.465652 [36m[1mI[0m [56776:70259686993540] [36mRails[0m -- Started GET "/products" for 127.0.0.1 at 2014-08-06 23:36:05 -0400
+2014-08-06 23:36:05.467452 [36m[1mI[0m [56776:70259686993540] [36mActionController[0m -- Processing by ProductsController#index as HTML
+2014-08-06 23:36:05.469268 [32m[1mD[0m [56776:70259686993540] [32mActiveRecord[0m --   [1m[36mUser Load (0.7ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 4 LIMIT 1[0m
+2014-08-06 23:36:05.473749 [36m[1mI[0m [56776:70259686993540] [36mRails[0m --   Rendered products/index.html.erb within layouts/application (0.2ms)
+2014-08-06 23:36:05.475647 [36m[1mI[0m [56776:70259686993540] [36mActionController[0m -- Completed 200 OK in 8ms (Views: 2.6ms | ActiveRecord: 0.7ms)
+2014-08-06 23:36:05.528902 [36m[1mI[0m [56776:70259686993540] [36mRails[0m -- Started GET "/assets/application-cd6b5f3743cbef7848008d88800f82f3.css" for 127.0.0.1 at 2014-08-06 23:36:05 -0400
+2014-08-06 23:36:05.533087 [36m[1mI[0m [56776:70259686993240] [36mRails[0m -- Started GET "/assets/application-8d77584239e96b9ab59f4b78e9232f77.js" for 127.0.0.1 at 2014-08-06 23:36:05 -0400
+2014-08-06 23:36:10.101170 [36m[1mI[0m [56776:70259686993240] [36mRails[0m -- Started GET "/products" for 127.0.0.1 at 2014-08-06 23:36:10 -0400
+2014-08-06 23:36:10.103244 [36m[1mI[0m [56776:70259686993240] [36mActionController[0m -- Processing by ProductsController#index as HTML
+2014-08-06 23:36:10.105024 [32m[1mD[0m [56776:70259686993240] [32mActiveRecord[0m --   [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 4 LIMIT 1
+2014-08-06 23:36:10.107909 [36m[1mI[0m [56776:70259686993240] [36mRails[0m --   Rendered products/index.html.erb within layouts/application (0.1ms)
+2014-08-06 23:36:10.110578 [36m[1mI[0m [56776:70259686993240] [36mActionController[0m -- Completed 200 OK in 7ms (Views: 3.1ms | ActiveRecord: 0.4ms)
+2014-08-06 23:36:10.146666 [36m[1mI[0m [56776:70259686993240] [36mRails[0m -- Started GET "/assets/application-cd6b5f3743cbef7848008d88800f82f3.css" for 127.0.0.1 at 2014-08-06 23:36:10 -0400
+2014-08-06 23:36:10.150906 [36m[1mI[0m [56776:70259686993540] [36mRails[0m -- Started GET "/assets/application-8d77584239e96b9ab59f4b78e9232f77.js" for 127.0.0.1 at 2014-08-06 23:36:10 -0400
+2014-08-06 23:37:07.168699 [36m[1mI[0m [56776:70259685638360] [36mRails[0m -- Started GET "/products" for 127.0.0.1 at 2014-08-06 23:37:07 -0400
+2014-08-06 23:37:07.171101 [36m[1mI[0m [56776:70259685638360] [36mActionController[0m -- Processing by ProductsController#index as HTML
+2014-08-06 23:37:07.183408 [32m[1mD[0m [56776:70259685638360] [32mActiveRecord[0m --   [1m[36mUser Load (10.8ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 4 LIMIT 1[0m
+2014-08-06 23:37:07.188722 [36m[1mI[0m [56776:70259685638360] [36mRails[0m --   Rendered products/index.html.erb within layouts/application (0.2ms)
+2014-08-06 23:37:07.190554 [36m[1mI[0m [56776:70259685638360] [36mActionController[0m -- Completed 200 OK in 19ms (Views: 2.4ms | ActiveRecord: 10.8ms)
+2014-08-06 23:37:07.263758 [36m[1mI[0m [56776:70259688857500] [36mRails[0m -- Started GET "/assets/application-8d77584239e96b9ab59f4b78e9232f77.js" for 127.0.0.1 at 2014-08-06 23:37:07 -0400
+2014-08-06 23:37:07.272019 [36m[1mI[0m [56776:70259685638360] [36mRails[0m -- Started GET "/assets/application-cd6b5f3743cbef7848008d88800f82f3.css" for 127.0.0.1 at 2014-08-06 23:37:07 -0400
+2014-08-06 23:44:02.256434 [36m[1mI[0m [56776:70259688638260] [36mRails[0m -- Started GET "/products" for 127.0.0.1 at 2014-08-06 23:44:02 -0400
+2014-08-06 23:44:02.258415 [36m[1mI[0m [56776:70259688638260] [36mActionController[0m -- Processing by ProductsController#index as HTML
+2014-08-06 23:44:02.261971 [32m[1mD[0m [56776:70259688638260] [32mActiveRecord[0m --   [1m[35mUser Load (2.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 4 LIMIT 1
+2014-08-06 23:44:02.269565 [36m[1mI[0m [56776:70259688638260] [36mRails[0m --   Rendered products/index.html.erb within layouts/application (3.8ms)
+2014-08-06 23:44:02.272347 [36m[1mI[0m [56776:70259688638260] [36mActionController[0m -- Completed 200 OK in 14ms (Views: 7.0ms | ActiveRecord: 2.5ms)
+2014-08-06 23:44:02.345198 [36m[1mI[0m [56776:70259688638260] [36mRails[0m -- Started GET "/assets/application-cd6b5f3743cbef7848008d88800f82f3.css" for 127.0.0.1 at 2014-08-06 23:44:02 -0400
+2014-08-06 23:44:02.352262 [36m[1mI[0m [56776:70259688637980] [36mRails[0m -- Started GET "/assets/application-8d77584239e96b9ab59f4b78e9232f77.js" for 127.0.0.1 at 2014-08-06 23:44:02 -0400
+2014-08-06 23:44:04.852201 [36m[1mI[0m [56776:70259688637980] [36mRails[0m -- Started GET "/budgets/new" for 127.0.0.1 at 2014-08-06 23:44:04 -0400
+2014-08-06 23:44:04.858350 [36m[1mI[0m [56776:70259688637980] [36mActionController[0m -- Processing by BudgetsController#new as HTML
+2014-08-06 23:44:04.860333 [32m[1mD[0m [56776:70259688637980] [32mActiveRecord[0m --   [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 4 LIMIT 1[0m
+2014-08-06 23:44:25.656353 [36m[1mI[0m [56776:70259688637980] [36mRails[0m --   Rendered budgets/_form.html.erb (21.7ms)
+2014-08-06 23:44:25.656580 [36m[1mI[0m [56776:70259688637980] [36mRails[0m --   Rendered budgets/new.html.erb within layouts/application (127.4ms)
+2014-08-06 23:44:25.658454 [36m[1mI[0m [56776:70259688637980] [36mActionController[0m -- Completed 200 OK in 20800ms (Views: 157.8ms | ActiveRecord: 2.5ms)
+2014-08-06 23:44:26.165756 D [56776:70259637935080] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-06 23:44:26.166421 D [56776:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-06 23:44:26.166501 D [56776:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::MongoDB
+2014-08-06 23:44:26.167481 D [56776:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-06 23:44:26.167606 D [56776:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-06 23:44:31.445303 D [56850:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-06 23:44:31.497832 [32m[1mD[0m [56850:70274666126300] [32mRails[0m -- MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+2014-08-06 23:44:34.368876 [32m[1mD[0m [56850:70274666126300] [32mRails[0m -- MONGODB (614.2ms) admin['$cmd'].find({:isMaster=>1}).limit(-1)
+2014-08-06 23:44:35.597554 [32m[1mD[0m [56850:70274666126300] [32mRails[0m -- MONGODB (614.7ms) mongo_logger_db['$cmd'].find({:getnonce=>1}).limit(-1)
+2014-08-06 23:44:36.315272 [32m[1mD[0m [56850:70274666126300] [32mRails[0m -- MONGODB (717.2ms) mongo_logger_db['$cmd'].find({"authenticate"=>1, "user"=>"jgaviria", "nonce"=>"9597d9d9ee66bbbd", "key"=>"7e2e426a4aed4f8ffb08c56fe7e11781"}).limit(-1)
+2014-08-06 23:44:37.285671 [36m[1mI[0m [56850:70274666126300] [36mRails[0m -- Adding mongo appender
+2014-08-06 23:44:37.288993 [36m[1mI[0m [56850:70274666126300] [36mRails[0m -- db=#<Mongo::DB:0x007fd43499c040 @name="mongo_logger_db", @client=#<Mongo::MongoClient:0x007fd4349a78a0 @host="localhost", @port=27017, @id_lock=#<Mutex:0x007fd43499fe98>, @primary=["localhost", 27017], @primary_pool=#<Mongo::Pool:0x3fea1a4ce14c @host=localhost @port=27017 @ping_time= 0/1 sockets available up=true>, @mongos=false, @tag_sets=[], @acceptable_latency=15, @max_bson_size=16777216, @max_message_size=48000000, @max_wire_version=nil, @min_wire_version=nil, @max_write_batch_size=nil, @slave_ok=nil, @ssl=nil, @unix=false, @socket_opts={}, @socket_class=Mongo::TCPSocket, @db_name=nil, @auths=#<Set: {}>, @pool_size=1, @pool_timeout=5.0, @op_timeout=nil, @connect_timeout=30, @logger=nil, @read=:primary, @write_concern={:w=>1}, @read_primary=true>, @strict=nil, @pk_factory=nil, @write_concern={:w=>1}, @read=:primary, @tag_sets=[], @acceptable_latency=15, @cache_time=300>
+2014-08-06 23:44:37.296579 [36m[1mI[0m [56850:70274666126300] [36mRails[0m -- Added mongo appender
+2014-08-06 23:44:47.230692 [36m[1mI[0m [56850:70274669806940] [36mRails[0m -- Started GET "/products" for 127.0.0.1 at 2014-08-06 23:44:47 -0400
+2014-08-06 23:44:47.273967 [36m[1mI[0m [56850:70274669806940] [36mActionController[0m -- Processing by ProductsController#index as HTML
+2014-08-06 23:44:47.291665 [32m[1mD[0m [56850:70274669806940] [32mActiveRecord[0m --   [1m[36mUser Load (1.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 4 LIMIT 1[0m
+2014-08-06 23:44:47.309924 [36m[1mI[0m [56850:70274669806940] [36mActionController[0m -- Completed 500 Internal Server Error in 36ms
+2014-08-06 23:44:47.311963 [31m[1mF[0m [56850:70274669806940] [31mRails[0m -- 
+NameError (uninitialized constant ProductsController::MongoClient):
+  app/controllers/products_controller.rb:17:in `index'
+
+
+2014-08-06 23:44:47.321244 [36m[1mI[0m [56850:70274669806940] [36mRails[0m -- Started GET "/products" for 127.0.0.1 at 2014-08-06 23:44:47 -0400
+2014-08-06 23:44:47.323926 [36m[1mI[0m [56850:70274669806940] [36mActionController[0m -- Processing by ProductsController#index as HTML
+2014-08-06 23:44:47.326695 [32m[1mD[0m [56850:70274669806940] [32mActiveRecord[0m --   [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 4 LIMIT 1
+2014-08-06 23:44:47.328114 [36m[1mI[0m [56850:70274669806940] [36mActionController[0m -- Completed 500 Internal Server Error in 4ms
+2014-08-06 23:44:47.329668 [31m[1mF[0m [56850:70274669806940] [31mRails[0m -- 
+NameError (uninitialized constant ProductsController::MongoClient):
+  app/controllers/products_controller.rb:17:in `index'
+
+
+2014-08-06 23:45:17.343248 [36m[1mI[0m [56850:70274669806940] [36mRails[0m -- Started GET "/products" for 127.0.0.1 at 2014-08-06 23:45:17 -0400
+2014-08-06 23:45:17.345627 [36m[1mI[0m [56850:70274669806940] [36mActionController[0m -- Processing by ProductsController#index as HTML
+2014-08-06 23:45:17.348726 [32m[1mD[0m [56850:70274669806940] [32mActiveRecord[0m --   [1m[36mUser Load (1.9ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 4 LIMIT 1[0m
+2014-08-06 23:45:17.350535 [36m[1mI[0m [56850:70274669806940] [36mActionController[0m -- Completed 500 Internal Server Error in 5ms
+2014-08-06 23:45:17.353915 [31m[1mF[0m [56850:70274669806940] [31mRails[0m -- 
+NameError (uninitialized constant ProductsController::MongoClient):
+  app/controllers/products_controller.rb:17:in `index'
+
+
+2014-08-06 23:45:19.231917 [36m[1mI[0m [56850:70274669806940] [36mRails[0m -- Started GET "/products" for 127.0.0.1 at 2014-08-06 23:45:19 -0400
+2014-08-06 23:45:19.233601 [36m[1mI[0m [56850:70274669806940] [36mActionController[0m -- Processing by ProductsController#index as HTML
+2014-08-06 23:45:19.248647 [32m[1mD[0m [56850:70274669806940] [32mActiveRecord[0m --   [1m[35mUser Load (2.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 4 LIMIT 1
+2014-08-06 23:45:19.250289 [36m[1mI[0m [56850:70274669806940] [36mActionController[0m -- Completed 500 Internal Server Error in 17ms
+2014-08-06 23:45:19.252337 [31m[1mF[0m [56850:70274669806940] [31mRails[0m -- 
+NameError (uninitialized constant ProductsController::MongoClient):
+  app/controllers/products_controller.rb:17:in `index'
+
+
+2014-08-06 23:45:29.364269 D [56850:70274666126300] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-06 23:45:29.364413 D [56850:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-06 23:45:29.364487 D [56850:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::MongoDB
+2014-08-06 23:45:29.365242 D [56850:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-06 23:45:29.365378 D [56850:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-06 23:45:33.321286 D [56861:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-06 23:45:33.375509 [32m[1mD[0m [56861:70311303371740] [32mRails[0m -- MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+2014-08-06 23:45:34.300876 [32m[1mD[0m [56861:70311303371740] [32mRails[0m -- MONGODB (461.1ms) admin['$cmd'].find({:isMaster=>1}).limit(-1)
+2014-08-06 23:45:35.159445 [32m[1mD[0m [56861:70311303371740] [32mRails[0m -- MONGODB (464.6ms) mongo_logger_db['$cmd'].find({:getnonce=>1}).limit(-1)
+2014-08-06 23:45:35.706151 [32m[1mD[0m [56861:70311303371740] [32mRails[0m -- MONGODB (545.8ms) mongo_logger_db['$cmd'].find({"authenticate"=>1, "user"=>"jgaviria", "nonce"=>"3253e59be019c94e", "key"=>"5b1fb8857f9d0dcc9e5eef007605f3b7"}).limit(-1)
+2014-08-06 23:45:36.598485 [36m[1mI[0m [56861:70311303371740] [36mRails[0m -- Adding mongo appender
+2014-08-06 23:45:36.600913 [36m[1mI[0m [56861:70311303371740] [36mRails[0m -- db=#<Mongo::DB:0x007fe543959a90 @name="mongo_logger_db", @client=#<Mongo::MongoClient:0x007fe5440ec668 @host="localhost", @port=27017, @id_lock=#<Mutex:0x007fe5440ec550>, @primary=["localhost", 27017], @primary_pool=#<Mongo::Pool:0x3ff2a1cac0c8 @host=localhost @port=27017 @ping_time= 0/1 sockets available up=true>, @mongos=false, @tag_sets=[], @acceptable_latency=15, @max_bson_size=16777216, @max_message_size=48000000, @max_wire_version=nil, @min_wire_version=nil, @max_write_batch_size=nil, @slave_ok=nil, @ssl=nil, @unix=false, @socket_opts={}, @socket_class=Mongo::TCPSocket, @db_name=nil, @auths=#<Set: {}>, @pool_size=1, @pool_timeout=5.0, @op_timeout=nil, @connect_timeout=30, @logger=nil, @read=:primary, @write_concern={:w=>1}, @read_primary=true>, @strict=nil, @pk_factory=nil, @write_concern={:w=>1}, @read=:primary, @tag_sets=[], @acceptable_latency=15, @cache_time=300>
+2014-08-06 23:45:36.606476 [36m[1mI[0m [56861:70311303371740] [36mRails[0m -- Added mongo appender
+2014-08-06 23:45:47.552933 [36m[1mI[0m [56861:70311311058280] [36mRails[0m -- Started GET "/login" for 127.0.0.1 at 2014-08-06 23:45:47 -0400
+2014-08-06 23:45:47.589635 [36m[1mI[0m [56861:70311311058280] [36mActionController[0m -- Processing by SessionsController#new as HTML
+2014-08-06 23:45:47.608161 [36m[1mI[0m [56861:70311311058280] [36mRails[0m --   Rendered sessions/new.html.erb within layouts/application (2.8ms)
+2014-08-06 23:45:47.611014 [36m[1mI[0m [56861:70311311058280] [36mActionController[0m -- Completed 200 OK in 21ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+2014-08-06 23:45:47.669052 [36m[1mI[0m [56861:70311311058040] [36mRails[0m -- Started GET "/assets/application-8d77584239e96b9ab59f4b78e9232f77.js" for 127.0.0.1 at 2014-08-06 23:45:47 -0400
+2014-08-06 23:45:47.724931 [36m[1mI[0m [56861:70311311058280] [36mRails[0m -- Started GET "/assets/application-cd6b5f3743cbef7848008d88800f82f3.css" for 127.0.0.1 at 2014-08-06 23:45:47 -0400
+2014-08-06 23:45:49.050195 [36m[1mI[0m [56861:70311311058280] [36mRails[0m -- Started GET "/products" for 127.0.0.1 at 2014-08-06 23:45:49 -0400
+2014-08-06 23:45:49.056082 [36m[1mI[0m [56861:70311311058280] [36mActionController[0m -- Processing by ProductsController#index as HTML
+2014-08-06 23:45:49.062177 [32m[1mD[0m [56861:70311311058280] [32mActiveRecord[0m --   [1m[36mUser Load (2.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 4 LIMIT 1[0m
+2014-08-06 23:45:49.268184 [36m[1mI[0m [56861:70311311058280] [36mActionController[0m -- Completed 500 Internal Server Error in 212ms
+2014-08-06 23:45:49.270373 [31m[1mF[0m [56861:70311311058280] [31mRails[0m -- 
+Mongo::OperationFailure (16633: text search not enabled):
+  app/controllers/products_controller.rb:22:in `index'
+
+
+2014-08-06 23:45:49.279090 [36m[1mI[0m [56861:70311311058280] [36mRails[0m -- Started GET "/products" for 127.0.0.1 at 2014-08-06 23:45:49 -0400
+2014-08-06 23:45:49.280641 [36m[1mI[0m [56861:70311311058280] [36mActionController[0m -- Processing by ProductsController#index as HTML
+2014-08-06 23:45:49.283842 [32m[1mD[0m [56861:70311311058280] [32mActiveRecord[0m --   [1m[35mUser Load (1.7ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 4 LIMIT 1
+2014-08-06 23:45:49.298834 [36m[1mI[0m [56861:70311311058280] [36mActionController[0m -- Completed 500 Internal Server Error in 18ms
+2014-08-06 23:45:49.301713 [31m[1mF[0m [56861:70311311058280] [31mRails[0m -- 
+Mongo::OperationFailure (16633: text search not enabled):
+  app/controllers/products_controller.rb:22:in `index'
+
+
+2014-08-06 23:46:50.505912 [36m[1mI[0m [56861:70311328859000] [36mRails[0m -- Started GET "/products" for 127.0.0.1 at 2014-08-06 23:46:50 -0400
+2014-08-06 23:46:50.509514 [36m[1mI[0m [56861:70311328859000] [36mActionController[0m -- Processing by ProductsController#index as HTML
+2014-08-06 23:46:50.511092 [32m[1mD[0m [56861:70311328859000] [32mActiveRecord[0m --   [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 4 LIMIT 1[0m
+2014-08-06 23:46:50.521878 [36m[1mI[0m [56861:70311328859000] [36mActionController[0m -- Completed 500 Internal Server Error in 12ms
+2014-08-06 23:46:50.524049 [31m[1mF[0m [56861:70311328859000] [31mRails[0m -- 
+Mongo::OperationFailure (16633: text search not enabled):
+  app/controllers/products_controller.rb:22:in `index'
+
+
+2014-08-07 14:02:47.808444 D [56861:70311303371740] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-07 14:02:47.808701 D [56861:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-07 14:02:47.808811 D [56861:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::MongoDB
+2014-08-07 14:02:47.809543 D [56861:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-07 14:02:47.809671 D [56861:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-07 14:03:03.121278 D [58912:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-07 14:03:03.459317 [32m[1mD[0m [58912:70127446055900] [32mRails[0m -- MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+2014-08-07 14:03:04.039158 [32m[1mD[0m [58912:70127446055900] [32mRails[0m -- MONGODB (49.7ms) admin['$cmd'].find({:isMaster=>1}).limit(-1)
+2014-08-07 14:03:04.139002 [32m[1mD[0m [58912:70127446055900] [32mRails[0m -- MONGODB (49.7ms) mongo_logger_db['$cmd'].find({:getnonce=>1}).limit(-1)
+2014-08-07 14:03:04.239705 [32m[1mD[0m [58912:70127446055900] [32mRails[0m -- MONGODB (100.3ms) mongo_logger_db['$cmd'].find({"authenticate"=>1, "user"=>"jgaviria", "nonce"=>"238f6922d21dbd23", "key"=>"6a0a9d567836aba8c388a7170a835f09"}).limit(-1)
+2014-08-07 14:03:07.909507 [36m[1mI[0m [58912:70127446055900] [36mRails[0m -- Adding mongo appender
+2014-08-07 14:03:08.008992 [36m[1mI[0m [58912:70127446055900] [36mRails[0m -- db=#<Mongo::MongoClient:0x007f8fa6a36370 @host="ds061189.mongolab.com", @port=61189, @id_lock=#<Mutex:0x007f8fa6a35fd8>, @primary=["ds061189.mongolab.com", 61189], @primary_pool=#<Mongo::Pool:0x3fc7d35176a8 @host=ds061189.mongolab.com @port=61189 @ping_time= 0/1 sockets available up=true>, @mongos=false, @tag_sets=[], @acceptable_latency=15, @max_bson_size=16777216, @max_message_size=48000000, @max_wire_version=nil, @min_wire_version=nil, @max_write_batch_size=nil, @slave_ok=nil, @ssl=nil, @unix=false, @socket_opts={}, @socket_class=Mongo::TCPSocket, @db_name=nil, @auths=#<Set: {}>, @pool_size=1, @pool_timeout=5.0, @op_timeout=nil, @connect_timeout=30, @logger=nil, @read=:primary, @write_concern={:w=>1}, @read_primary=true>
+2014-08-07 14:03:08.043737 D [58912:70127446055900] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-07 14:03:08.043909 D [58912:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-07 14:03:08.043969 D [58912:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-07 14:03:08.044059 D [58912:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2014-08-07 14:04:22.662950 D [58923:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-08-07 14:04:22.717075 [32m[1mD[0m [58923:70122870070240] [32mRails[0m -- MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+2014-08-07 14:04:23.262677 [32m[1mD[0m [58923:70122870070240] [32mRails[0m -- MONGODB (48.3ms) admin['$cmd'].find({:isMaster=>1}).limit(-1)
+2014-08-07 14:04:23.360764 [32m[1mD[0m [58923:70122870070240] [32mRails[0m -- MONGODB (49.7ms) mongo_logger_db['$cmd'].find({:getnonce=>1}).limit(-1)
+2014-08-07 14:04:23.410691 [32m[1mD[0m [58923:70122870070240] [32mRails[0m -- MONGODB (49.0ms) mongo_logger_db['$cmd'].find({"authenticate"=>1, "user"=>"jgaviria", "nonce"=>"20b89f1ccfc4b0e4", "key"=>"32e5d325a39c884fa880d070a3941cef"}).limit(-1)
+2014-08-07 14:04:24.287421 [36m[1mI[0m [58923:70122870070240] [36mRails[0m -- Adding mongo appender
+2014-08-07 14:04:24.393748 [36m[1mI[0m [58923:70122870070240] [36mRails[0m -- db=#<Mongo::MongoClient:0x007f8d84222e78 @host="ds061189.mongolab.com", @port=61189, @id_lock=#<Mutex:0x007f8d84222cc0>, @primary=["ds061189.mongolab.com", 61189], @primary_pool=#<Mongo::Pool:0x3fc6c210d470 @host=ds061189.mongolab.com @port=61189 @ping_time= 0/1 sockets available up=true>, @mongos=false, @tag_sets=[], @acceptable_latency=15, @max_bson_size=16777216, @max_message_size=48000000, @max_wire_version=nil, @min_wire_version=nil, @max_write_batch_size=nil, @slave_ok=nil, @ssl=nil, @unix=false, @socket_opts={}, @socket_class=Mongo::TCPSocket, @db_name=nil, @auths=#<Set: {}>, @pool_size=1, @pool_timeout=5.0, @op_timeout=nil, @connect_timeout=30, @logger=nil, @read=:primary, @write_concern={:w=>1}, @read_primary=true>
+2014-08-07 14:04:24.399543 D [58923:70122870070240] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-08-07 14:04:24.399724 D [58923:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-08-07 14:04:24.399797 D [58923:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2014-08-07 14:04:24.399875 D [58923:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
