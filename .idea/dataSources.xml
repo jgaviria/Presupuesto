@@ -3,7 +3,7 @@
   <component name="DataSourceManagerImpl" format="xml" hash="4172976735">
     <data-source source="LOCAL" name="Rails testeo_jits: development" uuid="79b933ea-e551-49ea-965a-987d3c7b932a">
       <driver-ref>sqlite.xerial</driver-ref>
-      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql:my_database_development</jdbc-url>
       <libraries />
     </data-source>

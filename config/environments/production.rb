@@ -1,21 +1,7 @@
 Rails.application.configure do
 
 
-  require 'mongo'
 
-  config.after_initialize do
-    Rails.logger.info 'Adding mongo appender'
-    # Re-use the existing MongoDB connection, or create a new one here
-    db = Mongo::MongoClient.new('ds061189.mongolab.com', 61189)
-    Rails.logger.info "db=#{db.inspect}"
-    # Besides logging to the standard Rails logger, also log to MongoDB
-    config.semantic_logger.add_appender SemanticLogger::Appender::MongoDB.new(
-                                            db:              db,
-                                            collection_name: 'mynewcollection',
-                                            collection_size: 5.megabytes
-                                        )
-    Rails.logger.info 'Added mongo appender'
-  end
 
   config.log_level = :trace
   # Settings specified here will take precedence over those in config/application.rb.

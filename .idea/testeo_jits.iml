@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="RUBY_MODULE" version="4">
+  <component name="CompassSettings">
+    <option name="compassSupportEnabled" value="true" />
+  </component>
   <component name="FacetManager">
     <facet type="RailsFacetType" name="Ruby on Rails">
       <configuration>
@@ -134,9 +137,8 @@
     <orderEntry type="library" scope="PROVIDED" name="arel (v5.0.1.20140414130214, RVM: ruby-2.1.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bcrypt (v3.1.7, RVM: ruby-2.1.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bson (v1.10.2, RVM: ruby-2.1.1) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="bson_ext (v1.10.2, RVM: ruby-2.1.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.2, RVM: ruby-2.1.1) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.5.3, RVM: ruby-2.1.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.6.1, RVM: ruby-2.1.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-rails (v4.0.1, RVM: ruby-2.1.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script (v2.3.0, RVM: ruby-2.1.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script-source (v1.7.1, RVM: ruby-2.1.1) [gem]" level="application" />
