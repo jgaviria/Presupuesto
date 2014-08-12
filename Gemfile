@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 
 gem 'mongo_mapper'
 
-gem 'bson_ext'
+
 
 gem 'rails', '4.1.2.rc1'
 

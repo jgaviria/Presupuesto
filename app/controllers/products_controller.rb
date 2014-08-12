@@ -11,19 +11,6 @@ class ProductsController < ApplicationController
 
 
 
-    require 'mongo'
-
-
-    client = Mongo::MongoClient.new
-    db = client['mongo_logger_db']
-    coll = db['mynewcollection']
-
-# create a text index
-    coll.ensure_index({:field_name => Mongo::TEXT})
-
-# run a text query
-  @variable =  db.find({:text => 'mynewcollection', :search => 'search string'})
-    db.command({:text => 'mynewcollection', :search => 'search string', :filter => {:foo => 'bar'}})
 
 
 
