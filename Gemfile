@@ -3,8 +3,6 @@ source 'https://rubygems.org'
 
 gem 'mongo_mapper'
 
-
-
 gem 'rails', '4.1.2.rc1'
 
 gem 'mongo'
