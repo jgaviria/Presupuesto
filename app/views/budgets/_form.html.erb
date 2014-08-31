@@ -69,6 +69,14 @@
 
 
     <div class="control-group">
+      <%= f.label :budget_name, :class => 'control-label' %>
+      <div class="controls">
+        <%= f.text_field :budget_name, :class => 'text_field' %>
+      </div>
+    </div>
+
+
+    <div class="control-group">
       <%= f.hidden_field :session, :value => $sess_name %>
     </div>
 
