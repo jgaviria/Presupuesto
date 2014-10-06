@@ -11,10 +11,23 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140831012008) do
+ActiveRecord::Schema.define(version: 20141001032028) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "bills", force: true do |t|
+    t.integer  "billpayment_id"
+    t.text     "name"
+    t.integer  "current"
+    t.integer  "paid"
+    t.text     "payment_method"
+    t.text     "username"
+    t.text     "password"
+    t.integer  "limit"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "budgets", force: true do |t|
     t.decimal  "income"
@@ -32,6 +45,26 @@ ActiveRecord::Schema.define(version: 20140831012008) do
     t.datetime "updated_at"
     t.string   "session"
     t.string   "budget_name"
+  end
+
+  create_table "credit_cards", force: true do |t|
+    t.string   "name"
+    t.integer  "total"
+    t.integer  "paid"
+    t.integer  "subtotal"
+    t.string   "paymentmethod"
+    t.string   "username"
+    t.string   "password"
+    t.integer  "limit"
+    t.integer  "ratio"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "monthly_payments", force: true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "products", force: true do |t|

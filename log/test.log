@@ -827,3 +827,335 @@ Redirected to http://test.host/login
 Filter chain halted as :authorize rendered or redirected
 Completed 302 Found in 2ms (ActiveRecord: 0.4ms)
   [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+2014-09-30 16:12:02.976032 D [87537:SemanticLogger::AppenderThread] SemanticLogger -- V2.10.0 Appender thread active
+2014-09-30 16:12:03.677254 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36m (120.9ms)[0m  [1mDROP DATABASE IF EXISTS "my_database_test"[0m
+2014-09-30 16:12:04.013356 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35m (335.7ms)[0m  CREATE DATABASE "my_database_test" ENCODING = 'utf8'
+2014-09-30 16:12:04.051929 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36mSQL (0.6ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+2014-09-30 16:12:04.089427 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35m (9.4ms)[0m  CREATE TABLE "budgets" ("id" serial primary key, "income" decimal, "savings" decimal, "housing" decimal, "utilities" decimal, "food" decimal, "transportation" decimal, "clothing" decimal, "personal" decimal, "recreation" decimal, "debt" decimal, "kids" decimal, "created_at" timestamp, "updated_at" timestamp, "session" character varying(255), "budget_name" character varying(255)) 
+2014-09-30 16:12:04.094408 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36m (3.6ms)[0m  [1mCREATE TABLE "products" ("id" serial primary key, "name" character varying(255), "price" decimal, "created_at" timestamp, "updated_at" timestamp) [0m
+2014-09-30 16:12:04.100246 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35m (4.6ms)[0m  CREATE TABLE "users" ("id" serial primary key, "name" character varying(255), "password_digest" character varying(255), "created_at" timestamp, "updated_at" timestamp) 
+2014-09-30 16:12:04.136356 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36m (6.3ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+2014-09-30 16:12:04.149404 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35m (11.4ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+2014-09-30 16:12:04.150165 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36m (0.5ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+2014-09-30 16:12:04.151000 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35m (0.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140831012008')
+2014-09-30 16:12:04.151553 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36m (0.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140715221725')[0m
+2014-09-30 16:12:04.151953 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35m (0.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140716182845')
+2014-09-30 16:12:04.152327 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36m (0.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140731135658')[0m
+2014-09-30 16:12:04.152699 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35m (0.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140731185147')
+2014-09-30 16:12:04.254011 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+2014-09-30 16:12:04.354975 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35m (6.4ms)[0m  ALTER TABLE "budgets" DISABLE TRIGGER ALL;ALTER TABLE "products" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+2014-09-30 16:12:04.516776 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+2014-09-30 16:12:04.524350 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM "budgets"
+2014-09-30 16:12:04.533832 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36mFixture Insert (6.3ms)[0m  [1mINSERT INTO "budgets" ("income", "savings", "housing", "utilities", "food", "transportation", "clothing", "personal", "recreation", "debt", "kids", "created_at", "updated_at", "id") VALUES (9.99, 9.99, 9.99, 9.99, 9.99, 9.99, 9.99, 9.99, 9.99, 9.99, 9.99, '2014-09-30 20:12:04', '2014-09-30 20:12:04', 980190962)[0m
+2014-09-30 16:12:04.534551 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO "budgets" ("income", "savings", "housing", "utilities", "food", "transportation", "clothing", "personal", "recreation", "debt", "kids", "created_at", "updated_at", "id") VALUES (9.99, 9.99, 9.99, 9.99, 9.99, 9.99, 9.99, 9.99, 9.99, 9.99, 9.99, '2014-09-30 20:12:04', '2014-09-30 20:12:04', 298486374)
+2014-09-30 16:12:04.537528 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM "products"[0m
+2014-09-30 16:12:04.544080 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35mFixture Insert (6.3ms)[0m  INSERT INTO "products" ("name", "price", "created_at", "updated_at", "id") VALUES ('MyString', 9.99, '2014-09-30 20:12:04', '2014-09-30 20:12:04', 980190962)
+2014-09-30 16:12:04.544675 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO "products" ("name", "price", "created_at", "updated_at", "id") VALUES ('MyString', 9.99, '2014-09-30 20:12:04', '2014-09-30 20:12:04', 298486374)[0m
+2014-09-30 16:12:04.547571 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM "users"
+2014-09-30 16:12:04.552876 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36mFixture Insert (5.0ms)[0m  [1mINSERT INTO "users" ("name", "password_digest", "created_at", "updated_at", "id") VALUES ('MyString', '$2a$10$Xh5kUdeXnSuUsyExDdGAqOGIQ/2pOzbqMW.yiivHnae0KqfU4KoWm', '2014-09-30 20:12:04', '2014-09-30 20:12:04', 980190962)[0m
+2014-09-30 16:12:04.553378 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "users" ("name", "password_digest", "created_at", "updated_at", "id") VALUES ('MyString', '$2a$10$LQ2RXCYyAR.BqhlWJvnmme6lrMugJnA5wy7bJpQkTdOp0N3fXr0je', '2014-09-30 20:12:04', '2014-09-30 20:12:04', 298486374)
+2014-09-30 16:12:04.560042 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+2014-09-30 16:12:04.561120 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35m (0.2ms)[0m  ALTER TABLE "budgets" ENABLE TRIGGER ALL;ALTER TABLE "products" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+2014-09-30 16:12:04.561408 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+2014-09-30 16:12:04.561467 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- ------------------------------------------------
+2014-09-30 16:12:04.561473 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- BudgetsControllerTest: test_should_create_budget
+2014-09-30 16:12:04.561480 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- ------------------------------------------------
+2014-09-30 16:12:04.571399 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35mBudget Load (0.3ms)[0m  SELECT  "budgets".* FROM "budgets"  WHERE "budgets"."id" = $1 LIMIT 1  [["id", 980190962]]
+2014-09-30 16:12:04.582075 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "budgets"[0m
+2014-09-30 16:12:04.588494 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Processing by BudgetsController#create as HTML
+2014-09-30 16:12:04.588562 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m --   Parameters: {"budget"=>{"clothing"=>"9.99", "debt"=>"9.99", "food"=>"9.99", "housing"=>"9.99", "income"=>"9.99", "kids"=>"9.99", "personal"=>"9.99", "recreation"=>"9.99", "savings"=>"9.99", "transportation"=>"9.99", "utilities"=>"9.99"}}
+2014-09-30 16:12:04.593458 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" IS NULL LIMIT 1
+2014-09-30 16:12:04.594176 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Redirected to http://test.host/login
+2014-09-30 16:12:04.594245 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Filter chain halted as :authorize rendered or redirected
+2014-09-30 16:12:04.594369 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Completed 302 Found in 6ms (ActiveRecord: 0.4ms)
+2014-09-30 16:12:04.595291 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "budgets"[0m
+2014-09-30 16:12:04.603593 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35m (0.5ms)[0m  ROLLBACK
+2014-09-30 16:12:04.604888 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+2014-09-30 16:12:04.604964 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- -------------------------------------------------
+2014-09-30 16:12:04.604975 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- BudgetsControllerTest: test_should_destroy_budget
+2014-09-30 16:12:04.604983 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- -------------------------------------------------
+2014-09-30 16:12:04.607170 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35mBudget Load (0.5ms)[0m  SELECT  "budgets".* FROM "budgets"  WHERE "budgets"."id" = $1 LIMIT 1  [["id", 980190962]]
+2014-09-30 16:12:04.608514 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "budgets"[0m
+2014-09-30 16:12:04.610480 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Processing by BudgetsController#destroy as HTML
+2014-09-30 16:12:04.610502 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m --   Parameters: {"id"=>"980190962"}
+2014-09-30 16:12:04.611552 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" IS NULL LIMIT 1
+2014-09-30 16:12:04.611970 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Redirected to http://test.host/login
+2014-09-30 16:12:04.612025 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Filter chain halted as :authorize rendered or redirected
+2014-09-30 16:12:04.612121 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Completed 302 Found in 2ms (ActiveRecord: 0.4ms)
+2014-09-30 16:12:04.613281 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "budgets"[0m
+2014-09-30 16:12:04.613960 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35m (0.3ms)[0m  ROLLBACK
+2014-09-30 16:12:04.614555 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+2014-09-30 16:12:04.614588 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- -------------------------------------------
+2014-09-30 16:12:04.614593 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- BudgetsControllerTest: test_should_get_edit
+2014-09-30 16:12:04.614597 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- -------------------------------------------
+2014-09-30 16:12:04.615708 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35mBudget Load (0.4ms)[0m  SELECT  "budgets".* FROM "budgets"  WHERE "budgets"."id" = $1 LIMIT 1  [["id", 980190962]]
+2014-09-30 16:12:04.617122 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Processing by BudgetsController#edit as HTML
+2014-09-30 16:12:04.617139 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m --   Parameters: {"id"=>"980190962"}
+2014-09-30 16:12:04.618044 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" IS NULL LIMIT 1[0m
+2014-09-30 16:12:04.618903 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Redirected to http://test.host/login
+2014-09-30 16:12:04.619026 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Filter chain halted as :authorize rendered or redirected
+2014-09-30 16:12:04.619181 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Completed 302 Found in 2ms (ActiveRecord: 0.4ms)
+2014-09-30 16:12:04.620351 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35m (0.6ms)[0m  ROLLBACK
+2014-09-30 16:12:04.621180 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+2014-09-30 16:12:04.621243 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- --------------------------------------------
+2014-09-30 16:12:04.621260 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- BudgetsControllerTest: test_should_get_index
+2014-09-30 16:12:04.621276 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- --------------------------------------------
+2014-09-30 16:12:04.623327 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35mBudget Load (0.4ms)[0m  SELECT  "budgets".* FROM "budgets"  WHERE "budgets"."id" = $1 LIMIT 1  [["id", 980190962]]
+2014-09-30 16:12:04.625297 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Processing by BudgetsController#index as HTML
+2014-09-30 16:12:04.626435 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" IS NULL LIMIT 1[0m
+2014-09-30 16:12:04.626885 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Redirected to http://test.host/login
+2014-09-30 16:12:04.626957 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Filter chain halted as :authorize rendered or redirected
+2014-09-30 16:12:04.627053 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Completed 302 Found in 2ms (ActiveRecord: 0.4ms)
+2014-09-30 16:12:04.627722 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35m (0.3ms)[0m  ROLLBACK
+2014-09-30 16:12:04.628674 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+2014-09-30 16:12:04.628733 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- ------------------------------------------
+2014-09-30 16:12:04.628744 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- BudgetsControllerTest: test_should_get_new
+2014-09-30 16:12:04.628754 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- ------------------------------------------
+2014-09-30 16:12:04.630234 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35mBudget Load (0.4ms)[0m  SELECT  "budgets".* FROM "budgets"  WHERE "budgets"."id" = $1 LIMIT 1  [["id", 980190962]]
+2014-09-30 16:12:04.631482 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Processing by BudgetsController#new as HTML
+2014-09-30 16:12:04.632380 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" IS NULL LIMIT 1[0m
+2014-09-30 16:12:04.632794 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Redirected to http://test.host/login
+2014-09-30 16:12:04.632861 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Filter chain halted as :authorize rendered or redirected
+2014-09-30 16:12:04.632956 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Completed 302 Found in 1ms (ActiveRecord: 0.4ms)
+2014-09-30 16:12:04.633718 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35m (0.4ms)[0m  ROLLBACK
+2014-09-30 16:12:04.634568 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+2014-09-30 16:12:04.634614 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- ----------------------------------------------
+2014-09-30 16:12:04.634621 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- BudgetsControllerTest: test_should_show_budget
+2014-09-30 16:12:04.634626 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- ----------------------------------------------
+2014-09-30 16:12:04.635706 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35mBudget Load (0.3ms)[0m  SELECT  "budgets".* FROM "budgets"  WHERE "budgets"."id" = $1 LIMIT 1  [["id", 980190962]]
+2014-09-30 16:12:04.637256 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Processing by BudgetsController#show as HTML
+2014-09-30 16:12:04.637284 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m --   Parameters: {"id"=>"980190962"}
+2014-09-30 16:12:04.638647 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" IS NULL LIMIT 1[0m
+2014-09-30 16:12:04.639391 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Redirected to http://test.host/login
+2014-09-30 16:12:04.639486 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Filter chain halted as :authorize rendered or redirected
+2014-09-30 16:12:04.639624 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Completed 302 Found in 2ms (ActiveRecord: 0.6ms)
+2014-09-30 16:12:04.640400 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35m (0.3ms)[0m  ROLLBACK
+2014-09-30 16:12:04.641215 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+2014-09-30 16:12:04.641245 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- ------------------------------------------------
+2014-09-30 16:12:04.641250 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- BudgetsControllerTest: test_should_update_budget
+2014-09-30 16:12:04.641254 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- ------------------------------------------------
+2014-09-30 16:12:04.642218 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35mBudget Load (0.3ms)[0m  SELECT  "budgets".* FROM "budgets"  WHERE "budgets"."id" = $1 LIMIT 1  [["id", 980190962]]
+2014-09-30 16:12:04.645292 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Processing by BudgetsController#update as HTML
+2014-09-30 16:12:04.645328 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m --   Parameters: {"budget"=>{"clothing"=>"9.99", "debt"=>"9.99", "food"=>"9.99", "housing"=>"9.99", "income"=>"9.99", "kids"=>"9.99", "personal"=>"9.99", "recreation"=>"9.99", "savings"=>"9.99", "transportation"=>"9.99", "utilities"=>"9.99"}, "id"=>"980190962"}
+2014-09-30 16:12:04.646637 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36mUser Load (0.7ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" IS NULL LIMIT 1[0m
+2014-09-30 16:12:04.647042 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Redirected to http://test.host/login
+2014-09-30 16:12:04.647103 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Filter chain halted as :authorize rendered or redirected
+2014-09-30 16:12:04.647191 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Completed 302 Found in 2ms (ActiveRecord: 0.7ms)
+2014-09-30 16:12:04.647937 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35m (0.2ms)[0m  ROLLBACK
+2014-09-30 16:12:04.649515 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+2014-09-30 16:12:04.649562 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- ---------------------------------------------
+2014-09-30 16:12:04.649567 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- StatementsControllerTest: test_should_get_gas
+2014-09-30 16:12:04.649572 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- ---------------------------------------------
+2014-09-30 16:12:04.653679 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Processing by StatementsController#gas as HTML
+2014-09-30 16:12:04.654745 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" IS NULL LIMIT 1
+2014-09-30 16:12:04.655135 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Redirected to http://test.host/login
+2014-09-30 16:12:04.655188 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Filter chain halted as :authorize rendered or redirected
+2014-09-30 16:12:04.655270 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Completed 302 Found in 2ms (ActiveRecord: 0.4ms)
+2014-09-30 16:12:04.655749 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+2014-09-30 16:12:04.657505 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35m (0.1ms)[0m  BEGIN
+2014-09-30 16:12:04.657547 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- --------------------------------------------
+2014-09-30 16:12:04.657552 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- UsersControllerTest: test_should_create_user
+2014-09-30 16:12:04.657556 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- --------------------------------------------
+2014-09-30 16:12:04.662265 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 980190962]]
+2014-09-30 16:12:04.669058 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "users"
+2014-09-30 16:12:04.671838 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Processing by UsersController#create as HTML
+2014-09-30 16:12:04.671863 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m --   Parameters: {"user"=>{"name"=>"MyString", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}
+2014-09-30 16:12:04.675033 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36m (0.4ms)[0m  [1mSAVEPOINT active_record_1[0m
+2014-09-30 16:12:04.689577 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35mUser Exists (0.6ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."name" = 'MyString' LIMIT 1
+2014-09-30 16:12:04.700520 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36m (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+2014-09-30 16:12:04.730532 [36m[1mI[0m [87537:70330450598880] [36mRails[0m --   Rendered users/_form.html.erb (13.8ms)
+2014-09-30 16:12:04.733329 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Completed 200 OK in 61ms (Views: 32.3ms | ActiveRecord: 1.2ms)
+2014-09-30 16:12:04.734230 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "users"
+2014-09-30 16:12:04.734798 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+2014-09-30 16:12:04.735433 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35m (0.1ms)[0m  BEGIN
+2014-09-30 16:12:04.735489 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- ---------------------------------------------
+2014-09-30 16:12:04.735497 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- UsersControllerTest: test_should_destroy_user
+2014-09-30 16:12:04.735502 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- ---------------------------------------------
+2014-09-30 16:12:04.736915 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 980190962]]
+2014-09-30 16:12:04.737910 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "users"
+2014-09-30 16:12:04.740072 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Processing by UsersController#destroy as HTML
+2014-09-30 16:12:04.740140 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m --   Parameters: {"id"=>"980190962"}
+2014-09-30 16:12:04.741364 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 980190962]]
+2014-09-30 16:12:04.741877 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+2014-09-30 16:12:04.742733 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 980190962]]
+2014-09-30 16:12:04.743055 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+2014-09-30 16:12:04.743745 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Redirected to http://test.host/users
+2014-09-30 16:12:04.743924 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Completed 302 Found in 4ms (ActiveRecord: 1.0ms)
+2014-09-30 16:12:04.745453 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+2014-09-30 16:12:04.746364 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35m (0.2ms)[0m  ROLLBACK
+2014-09-30 16:12:04.747515 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+2014-09-30 16:12:04.747566 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- -----------------------------------------
+2014-09-30 16:12:04.747575 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- UsersControllerTest: test_should_get_edit
+2014-09-30 16:12:04.747579 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- -----------------------------------------
+2014-09-30 16:12:04.748725 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 980190962]]
+2014-09-30 16:12:04.750152 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Processing by UsersController#edit as HTML
+2014-09-30 16:12:04.750171 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m --   Parameters: {"id"=>"980190962"}
+2014-09-30 16:12:04.751309 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 980190962]]
+2014-09-30 16:12:04.770091 [36m[1mI[0m [87537:70330450598880] [36mRails[0m --   Rendered users/_form.html.erb (15.5ms)
+2014-09-30 16:12:04.771768 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.5ms)
+2014-09-30 16:12:04.772331 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35m (0.3ms)[0m  ROLLBACK
+2014-09-30 16:12:04.773117 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+2014-09-30 16:12:04.773176 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- ------------------------------------------
+2014-09-30 16:12:04.773181 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- UsersControllerTest: test_should_get_index
+2014-09-30 16:12:04.773186 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- ------------------------------------------
+2014-09-30 16:12:04.774327 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 980190962]]
+2014-09-30 16:12:04.775386 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Processing by UsersController#index as HTML
+2014-09-30 16:12:04.778553 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users"   ORDER BY "users"."name" ASC[0m
+2014-09-30 16:12:04.782108 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.5ms)
+2014-09-30 16:12:04.782851 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35m (0.3ms)[0m  ROLLBACK
+2014-09-30 16:12:04.783783 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+2014-09-30 16:12:04.783821 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- ----------------------------------------
+2014-09-30 16:12:04.783826 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- UsersControllerTest: test_should_get_new
+2014-09-30 16:12:04.783830 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- ----------------------------------------
+2014-09-30 16:12:04.784775 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 980190962]]
+2014-09-30 16:12:04.785964 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Processing by UsersController#new as HTML
+2014-09-30 16:12:04.788930 [36m[1mI[0m [87537:70330450598880] [36mRails[0m --   Rendered users/_form.html.erb (2.2ms)
+2014-09-30 16:12:04.790232 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+2014-09-30 16:12:04.790827 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+2014-09-30 16:12:04.791542 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35m (0.1ms)[0m  BEGIN
+2014-09-30 16:12:04.791579 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- ------------------------------------------
+2014-09-30 16:12:04.791584 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- UsersControllerTest: test_should_show_user
+2014-09-30 16:12:04.791588 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- ------------------------------------------
+2014-09-30 16:12:04.792475 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 980190962]]
+2014-09-30 16:12:04.793717 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Processing by UsersController#show as HTML
+2014-09-30 16:12:04.793733 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m --   Parameters: {"id"=>"980190962"}
+2014-09-30 16:12:04.794533 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 980190962]]
+2014-09-30 16:12:04.799259 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.4ms)
+2014-09-30 16:12:04.799908 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+2014-09-30 16:12:04.800572 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35m (0.1ms)[0m  BEGIN
+2014-09-30 16:12:04.800629 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- --------------------------------------------
+2014-09-30 16:12:04.800638 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- UsersControllerTest: test_should_update_user
+2014-09-30 16:12:04.800647 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- --------------------------------------------
+2014-09-30 16:12:04.801969 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 980190962]]
+2014-09-30 16:12:04.804664 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Processing by UsersController#update as HTML
+2014-09-30 16:12:04.804712 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m --   Parameters: {"user"=>{"name"=>"MyString", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "id"=>"980190962"}
+2014-09-30 16:12:04.805881 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 980190962]]
+2014-09-30 16:12:04.806836 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+2014-09-30 16:12:04.811004 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35mUser Exists (0.7ms)[0m  SELECT  1 AS one FROM "users"  WHERE ("users"."name" = 'MyString' AND "users"."id" != 980190962) LIMIT 1
+2014-09-30 16:12:04.812707 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36m (0.3ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+2014-09-30 16:12:04.817044 [36m[1mI[0m [87537:70330450598880] [36mRails[0m --   Rendered users/_form.html.erb (3.5ms)
+2014-09-30 16:12:04.819055 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Completed 200 OK in 14ms (Views: 5.9ms | ActiveRecord: 1.5ms)
+2014-09-30 16:12:04.819887 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35m (0.4ms)[0m  ROLLBACK
+2014-09-30 16:12:04.821438 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+2014-09-30 16:12:04.821506 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- ------------------------------------------
+2014-09-30 16:12:04.821517 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- AdminControllerTest: test_should_get_index
+2014-09-30 16:12:04.821524 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- ------------------------------------------
+2014-09-30 16:12:04.827021 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Processing by AdminController#index as HTML
+2014-09-30 16:12:04.828357 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" IS NULL LIMIT 1
+2014-09-30 16:12:04.828846 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Redirected to http://test.host/login
+2014-09-30 16:12:04.828936 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Filter chain halted as :authorize rendered or redirected
+2014-09-30 16:12:04.829095 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Completed 302 Found in 2ms (ActiveRecord: 0.5ms)
+2014-09-30 16:12:04.829882 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+2014-09-30 16:12:04.831870 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35m (0.2ms)[0m  BEGIN
+2014-09-30 16:12:04.832000 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- ----------------------------------------------
+2014-09-30 16:12:04.832012 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- SessionsControllerTest: test_should_get_create
+2014-09-30 16:12:04.832020 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- ----------------------------------------------
+2014-09-30 16:12:04.836182 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Processing by SessionsController#create as HTML
+2014-09-30 16:12:04.837234 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."name" IS NULL LIMIT 1[0m
+2014-09-30 16:12:04.837745 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Redirected to http://test.host/login
+2014-09-30 16:12:04.837942 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+2014-09-30 16:12:04.838822 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35m (0.4ms)[0m  ROLLBACK
+2014-09-30 16:12:04.839799 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+2014-09-30 16:12:04.839846 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- -----------------------------------------------
+2014-09-30 16:12:04.839851 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- SessionsControllerTest: test_should_get_destroy
+2014-09-30 16:12:04.839855 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- -----------------------------------------------
+2014-09-30 16:12:04.841228 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Processing by SessionsController#destroy as HTML
+2014-09-30 16:12:04.841594 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Redirected to http://test.host/login
+2014-09-30 16:12:04.841694 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+2014-09-30 16:12:04.842552 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35m (0.6ms)[0m  ROLLBACK
+2014-09-30 16:12:04.843376 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+2014-09-30 16:12:04.843452 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- -------------------------------------------
+2014-09-30 16:12:04.843458 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- SessionsControllerTest: test_should_get_new
+2014-09-30 16:12:04.843462 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- -------------------------------------------
+2014-09-30 16:12:04.844805 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Processing by SessionsController#new as HTML
+2014-09-30 16:12:04.850218 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Completed 200 OK in 5ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+2014-09-30 16:12:04.850735 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35m (0.2ms)[0m  ROLLBACK
+2014-09-30 16:12:04.852493 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+2014-09-30 16:12:04.852536 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- --------------------------------------------------
+2014-09-30 16:12:04.852541 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- ProductsControllerTest: test_should_create_product
+2014-09-30 16:12:04.852545 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- --------------------------------------------------
+2014-09-30 16:12:04.857082 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35mProduct Load (0.4ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = $1 LIMIT 1  [["id", 980190962]]
+2014-09-30 16:12:04.861837 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+2014-09-30 16:12:04.866761 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Processing by ProductsController#create as HTML
+2014-09-30 16:12:04.866799 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m --   Parameters: {"product"=>{"name"=>"MyString", "price"=>"9.99"}}
+2014-09-30 16:12:04.868679 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35mUser Load (0.8ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" IS NULL LIMIT 1
+2014-09-30 16:12:04.869429 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Redirected to http://test.host/login
+2014-09-30 16:12:04.869544 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Filter chain halted as :authorize rendered or redirected
+2014-09-30 16:12:04.869689 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Completed 302 Found in 3ms (ActiveRecord: 0.8ms)
+2014-09-30 16:12:04.871034 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+2014-09-30 16:12:04.871599 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35m (0.2ms)[0m  ROLLBACK
+2014-09-30 16:12:04.872243 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+2014-09-30 16:12:04.872293 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- ---------------------------------------------------
+2014-09-30 16:12:04.872302 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- ProductsControllerTest: test_should_destroy_product
+2014-09-30 16:12:04.872308 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- ---------------------------------------------------
+2014-09-30 16:12:04.873448 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35mProduct Load (0.4ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = $1 LIMIT 1  [["id", 980190962]]
+2014-09-30 16:12:04.874331 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+2014-09-30 16:12:04.875687 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Processing by ProductsController#destroy as HTML
+2014-09-30 16:12:04.875702 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m --   Parameters: {"id"=>"980190962"}
+2014-09-30 16:12:04.876454 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" IS NULL LIMIT 1
+2014-09-30 16:12:04.876868 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Redirected to http://test.host/login
+2014-09-30 16:12:04.876962 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Filter chain halted as :authorize rendered or redirected
+2014-09-30 16:12:04.877087 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Completed 302 Found in 1ms (ActiveRecord: 0.3ms)
+2014-09-30 16:12:04.878164 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+2014-09-30 16:12:04.879115 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35m (0.4ms)[0m  ROLLBACK
+2014-09-30 16:12:04.880172 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+2014-09-30 16:12:04.880240 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- --------------------------------------------
+2014-09-30 16:12:04.880249 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- ProductsControllerTest: test_should_get_edit
+2014-09-30 16:12:04.880259 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- --------------------------------------------
+2014-09-30 16:12:04.882548 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35mProduct Load (0.7ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = $1 LIMIT 1  [["id", 980190962]]
+2014-09-30 16:12:04.883962 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Processing by ProductsController#edit as HTML
+2014-09-30 16:12:04.883981 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m --   Parameters: {"id"=>"980190962"}
+2014-09-30 16:12:04.884989 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" IS NULL LIMIT 1[0m
+2014-09-30 16:12:04.885315 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Redirected to http://test.host/login
+2014-09-30 16:12:04.885371 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Filter chain halted as :authorize rendered or redirected
+2014-09-30 16:12:04.885490 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Completed 302 Found in 1ms (ActiveRecord: 0.5ms)
+2014-09-30 16:12:04.886090 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35m (0.3ms)[0m  ROLLBACK
+2014-09-30 16:12:04.886720 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+2014-09-30 16:12:04.886782 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- ---------------------------------------------
+2014-09-30 16:12:04.886792 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- ProductsControllerTest: test_should_get_index
+2014-09-30 16:12:04.886807 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- ---------------------------------------------
+2014-09-30 16:12:04.888161 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35mProduct Load (0.3ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = $1 LIMIT 1  [["id", 980190962]]
+2014-09-30 16:12:04.889429 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Processing by ProductsController#index as HTML
+2014-09-30 16:12:04.890184 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" IS NULL LIMIT 1[0m
+2014-09-30 16:12:04.890710 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Redirected to http://test.host/login
+2014-09-30 16:12:04.890796 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Filter chain halted as :authorize rendered or redirected
+2014-09-30 16:12:04.890908 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Completed 302 Found in 1ms (ActiveRecord: 0.3ms)
+2014-09-30 16:12:04.891776 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35m (0.3ms)[0m  ROLLBACK
+2014-09-30 16:12:04.893045 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+2014-09-30 16:12:04.893095 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- -------------------------------------------
+2014-09-30 16:12:04.893104 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- ProductsControllerTest: test_should_get_new
+2014-09-30 16:12:04.893114 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- -------------------------------------------
+2014-09-30 16:12:04.894345 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35mProduct Load (0.5ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = $1 LIMIT 1  [["id", 980190962]]
+2014-09-30 16:12:04.896105 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Processing by ProductsController#new as HTML
+2014-09-30 16:12:04.897407 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" IS NULL LIMIT 1[0m
+2014-09-30 16:12:04.897888 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Redirected to http://test.host/login
+2014-09-30 16:12:04.898051 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Filter chain halted as :authorize rendered or redirected
+2014-09-30 16:12:04.898168 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Completed 302 Found in 2ms (ActiveRecord: 0.4ms)
+2014-09-30 16:12:04.898993 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35m (0.4ms)[0m  ROLLBACK
+2014-09-30 16:12:04.900025 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+2014-09-30 16:12:04.900086 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- ------------------------------------------------
+2014-09-30 16:12:04.900091 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- ProductsControllerTest: test_should_show_product
+2014-09-30 16:12:04.900100 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- ------------------------------------------------
+2014-09-30 16:12:04.901492 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35mProduct Load (0.4ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = $1 LIMIT 1  [["id", 980190962]]
+2014-09-30 16:12:04.902809 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Processing by ProductsController#show as HTML
+2014-09-30 16:12:04.902828 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m --   Parameters: {"id"=>"980190962"}
+2014-09-30 16:12:04.903783 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" IS NULL LIMIT 1[0m
+2014-09-30 16:12:04.904067 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Redirected to http://test.host/login
+2014-09-30 16:12:04.904120 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Filter chain halted as :authorize rendered or redirected
+2014-09-30 16:12:04.904193 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Completed 302 Found in 1ms (ActiveRecord: 0.5ms)
+2014-09-30 16:12:04.904682 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35m (0.2ms)[0m  ROLLBACK
+2014-09-30 16:12:04.905801 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+2014-09-30 16:12:04.905845 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- --------------------------------------------------
+2014-09-30 16:12:04.905850 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- ProductsControllerTest: test_should_update_product
+2014-09-30 16:12:04.905854 [36m[1mI[0m [87537:70330450598880] [36mRails[0m -- --------------------------------------------------
+2014-09-30 16:12:04.906846 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35mProduct Load (0.3ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = $1 LIMIT 1  [["id", 980190962]]
+2014-09-30 16:12:04.908918 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Processing by ProductsController#update as HTML
+2014-09-30 16:12:04.908937 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m --   Parameters: {"product"=>{"name"=>"MyString", "price"=>"9.99"}, "id"=>"980190962"}
+2014-09-30 16:12:04.909947 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" IS NULL LIMIT 1[0m
+2014-09-30 16:12:04.910268 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Redirected to http://test.host/login
+2014-09-30 16:12:04.910401 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Filter chain halted as :authorize rendered or redirected
+2014-09-30 16:12:04.910476 [36m[1mI[0m [87537:70330450598880] [36mActionController[0m -- Completed 302 Found in 1ms (ActiveRecord: 0.6ms)
+2014-09-30 16:12:04.910979 [32m[1mD[0m [87537:70330450598880] [32mActiveRecord[0m --   [1m[35m (0.2ms)[0m  ROLLBACK
+2014-09-30 16:12:05.049499 D [87537:70330450598880] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2014-09-30 16:12:05.049655 D [87537:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2014-09-30 16:12:05.049909 D [87537:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped

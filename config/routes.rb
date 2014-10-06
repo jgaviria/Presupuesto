@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+
+
   get 'admin' => 'admin#index'
   controller :sessions do
     get 'login' => :new
@@ -10,6 +12,8 @@ Rails.application.routes.draw do
 
 
   get 'admin/index'
+
+  get 'credit_cards/new'
 
   get 'sessions/new'
 
