@@ -51,6 +51,8 @@ gem 'bcrypt', '~> 3.1.7'
 
 gem 'rails_12factor', group: :production
 
+ruby '2.1.2'
+
 # Use unicorn as the app server
 # gem 'unicorn'
 
