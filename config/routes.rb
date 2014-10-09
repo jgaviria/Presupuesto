@@ -1,6 +1,28 @@
 Rails.application.routes.draw do
 
+  resources :house_bills
 
+  resources :productos do
+    get "delete"
+  end
+
+  root to: "productos#index"
+
+  resources :bills do
+    resources :house_bills
+  end
+
+  resources :house_bills do
+    resources :bills
+  end
+
+  resources :bills do
+    resources :credit_cards
+  end
+
+  resources :credit_cards do
+    resources :billss
+  end
 
   get 'admin' => 'admin#index'
   controller :sessions do
@@ -29,7 +51,7 @@ Rails.application.routes.draw do
 
   resources :products
 
-  root 'budgets#new'
+  #root 'budgets#new'
 
   get 'gas', to: 'budgets#gas'
 

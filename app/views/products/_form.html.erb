@@ -12,6 +12,10 @@
     </div>
   </div>
 
+    <%= f.fields_for :credit_cards, @credit_card do |p| %>
+        <%= p.text_area :name %>
+    <% end %>
+
   <div class="form-actions">
     <%= f.submit nil, :class => 'btn btn-primary' %>
     <%= link_to t('.cancel', :default => t("helpers.links.cancel")),

@@ -11,22 +11,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141001032028) do
+ActiveRecord::Schema.define(version: 20141008204141) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "bills", force: true do |t|
-    t.integer  "billpayment_id"
-    t.text     "name"
-    t.integer  "current"
-    t.integer  "paid"
-    t.text     "payment_method"
-    t.text     "username"
-    t.text     "password"
-    t.integer  "limit"
+    t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "bill_id"
   end
 
   create_table "budgets", force: true do |t|
@@ -49,20 +43,33 @@ ActiveRecord::Schema.define(version: 20141001032028) do
 
   create_table "credit_cards", force: true do |t|
     t.string   "name"
-    t.integer  "total"
+    t.integer  "total_owed"
     t.integer  "paid"
     t.integer  "subtotal"
-    t.string   "paymentmethod"
-    t.string   "username"
-    t.string   "password"
-    t.integer  "limit"
-    t.integer  "ratio"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "product_id"
+    t.integer  "bill_id"
+  end
+
+  create_table "house_bills", force: true do |t|
+    t.string   "name"
+    t.integer  "total_owed"
+    t.integer  "paid"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "bill_id"
   end
 
   create_table "monthly_payments", force: true do |t|
     t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "productos", force: true do |t|
+    t.string   "name"
+    t.integer  "price"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -72,6 +79,7 @@ ActiveRecord::Schema.define(version: 20141001032028) do
     t.decimal  "price"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "product_id"
   end
 
   create_table "users", force: true do |t|

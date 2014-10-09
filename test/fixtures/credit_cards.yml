@@ -2,22 +2,12 @@
 
 one:
   name: MyString
-  total: 1
+  total_owed: 1
   paid: 1
   subtotal: 1
-  paymentmethod: MyString
-  username: MyString
-  password: MyString
-  limit: 1
-  ratio: 1
 
 two:
   name: MyString
-  total: 1
+  total_owed: 1
   paid: 1
   subtotal: 1
-  paymentmethod: MyString
-  username: MyString
-  password: MyString
-  limit: 1
-  ratio: 1
