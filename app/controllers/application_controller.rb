@@ -13,7 +13,13 @@ class ApplicationController < ActionController::Base
 
   end
 
+ def set_relation
+  user = User.find_by(id: session[:user_id])
 
+     $sess_name = user.name
+
+ end
 
 end
+
 

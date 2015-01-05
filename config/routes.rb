@@ -1,28 +1,15 @@
 Rails.application.routes.draw do
 
+  root 'budgets#new'
+
+  resources :houses
+
+  resources :bills
+
+  resources :product_types
+
   resources :house_bills
 
-  resources :productos do
-    get "delete"
-  end
-
-  root to: "productos#index"
-
-  resources :bills do
-    resources :house_bills
-  end
-
-  resources :house_bills do
-    resources :bills
-  end
-
-  resources :bills do
-    resources :credit_cards
-  end
-
-  resources :credit_cards do
-    resources :billss
-  end
 
   get 'admin' => 'admin#index'
   controller :sessions do
@@ -35,8 +22,6 @@ Rails.application.routes.draw do
 
   get 'admin/index'
 
-  get 'credit_cards/new'
-
   get 'sessions/new'
 
   get 'sessions/create'
@@ -45,15 +30,8 @@ Rails.application.routes.draw do
 
   resources :users
 
-  get 'statements/gas'
-
   resources :budgets
 
-  resources :products
-
-  #root 'budgets#new'
-
-  get 'gas', to: 'budgets#gas'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

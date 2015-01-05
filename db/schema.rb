@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141008204141) do
+ActiveRecord::Schema.define(version: 20150104171426) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -20,7 +20,7 @@ ActiveRecord::Schema.define(version: 20141008204141) do
     t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.integer  "bill_id"
+    t.string   "bill_id"
   end
 
   create_table "budgets", force: true do |t|
@@ -61,7 +61,29 @@ ActiveRecord::Schema.define(version: 20141008204141) do
     t.integer  "bill_id"
   end
 
-  create_table "monthly_payments", force: true do |t|
+  create_table "houses", force: true do |t|
+    t.string   "name"
+    t.integer  "owed"
+    t.integer  "paid"
+    t.integer  "total"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "bill_id"
+    t.string   "session_name"
+  end
+
+  create_table "product_fields", force: true do |t|
+    t.string   "name"
+    t.string   "field_type"
+    t.boolean  "required"
+    t.integer  "product_type_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "product_fields", ["product_type_id"], name: "index_product_fields_on_product_type_id", using: :btree
+
+  create_table "product_types", force: true do |t|
     t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
